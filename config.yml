@@ -1,0 +1,20 @@
+tunnel: c2febf30-92a0-4b30-ae52-d79b7e8884f5
+credentials-file: C:\Users\DrDen\.cloudflared\c2febf30-92a0-4b30-ae52-d79b7e8884f5.json
+protocol: http2
+
+ingress:
+  - hostname: weatherproxy.ldmathes.cc
+    service: http://localhost:5005
+  - hostname: api.ldmathes.cc
+    service: http://localhost:5000
+  - hostname: api-edit.ldmathes.cc
+    service: http://localhost:5001
+  
+  # 👇 **CRITICAL CHANGE FOR OLLAMA** 👇
+  - hostname: ollama.ldmathes.cc
+    service: http://localhost:11434
+    originRequest:
+      httpHostHeader: "localhost:11434"  # This ensures Ollama accepts the traffic
+  # 👆 **CRITICAL CHANGE FOR OLLAMA** 👆
+  
+  - service: http_status:404
