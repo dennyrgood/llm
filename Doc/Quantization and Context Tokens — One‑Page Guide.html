@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Quantization &amp; Context Tokens — One‑Page Guide</title>
+  <style>
+    /* Simple readable styles for a single-page browser view */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: #111;
+      margin: 36px;
+      max-width: 1000px;
+      line-height: 1.55;
+      font-size: 16px;
+    }
+    h1 { font-size: 28px; margin-bottom: 6px; }
+    h2 { font-size: 20px; margin-top: 1.1rem; margin-bottom: 0.4rem; }
+    h3 { font-size: 18px; margin-top: 1rem; margin-bottom: 0.3rem; }
+    p { margin: 0.45rem 0; }
+    ul { margin-left: 1.1rem; margin-bottom: 0.8rem; }
+    code, pre { background: #f6f8fa; border-radius: 6px; padding: 2px 6px; font-family: "Courier New", monospace; font-size: 0.95em; }
+    pre { padding: 12px; overflow: auto; max-height: 440px; }
+    section { margin-bottom: 1rem; }
+    .muted { color: #555; font-size: 0.95em; }
+    .note { background: #fff7e6; border-left: 4px solid #ffcc33; padding: 8px 12px; border-radius: 6px; margin: 0.6rem 0; }
+    footer { margin-top: 1.2rem; color: #444; font-size: 0.95em; }
+    a { color: #0366d6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <h1>Quantization &amp; Context Tokens — One‑Page Practical Guide</h1>
+  <p class="muted">Compact reference explaining context windows (tokens) and common quantization labels you’ll see in Ollama. Practical focus for a home LLM server (CPU + occasional GPU).</p>
+
+  <section>
+    <h2>Tokens &amp; Context — what matters to you</h2>
+    <ul>
+      <li><strong>Token:</strong> model unit (not exactly a word). Heuristic: <code>1 token ≈ 4 characters ≈ 0.75 words</code>.</li>
+      <li><strong>Context window:</strong> maximum tokens the model sees at once (prompt + conversation + files). If a model is 32k, it can consider ~32,000 tokens of combined input.</li>
+    </ul>
+    <p><strong>Practical effects:</strong></p>
+    <ul>
+      <li>Hitting the context limit truncates older content (most models keep the most recent tokens).</li>
+      <li>For long documents, chunk with small overlaps (2–5%) and use retrieval + summarization or embeddings + retrieval.</li>
+      <li>Large-context models (e.g., <code>phi3:mini</code> with 131k tokens) excel at long-document summarization, but may lack tool support.</li>
+    </ul>
+    <p><strong>Measuring tokens:</strong> quick rule: <code>tokens ≈ characters / 4</code>. Use a tokenizer for exact counts.</p>
+    <p class="muted">For Continue/cn workflows be mindful that system and tool messages consume tokens too; push large data via files or embeddings when possible.</p>
+  </section>
+
+  <section>
+    <h2>What “Q4_K_M”, “Q4_0”, etc. mean (practical summary)</h2>
+    <p>Quantization reduces model weight precision (FP16/FP32 → fewer bits), drastically lowering RAM/VRAM and disk footprint so models can run on CPU and smaller GPUs. 4‑bit quant (Q4_*) is common for local inference.</p>
+
+    <h3>Common labels and expectations</h3>
+    <ul>
+      <li><strong>Q4_K_M</strong> — a 4‑bit quant format (GPTQ-style). Small on disk and memory, good quality/size tradeoff. Many local models (qwen2.5 variants, mistral, gemma3) use this.</li>
+      <li><strong>Q4_0</strong> — another 4‑bit scheme, simple and often slightly faster to load/infer on CPU; used by models like <code>phi3:mini</code>.</li>
+      <li><strong>BF16 / FP16 / FP32</strong> — floating formats, BF16/FP16 common for GPU inference; FP32 is largest. GPU inference performs best with BF16/FP16.</li>
+      <li><strong>FP8 / INT4 / MXFP4</strong> — advanced cloud/server formats (you’ll see these on proxied cloud models).</li>
+    </ul>
+
+    <p><strong>Takeaway:</strong> Q4_* models are likely usable on CPU (slowly) and will have much smaller RAM/disk needs than full‑precision weights. <code>Q4_K_M</code> generally balances quality vs size and is a good local default.</p>
+  </section>
+
+  <section>
+    <h2>What this means for your home server (GTX 1040 now, 3060 coming)</h2>
+    <ul>
+      <li><strong>On CPU (GTX 1040):</strong> prefer Q4_* models. They run slowly, but are practical. Use small coder models (e.g., <code>qwen2.5-coder:1.5b</code>) for tools/editor tasks. Use <code>phi3:mini</code> (Q4_0) for long-context tasks (128K) but note it has no tool support.</li>
+      <li>Expect a few tokens/sec for 3–8B quantized models; 18–30B models will take minutes to load and be very slow.</li>
+      <li><strong>After RTX 3060 (12 GB):</strong> you can run larger 7B–14B models on GPU if they are GPU-optimized or quantized for GPU. Check VRAM requirements — many 14B/16B models are tight on 12 GB unless quantized/offload is used.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>How to use Ollama to read quant &amp; context info</h2>
+    <ul>
+      <li><code>ollama show &lt;model&gt;</code> — shows architecture, parameters, context length, quantization, capabilities (tools, vision, thinking).</li>
+      <li><code>ollama ls</code> — lists installed models and disk sizes.</li>
+      <li><code>ollama run &lt;model&gt;</code> — test load time & latency (run on the server to avoid network noise).</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Practical rules-of-thumb &amp; recommendations</h2>
+    <ul>
+      <li><strong>Defaults while on CPU:</strong>
+        <ul>
+          <li>Tool workflows: <code>qwen2.5-coder:1.5b</code> (Q4_K_M)</li>
+          <li>Long-context chat: <code>phi3:mini</code> (Q4_0)</li>
+          <li>Higher-quality but slower: <code>qwen2.5:7b</code>, <code>mistral:latest</code> (Q4_K_M)</li>
+        </ul>
+      </li>
+      <li>Increase timeouts (Continue <code>requestOptions.timeout</code>) to 600k–900k ms when calling heavy models on CPU.</li>
+      <li>If a model shows <code>:cloud</code> or a Remote URL in <code>ollama show</code>, it’s proxied — using it consumes remote quota and adds network latency.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>One-liner checklist</h2>
+    <ul>
+      <li>Token heuristic: <code>1 token ≈ 4 chars</code>.</li>
+      <li>Long-context model (<code>phi3:mini</code>) → use for big docs (no tools).</li>
+      <li>Tool workflows → use Q4_K_M small coder (<code>qwen2.5-coder:1.5b</code>).</li>
+      <li>Q4_* ⇒ small footprint, CPU-usable; <code>Q4_K_M</code> balances quality vs size.</li>
+      <li>Use <code>ollama show</code> and <code>ollama run</code> to verify quantization, context, load times. When you get the 3060, test GPU runs with <code>nvidia-smi</code> + <code>ollama run &lt;model&gt;</code>.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>If you want, I can also produce a PNG snapshot or add this file to <code>Doc/</code> in the repo. To save the file locally: see commands below.</p>
+    <p class="muted">Generated: 2025-11-18</p>
+  </footer>
+</body>
+</html>
