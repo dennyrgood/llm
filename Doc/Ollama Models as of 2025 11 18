@@ -1,0 +1,66 @@
+Top-level takeaways
+
+    You have a healthy mix of small, medium, large, and cloud‑proxied models. Small/quantized models (qwen2.5-coder:1.5b, phi3:mini, qwen2.5:7b, mistral, gemma3) are practical to run locally (CPU); the very large local model (qwen3-coder:latest ~30.5B / 18GB disk earlier) is usable but very slow on CPU and likely needs the 3060 (or quantized/offload builds) to be interactive.
+    Quantization: many local models use 4‑bit quant formats (Q4_K_M, Q4_0). That makes CPU inference feasible but still slow; quantization reduces memory footprint and is why 7B/8B/13B models are present locally.
+    Capabilities vary: some models support tools, some only completion, some vision, some “thinking” reasoning. Use tool-capable models for tool workflows and phi3 for long-context only.
+
+Model‑by‑model essentials (what you’ll actually care about)
+
+    qwen2.5-coder:1.5b
+        Small (~986MB), quantized Q4_K_M, supports completion/tools/insert.
+        Best default for tool_use, coding, editor completions now.
+        Fast to start/respond on CPU — keep as Continue default.
+
+    phi3:mini
+        3.8B, Q4_0, massive context 131K tokens, completion only (no tools).
+        Best for long documents, summarization, and long-context chat.
+
+    qwen2.5:7b
+        7.6B, Q4_K_M, supports tools.
+        Good middle ground for higher quality than 1.5B; slower on CPU (longer load).
+
+    mistral:latest (7.2B), deepseek-r1 (8.2B)
+        Both heavier local models, support tools or reasoning features.
+        Useful as backups / specialty models — expect slow CPU inference and long load.
+
+    gemma3:4b / llava:13b
+        gemma3:4b good for some vision & long-context uses; llava:13b is vision-enabled but heavy (8GB+).
+        Vision workloads need larger memory and may be GPU-bound for acceptable speed.
+
+    qwen3-coder:latest (30.5B)
+        Very large local model (30.5B weights, big disk footprint); supports tools.
+        Will be slow/obstructive on CPU and may require the 3060 + quantization/offload to be usable interactively.
+
+    Cloud/proxied models (gpt-oss:120b-cloud, qwen3-coder:480b-cloud, deepseek-v3.1, kimi-k2, minimax, glm-4.6)
+        Extremely large remote models — useful for occasional heavy-lift tasks, but they are quota/latency/cost-limited. Keep them as emergency fallbacks.
+
+Operational implications / recommended configuration now (GTX 1040 / CPU)
+
+    Default choices:
+        Default tool model: qwen2.5-coder:1.5b (tool_use enabled).
+        Default long-context model: phi3:mini (no tools).
+    Timeouts:
+        Increase Continue requestOptions.timeout to 600k–900k ms (10–15 min) for 7B+ and huge models so client doesn’t abort while loading on CPU.
+    Testing:
+        Test models locally on the server (avoid network noise): ollama run <model>
+        Useful commands: ollama ls, ollama show <model>, ollama run <model>
+    Monitoring & resource checks:
+        Watch RAM / swap / disk I/O while loading heavy models — swapping kills performance. On Windows: Task Manager, or in PowerShell: Get-Process | Sort-Object WorkingSet -Descending | Select-Object -First 20
+        Check disk free space — model files plus memory mapping can require many GBs.
+    Keep large models installed if you want them later, but avoid running them interactively until you have the 3060 or a quantized/offload setup.
+
+What to prepare for the 3060 (12 GB VRAM)
+
+    Prioritize 7B/14B models that have quantized builds or are known to fit 12GB (qwen2.5-coder:7b, qwen2.5-coder:14b if quantized).
+    For qwen3-coder / other very large models: test after GPU install; if they still don’t fit, look for 4-bit quantized variants or offload features.
+    After GPU install: verify with nvidia-smi while running ollama run <gpu-model>.
+
+Practical checklist (short)
+
+    Keep qwen2.5-coder:1.5b as default for tool-based workflows.
+    Use phi3:mini for long docs/conversations.
+    Bump Continue timeouts for heavy models (600k–900k ms).
+    Test with ollama run locally; monitor Task Manager / nvidia-smi.
+    Reserve cloud models for emergencies.
+    When 3060 arrives: pull tested quantized 7B/14B models first and validate GPU inference.
+
