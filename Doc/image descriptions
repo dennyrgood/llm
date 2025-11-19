@@ -1,0 +1,10 @@
+Here are three one-sentence summaries, one for each image:
+
+Image 1:
+A list of the best open-source coding models (Qwen2.5 Coder, CodeLlama, StarCoder2) and an example of how to install and reference them in Continue’s config.
+
+Image 2:
+A recommended setup showing which models to use for fast autocomplete (Qwen 7B or Mistral-small) and which to use for heavy reasoning (Qwen 32B, Llama3.1 70B, or DeepSeek Coder v2).
+
+Image 3:
+Tips for speeding up remote Ollama usage, including enabling KV-cache, switching to Qwen 7B, or running a small local model on demand.
