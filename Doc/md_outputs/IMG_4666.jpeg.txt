@@ -1,0 +1,30 @@
+# IMG_4666
+
+Source: IMG_4666.jpeg (OCR extracted)
+Extracted: 2025-11-19T10:48:54.605780
+
+---
+
+16:00 a! 56
+
+= ChatGPT G
+
+7. Fast localhost
+vs. Cloud Ollama
+
+If your remote Ollama feels slow:
+
+Speed options:
+- Enable KV-cache in config
+
+- Move to Qwen 7B (fastest
+quality/capability balance)
+
+« Run a small local model on the
+laptop and switch on demand
+
+8. You Can Now
+Add Any Model via
+OpvenAl AY, Format
+
++ Ask anything Xe} ®

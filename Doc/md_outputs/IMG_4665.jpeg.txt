@@ -1,0 +1,27 @@
+# IMG_4665
+
+Source: IMG_4665.jpeg (OCR extracted)
+Extracted: 2025-11-19T10:48:56.154857
+
+---
+
+15:58 | 5G GD
+= ChatGPT (G oe
+Example setup:
+
+Fast autocomplete /
+suggestions:
+-qwen2.5-coder:7b
+-ormistral-small
+Heavy reasoning / multi-file
+refactor:
+-qwen2.5-coder:32b
+
+- llama3.1:70b
+
+- or deepseek—coder-v2
+
+4. Tell Continue to
+Send File “ sntext
+
++ Ask anything Xe} ®

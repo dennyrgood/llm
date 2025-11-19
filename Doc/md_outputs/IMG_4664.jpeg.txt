@@ -1,0 +1,35 @@
+# IMG_4664
+
+Source: IMG_4664.jpeg (OCR extracted)
+Extracted: 2025-11-19T10:48:55.439801
+
+---
+
+15:58 0! 56
+
+= ChatGPT (GA ov
+
+Best open models for inline
+coding:
+
+-qwen2.5-coder: 7b or 14b
+- codellama:13b or 34b
+*starcoder2:15b
+
+Install example:
+
+bash © Copy
+
+ollama pull qwen2.5-coder:14b
+
+Then reference it in
+continue.config.json:
+
+json © Copy
+
+"models": [
+{
+"title": WY ven 2.5 Coder"
+"model":  ollama/awen2.5-
+
++ Ask anything Xe} ®
