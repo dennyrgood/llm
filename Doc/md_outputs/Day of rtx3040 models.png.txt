@@ -1,0 +1,28 @@
+# Day of rtx3040 models
+
+Source: Day of rtx3040 models.png (OCR extracted)
+Extracted: 2025-11-19T20:20:45.698512
+
+---
+
+STEP 4: AFTER RTX 3060 ARRIVES (Day 1)
+
+On Windows 11:
+
+powershell
+
+#1, Install RTX 3060, drivers, CUDA (per the guide)
+
+#2. Verify GPU is working
+nvidia-smi
+
+#3. Download 148 models (Priority order)
+
+ollama pull qwen2.5-coder:14b # PRIMARY - Best for coding
+ollama pull deepseek-coder-v2:16b # SECONDARY ~ Large context.
+ollama pull qven2.5:14b # TERTIARY - General use
+ollama pull deepseek-r1:14b # REASONING - Complex problems
+
+ollama pull qwen2.5-coder:7b # FAST - Quick queries
+
+#4. Test they work

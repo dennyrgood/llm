@@ -1,0 +1,23 @@
+# what is a tool enabled prompt
+
+Source: what is a tool enabled prompt.png (OCR extracted)
+Extracted: 2025-11-19T20:20:45.162617
+
+---
+
+## Quick commands to verify / test
+= List models: ollama 1s*
+= Show model details: ‘ollama show <model>*
+= Run a quick test locally on the server: ‘ollama run <model>*
+- Examples:
+= ‘ollama run qwen2.5-coder:1.5b*
+= vollama run phi3:mini*
+= ‘ollama run qven2.5:7b*
+
+## When the RTX 3060 arrives (what to change)
+
+- Primary GPU defaults: add/enable *qwen2.5-code:
+~qwen3-coder to default for heavy coding tasks.
+=" Peeterred denedinte pulls. ‘meen? coder 36" 1 fest). “ques? B-cadersiah® end ‘deesssek-—enderoo< 46h"
+
+4b° or other 14B models (if they fit) and move heavy
