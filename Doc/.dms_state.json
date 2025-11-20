@@ -344,7 +344,7 @@
     },
     "./index b4 Claude.html": {
       "hash": "sha256:ee62453aa4217d1602331401ba0f68670827a10045952216d67d0ca2e1e4ae17",
-      "category": "Junk",
+      "category": "Guides",
       "summary": "This document serves as an index for project documentation with sections on search controls and file viewer functionalities.",
       "summary_approved": true,
       "title": "index b4 Claude",
@@ -360,7 +360,7 @@
     },
     "./image descriptions.txt": {
       "hash": "sha256:1e50efa1034914cf1ca1716e3a49a3ae2b6a947a7c7c92bcbc8ef9544968306d",
-      "category": "Junk",
+      "category": "Models",
       "summary": "The document provides summaries for three images detailing the best open-source coding models and their configurations or usage tips.",
       "summary_approved": true,
       "title": "image descriptions",
@@ -368,7 +368,7 @@
     },
     "./md_outputs/IMG_4666.jpeg.txt": {
       "hash": "sha256:ac6d0cff33700975adc6d5e621e4687ba0932ac24b365656bc1e46fa360a43e7",
-      "category": "Junk",
+      "category": "Workflows",
       "summary": "This document provides instructions for optimizing Ollama's performance and adding models via OpenAI API.",
       "summary_approved": true,
       "title": "IMG_4666.jpeg",
@@ -400,7 +400,7 @@
     },
     "./md_outputs/IMG_4664.jpeg.txt": {
       "hash": "sha256:5a7fa32ab92075bd09129245349a4e59fe763a6c221e19c4de6bab1031cd5070",
-      "category": "Junk",
+      "category": "Models",
       "summary": "The document provides instructions for installing and referencing the 'qwen2.5-coder' model using Ollama.",
       "summary_approved": true,
       "title": "IMG_4664.jpeg",
@@ -408,7 +408,7 @@
     },
     "./md_outputs/IMG_4665.jpeg.txt": {
       "hash": "sha256:963ad4de771d5c2f38dfaeb95ac9d8316a96afd31182dbeffcf75d11f37ddd59",
-      "category": "Junk",
+      "category": "Guides",
       "summary": "The document contains OCR-extracted text from an image discussing AI coding tasks and file management strategies.",
       "summary_approved": true,
       "title": "IMG_4665.jpeg",
@@ -448,7 +448,7 @@
     },
     "./i.html": {
       "hash": "sha256:eae492aa49003a225abb5fe5d3b0e52e5e4228b5f4d6d8d894fdc0f033f67761",
-      "category": "Junk",
+      "category": "Guides",
       "summary": "This document serves as an index for project documentation with sections on setup and usage guides.",
       "summary_approved": true,
       "title": "i",
