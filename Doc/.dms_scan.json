@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-11-20T12:21:14.133351",
+  "new_files": [
+    {
+      "path": "./index.html",
+      "hash": "sha256:85e52ccbbe30ade921483f7412d9c5ae7658faea8b8a43872c6eaf1ab8df6d80",
+      "size": 62319
+    },
+    {
+      "path": "./sample_run.txt",
+      "hash": "sha256:ec2a200c009f6a682c4afd270dfd80fb145f492618fac09ae4201108de0ed76c",
+      "size": 16812
+    }
+  ],
+  "changed_files": [],
+  "missing_files": [
+    {
+      "path": "./i.html",
+      "was_category": "Guides"
+    }
+  ]
+}
