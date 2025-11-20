@@ -1,22 +1,22 @@
 {
   "metadata": {
-    "last_scan": "2025-11-20T11:24:38.297416",
-    "last_apply": "2025-11-20T11:31:12.346938",
+    "last_scan": "2025-11-20T07:48:20.618243",
+    "last_apply": "2025-11-20T11:45:24.485596",
     "migrated_from_embedded": true,
-    "migration_date": "2025-11-20T11:31:12.346940"
+    "migration_date": "2025-11-20T11:45:24.485598"
   },
   "categories": [
     "Guides",
-    "Junk",
-    "Models",
     "QuickRefs",
+    "Models",
+    "Workflows",
     "Scripts",
-    "Workflows"
+    "Junk"
   ],
   "documents": {
     "./GROK.Ollama.on.Win11.Ultimate.Perf.Guide.md": {
       "hash": "sha256:fee677939504bf8219e90c3ae4bd32d06848b35edea79db9faba09b5cbd57ac7",
-      "category": "Junk",
+      "category": "Guides",
       "summary": "Ollama on Windows 11 \u2013 Ultimate Performance Guide for RTX 3060: drivers, CUDA, Ollama settings, quantization, monitoring and model leaderboard.",
       "summary_approved": true,
       "title": "GROK.Ollama.on.Win11.Ultimate.Perf.Guide.md",
@@ -24,15 +24,23 @@
     },
     "./New RTX 3060 Setup - SETTING_UP_REAL_IMAGE_MANIPULATION_LOCAL_SERVER.md": {
       "hash": "sha256:f606b26297f251eee0a97ded31579e1a58e450add2f1da375610cf1b9db5b761",
-      "category": "Junk",
+      "category": "Guides",
       "summary": "ComfyUI + Flux image pipeline step-by-step, ControlNet, workflows (background replace, restoration), and Open WebUI integration.",
       "summary_approved": true,
       "title": "New RTX 3060 Setup - SETTING_UP_REAL_IMAGE_MANIPULATION_LOCAL_SERVER.md",
       "last_processed": "2025-11-19T10:46:04.749222"
     },
+    "./Setting Up Real Image Manipulation on Your Local Server.pdf": {
+      "hash": "sha256:f9ba490eee11c5bd1c08fe604d677712ac46127ff3b4580bf3c0b19641080937",
+      "category": "Junk",
+      "summary": "",
+      "summary_approved": true,
+      "title": "New RTX 3060 Setup - SETTING_UP_REAL_IMAGE_MANIPULATION_LOCAL_SERVER.md",
+      "last_processed": "2025-11-19T10:46:04.750696"
+    },
     "./Using 1040 until 3060 Gets Here.txt": {
       "hash": "sha256:5532031a61034cb24173bdc24da086622fb5286ca7ab2def5c0f01f8ac4dce5d",
-      "category": "Junk",
+      "category": "Guides",
       "summary": "Tactical guidance and default model choices while on CPU / GTX 1040, with suggested timeouts and quick model picks.",
       "summary_approved": true,
       "title": "Using 1040 until 3060 Gets Here",
@@ -40,7 +48,7 @@
     },
     "./Claude session - started the whole rabbit trail of hosting my own LLM.md": {
       "hash": "sha256:983f583038f283e3dfb7118a34e61c5ae272599d00476ca4795c66788f196100",
-      "category": "Junk",
+      "category": "Guides",
       "summary": "Experiment notes: commit-message automation approaches, Ollama examples, costs, and a copilot-like script for local usage.",
       "summary_approved": true,
       "title": "Claude session - started the whole rabbit trail of hosting my own LLM.md",
@@ -48,7 +56,7 @@
     },
     "./Prep for 3060 - in the mean time as well.txt": {
       "hash": "sha256:ab50fc09893389a733eb1bd2df6f5b3a58c90d3e819bded65cc4c8427c04243f",
-      "category": "Junk",
+      "category": "Guides",
       "summary": "Preparation checklist and setup notes saved as plain text (converted from DOCX). Treat as a Guide; convert to MD for full searchability.",
       "summary_approved": true,
       "title": "Prep for 3060 - in the mean time as well",
@@ -56,15 +64,23 @@
     },
     "./md_outputs/RTX 3060 Setup Guide - Complete AI Coding Workflow.md": {
       "hash": "sha256:08bd7cd0c263679f9561760c5b27bd0fc33f5cbe3622706df582562b7624b4a4",
-      "category": "Junk",
+      "category": "Guides",
       "summary": "Converted from PDF: hardware & software phases, model pulls (qwen2.5-coder:14b, deepseek-coder-v2:16b), Continue config and benchmarks.",
       "summary_approved": true,
       "title": "RTX 3060 Setup Guide - Complete AI Coding Workflow (md)",
       "last_processed": "2025-11-19T10:46:04.753189"
     },
+    "./RTX 3060 Setup Guide - Complete AI Coding Workflow.pdf": {
+      "hash": "sha256:ec57cf0a75712d023f2fefcd7e923a2bb0b3e86c0a81830da3e18f6821aa51e7",
+      "category": "Junk",
+      "summary": "",
+      "summary_approved": true,
+      "title": "RTX 3060 Setup Guide - Complete AI Coding Workflow (md)",
+      "last_processed": "2025-11-19T10:46:04.755420"
+    },
     "./md_outputs/Setting Up Real Image Manipulation on Your Local Server.md": {
       "hash": "sha256:ef0819cb504527343672411b32568978450a981b90eec34736746d8bf38b2b09",
-      "category": "Junk",
+      "category": "Guides",
       "summary": "Converted from PDF: ComfyUI + Flux install, models, Manager, workflows and Open WebUI integration.",
       "summary_approved": true,
       "title": "Setting Up Real Image Manipulation on Your Local Server (md)",
@@ -72,23 +88,39 @@
     },
     "./md_outputs/Open WebUI Management Guide.md": {
       "hash": "sha256:a0dfcaefc4c9ed05feb6ed6dba37666d9dc8184290ec66f3658223afca7c7d89",
-      "category": "Junk",
+      "category": "Guides",
       "summary": "Converted from PDF: management commands, service notes, and backup recommendations.",
       "summary_approved": true,
       "title": "Open WebUI Management Guide (md)",
       "last_processed": "2025-11-19T10:46:04.768917"
     },
+    "./Open WebUI Management Guide.pdf": {
+      "hash": "sha256:48b93f0e708f7210ce98270f435ec182060b12a9b2841cfbb0befad0e78b9a48",
+      "category": "Junk",
+      "summary": "",
+      "summary_approved": true,
+      "title": "Open WebUI Management Guide (md)",
+      "last_processed": "2025-11-19T10:46:04.757070"
+    },
     "./md_outputs/AIChat CLI_ Capabilities and User Guide Summary.md": {
       "hash": "sha256:60bae954c4cf75aa2481f70a981755a4ee569d2c07843cfbb47e6acc970ec36c",
-      "category": "Junk",
+      "category": "Guides",
       "summary": "Converted from PDF: modes (one-liner, REPL, shell assistant), context (-f), roles (-r), RAG and local API serve mode.",
       "summary_approved": true,
       "title": "AIChat CLI: Capabilities and User Guide Summary (md)",
       "last_processed": "2025-11-19T10:46:04.757247"
     },
+    "./AIChat CLI_ Capabilities and User Guide Summary.pdf": {
+      "hash": "sha256:b26eaf339d07393e6acc8a4a8db8fa09b92572a5b9d17e961804efe4e0541a47",
+      "category": "Junk",
+      "summary": "",
+      "summary_approved": true,
+      "title": "AIChat CLI: Capabilities and User Guide Summary (md)",
+      "last_processed": "2025-11-19T10:46:04.758420"
+    },
     "./Image Generation Options for Open WebUI.pdf": {
       "hash": "sha256:14bf125afa91e2cf5780e1c8236afaaab6d3a9f521e8b54f513b5691480c4d39",
-      "category": "Junk",
+      "category": "Guides",
       "summary": "image gen",
       "summary_approved": true,
       "title": "Image Generation Options for Open WebUI",
@@ -96,7 +128,7 @@
     },
     "./md_outputs/Image Generation Options for Open WebUI.md": {
       "hash": "sha256:e305be48c301af12d53b78a35376805902d294f1e60fc6b3893d5d556fa3db1b",
-      "category": "Junk",
+      "category": "Guides",
       "summary": "",
       "summary_approved": true,
       "title": "Image Generation Options for Open WebUI",
@@ -104,7 +136,7 @@
     },
     "./Rtx3060 Supplemental Improvements.pdf": {
       "hash": "sha256:c21729399953589884770d51e0c79a89a217518b45e396bad3b85adf3e5c0b61",
-      "category": "Junk",
+      "category": "Guides",
       "summary": "",
       "summary_approved": true,
       "title": "Rtx3060 Supplemental Improvements",
@@ -112,7 +144,7 @@
     },
     "./md_outputs/LLM Recommendations for Programming and Development.md": {
       "hash": "sha256:38275f58a9365a5a3d33d897fedb5387466194dad700069931c7b39602f08086",
-      "category": "Junk",
+      "category": "Guides",
       "summary": "",
       "summary_approved": true,
       "title": "LLM Recommendations for Programming and Development",
@@ -120,7 +152,7 @@
     },
     "./LLM Recommendations for Programming and Development.pdf": {
       "hash": "sha256:04d1cdbfcf361d8a06ad8ff45b627ba7cee3ae2ab32299071edab1d921eb4779",
-      "category": "Junk",
+      "category": "Models",
       "summary": "",
       "summary_approved": true,
       "title": "LLM Recommendations for Programming and Development",
@@ -128,7 +160,7 @@
     },
     "./md_outputs/Rtx3060 Supplemental Improvements.md": {
       "hash": "sha256:fbd1b4e98b1ca759f5f8126621a8035236280441b5ad35264daab1f08d162560",
-      "category": "Junk",
+      "category": "Guides",
       "summary": "",
       "summary_approved": true,
       "title": "Rtx3060 Supplemental Improvements",
@@ -136,7 +168,7 @@
     },
     "./Quantization & Context Tokens \u2014 A One\u2011Page Practical Guide.md": {
       "hash": "sha256:a66c9cd80237456b86492c9a88daeb69b5cca69ed1da8d02a3541bf44dee092f",
-      "category": "Junk",
+      "category": "QuickRefs",
       "summary": "Token heuristics and practical summary of quantization labels (Q4_K_M, Q4_0, BF16, FP8). Good cheat-sheet for offline decisions.",
       "summary_approved": true,
       "title": "Quantization & Context Tokens \u2014 A One\u2011Page Practical Guide.md",
@@ -144,7 +176,7 @@
     },
     "./Quantization and Context Tokens \u2014 One\u2011Page Guide.html": {
       "hash": "sha256:b6f2140bb43ed885059a81748b05097450be36fb790ebff28b0b0ccfb9e86173",
-      "category": "Junk",
+      "category": "QuickRefs",
       "summary": "HTML view of the one-page guide (open in browser for nicely formatted view).",
       "summary_approved": true,
       "title": "Quantization and Context Tokens \u2014 One\u2011Page Guide.html",
@@ -152,7 +184,7 @@
     },
     "./LLM QUICK SELECTION GUIDE.txt": {
       "hash": "sha256:e9437455ba51a8ba2455fd30484ca832109aa3cde125d611f60643ed6cccad35",
-      "category": "Junk",
+      "category": "QuickRefs",
       "summary": "Quick model-selection cheat sheet: what model to use for reasoning, coding, vision, or speed.",
       "summary_approved": true,
       "title": "LLM QUICK SELECTION GUIDE.txt",
@@ -160,7 +192,7 @@
     },
     "./Ollama Download Commands for Recommended LLMs.pdf": {
       "hash": "sha256:5ffe3eebb971f1cdeac71f7aced7c341b578280c7c651b8c85dd9beb432a34cb",
-      "category": "Junk",
+      "category": "QuickRefs",
       "summary": "PDF with quick `ollama pull` commands \u2014 useful to reference when provisioning models.",
       "summary_approved": true,
       "title": "Ollama Download Commands for Recommended LLMs.pdf",
@@ -168,7 +200,7 @@
     },
     "./Doc_INDEX_Version6.md": {
       "hash": "sha256:9d0aee3859fdd0fd162bb6279aff6dc830eb108c1e2208472140b00187a43a23",
-      "category": "Junk",
+      "category": "QuickRefs",
       "summary": "Curated toc",
       "summary_approved": true,
       "title": "Doc_INDEX_Version6",
@@ -176,7 +208,7 @@
     },
     "./md_outputs/LLM Infrastructure Cheat Sheet (Updated).md": {
       "hash": "sha256:8b8ac34b44867116200278c22f2cbc9e0076daecd7f5784b7a7d6aa372912418",
-      "category": "Junk",
+      "category": "QuickRefs",
       "summary": "",
       "summary_approved": true,
       "title": "LLM Infrastructure Cheat Sheet (Updated)",
@@ -184,7 +216,7 @@
     },
     "./LLM Infrastructure Cheat Sheet (Updated).pdf": {
       "hash": "sha256:14cc6e1554b911c0530ea4a92429de3b5b07289ba5396f1e35973c90f463db62",
-      "category": "Junk",
+      "category": "QuickRefs",
       "summary": "",
       "summary_approved": true,
       "title": "LLM Infrastructure Cheat Sheet (Updated)",
@@ -192,7 +224,7 @@
     },
     "./LLM Infrastructure Cheat Sheet_old.pdf": {
       "hash": "sha256:aabfcb7a6ce319541e74320e2f20d7d7588f42c9a2a0077d5d1e64737360b302",
-      "category": "Junk",
+      "category": "QuickRefs",
       "summary": "",
       "summary_approved": true,
       "title": "LLM Infrastructure Cheat Sheet_old",
@@ -200,7 +232,7 @@
     },
     "./md_outputs/LLM Infrastructure Cheat Sheet_old.md": {
       "hash": "sha256:44ce1b4175b7322d146307f7963ddd98a963d314c48099cedb56e85132053aeb",
-      "category": "Junk",
+      "category": "QuickRefs",
       "summary": "",
       "summary_approved": true,
       "title": "LLM Infrastructure Cheat Sheet_old",
@@ -208,7 +240,7 @@
     },
     "./md_outputs/Ollama Download Commands for Recommended LLMs.md": {
       "hash": "sha256:01bc0e7384befd124ce5128dbcccb12403580909c74792f70bc883d8056ac27c",
-      "category": "Junk",
+      "category": "QuickRefs",
       "summary": "",
       "summary_approved": true,
       "title": "Ollama Download Commands for Recommended LLMs.pdf",
@@ -216,7 +248,7 @@
     },
     "./Ollama Models as of 2025 11 18.txt": {
       "hash": "sha256:47c565ec0da3735f4ae389eeafa30f0c5b979bea206858395bde5ca73743e19e",
-      "category": "Junk",
+      "category": "Models",
       "summary": "Model-by-model essentials, suggested defaults, and quantization notes \u2014 guidance for what to keep and what to pull for the 3060.",
       "summary_approved": true,
       "title": "Ollama Models as of 2025 11 18",
@@ -224,7 +256,7 @@
     },
     "./GROK.recommended.llms.w.RTX.3060.txt": {
       "hash": "sha256:4a4c72e8b790e80f8209589598b88233ad8826f2bdec09e119d3ccbf61dd6a24",
-      "category": "Junk",
+      "category": "Models",
       "summary": "Recommended pulls and priority list for RTX 3060 12GB; includes one-line commands to pull recommended models.",
       "summary_approved": true,
       "title": "GROK.recommended.llms.w.RTX.3060.txt",
@@ -232,7 +264,7 @@
     },
     "./GROK.recommended.nano.banana.replacement.txt": {
       "hash": "sha256:5a59429d95cc4e395c2cd302f87a7429805eeadc9c5ca0fc0a9e2c4485046415",
-      "category": "Junk",
+      "category": "Models",
       "summary": "Image-focused recommendations: ComfyUI + Flux (FP8) and the best local tools for image restoration/editing.",
       "summary_approved": true,
       "title": "GROK.recommended.nano.banana.replacement.txt",
@@ -240,7 +272,7 @@
     },
     "./ollama-ls.txt": {
       "hash": "sha256:24d1546eb5afe2b3178364a0953530c204aef43c263bfb2fc391c10424df445b",
-      "category": "Junk",
+      "category": "Models",
       "summary": "Raw output of `ollama ls` showing installed models and sizes (useful for cleanup planning).",
       "summary_approved": true,
       "title": "ollama-ls.txt",
@@ -248,7 +280,7 @@
     },
     "./ollama-show-out.txt": {
       "hash": "sha256:9510eb83c3de99cea575e15b32941c3d61faa4a6aef27cba531f36c992e124eb",
-      "category": "Junk",
+      "category": "Models",
       "summary": "Collected `ollama show` output for many models with quantization, context lengths and capabilities listed.",
       "summary_approved": true,
       "title": "ollama-show-out.txt",
@@ -256,7 +288,7 @@
     },
     "./ollama website list - LLM.txt": {
       "hash": "sha256:504c8d30ee9c83e05a248d31c90c503c2f45beffa68ae96be2134a4860c3e25d",
-      "category": "Junk",
+      "category": "Models",
       "summary": "Catalog of model families, sizes and short descriptions to inform pull decisions.",
       "summary_approved": true,
       "title": "ollama website list - LLM.txt",
@@ -264,7 +296,7 @@
     },
     "./OpenWebUI \u2014 Task Scheduler CLI Reference.txt": {
       "hash": "sha256:24f2a53111ee0ce270f39810bec12fa4b9329c38f660b93e61cbb58e7126ebae",
-      "category": "Junk",
+      "category": "Workflows",
       "summary": "Run OpenWebUI via Task Scheduler at startup (SYSTEM): run script sample, schtasks commands, and logging/debugging tips.",
       "summary_approved": true,
       "title": "OpenWebUI \u2014 Task Scheduler CLI Reference.txt",
@@ -272,7 +304,7 @@
     },
     "./Open WebUI Installation Guide for Windows 11.pdf": {
       "hash": "sha256:7540c26a3429540e750f2ca96cf6dc2ecb315acab9444ea77ed7e6d4cd1163fd",
-      "category": "Junk",
+      "category": "Workflows",
       "summary": "Installer and service notes; refer to md_outputs/ if converted for management commands.",
       "summary_approved": true,
       "title": "Open WebUI Installation Guide for Windows 11.pdf",
@@ -280,7 +312,7 @@
     },
     "./md_outputs/Open WebUI Installation Guide for Windows 11.md": {
       "hash": "sha256:0141d350d151735e5fdb96d2d8987c2143de1f08ab9dc1e4554bb1acf4ef12b8",
-      "category": "Junk",
+      "category": "Workflows",
       "summary": "",
       "summary_approved": true,
       "title": "Open WebUI Installation Guide for Windows 11.pdf",
@@ -288,7 +320,7 @@
     },
     "./What to Try Next.txt": {
       "hash": "sha256:394b6abc8707b81d767eb60596197fe551e79650115075914b69bd49a9b6b965",
-      "category": "Junk",
+      "category": "Scripts",
       "summary": "Short list of experiments and models to try next using your local setup.",
       "summary_approved": true,
       "title": "What to Try Next.txt",
@@ -296,7 +328,7 @@
     },
     "./a.txt": {
       "hash": "sha256:c8e985fd58669b089bbe8387ec47c4eaffb71ff13a6fa710118ddcb8a11f4b78",
-      "category": "Junk",
+      "category": "Scripts",
       "summary": "Small file listing `ollama show` commands (binary/encoded text in places).",
       "summary_approved": true,
       "title": "a",
@@ -304,187 +336,123 @@
     },
     "./ollama-show.bat": {
       "hash": "sha256:4d7cc9928aef5c1f1b9c06f2d68c0c9b6793861aa63c789ae3b68845d1d22c9c",
-      "category": "Junk",
+      "category": "Scripts",
       "summary": "Windows batch to run a set of `ollama show` commands quickly.",
       "summary_approved": true,
       "title": "ollama-show.bat",
       "last_processed": "2025-11-19T10:46:04.769780"
     },
-    "./Setting Up Real Image Manipulation on Your Local Server.pdf": {
-      "hash": "sha256:f9ba490eee11c5bd1c08fe604d677712ac46127ff3b4580bf3c0b19641080937",
-      "category": "Guides",
-      "summary": "The document provides instructions for setting up real image manipulation on local servers using PDF format.",
-      "summary_approved": true,
-      "title": "Setting Up Real Image Manipulation on Your Local Server",
-      "last_processed": "2025-11-20T11:31:12.347147"
-    },
     "./index b4 Claude.html": {
       "hash": "sha256:ee62453aa4217d1602331401ba0f68670827a10045952216d67d0ca2e1e4ae17",
-      "category": "Workflows",
-      "summary": "This document serves as an index for project documentation related to 'Project Docs Index,' providing navigation and search capabilities within the content.",
+      "category": "Junk",
+      "summary": "This document serves as an index for project documentation with sections on search controls and file viewer functionalities.",
       "summary_approved": true,
       "title": "index b4 Claude",
-      "last_processed": "2025-11-20T11:31:12.347152"
-    },
-    "./index-got-orphans-no-sum.html": {
-      "hash": "sha256:9b4411ee280d1eb6426cec18e05c342f569804b65681e81f60a6062e7539709b",
-      "category": "Workflows",
-      "summary": "This document appears to be the source code for a web-based project documentation interface with sections dedicated to index navigation and markdown content rendering.",
-      "summary_approved": true,
-      "title": "index-got-orphans-no-sum",
-      "last_processed": "2025-11-20T11:31:12.347157"
-    },
-    "./RTX 3060 Setup Guide - Complete AI Coding Workflow.pdf": {
-      "hash": "sha256:ec57cf0a75712d023f2fefcd7e923a2bb0b3e86c0a81830da3e18f6821aa51e7",
-      "category": "Workflows",
-      "summary": "RTX 3060 Setup Guide for AI Coding Workflow - Comprehensive instructions and best practices.",
-      "summary_approved": true,
-      "title": "RTX 3060 Setup Guide - Complete AI Coding Workflow",
-      "last_processed": "2025-11-20T11:31:12.347161"
-    },
-    "./.dms_pending.archive.20251120095354.json": {
-      "hash": "sha256:3fc74b76008ede2141ff64749ffaf3bd06c73d13b898df42292c157772d29726",
-      "category": "Workflows",
-      "summary": "Document contains various files related to image manipulation and AI coding workflows on local servers.",
-      "summary_approved": true,
-      "title": ".dms_pending.archive.20251120095354",
-      "last_processed": "2025-11-20T11:31:12.347166"
-    },
-    "./AIChat CLI_ Capabilities and User Guide Summary.pdf": {
-      "hash": "sha256:b26eaf339d07393e6acc8a4a8db8fa09b92572a5b9d17e961804efe4e0541a47",
-      "category": "Guides",
-      "summary": "AIChat CLI Guide provides capabilities and user instructions for the AI chat interface.",
-      "summary_approved": true,
-      "title": "AIChat CLI_ Capabilities and User Guide Summary",
-      "last_processed": "2025-11-20T11:31:12.347170"
-    },
-    "./index.html-bad-but-good.html": {
-      "hash": "sha256:2d8947a71ebfb36ed0adf56cf5ec37e9a5d1d494466f2f607cbb50f49e14a714",
-      "category": "Guides",
-      "summary": "This document appears to be an HTML template for displaying project documentation with sections for sidebar navigation and viewer content.",
-      "summary_approved": true,
-      "title": "index.html-bad-but-good",
-      "last_processed": "2025-11-20T11:31:12.347175"
+      "last_processed": "2025-11-19T23:16:56.795297"
     },
     "./ollama.help.txt": {
       "hash": "sha256:b87f997e8a821f4f919028e89404fecfa3c0d251a6ea38d5625eb1e19d852beb",
-      "category": "Guides",
-      "summary": "The document serves as an Ollama help guide for users of the command-line interface model translator.",
+      "category": "Junk",
+      "summary": "The document provides instructions and command-line examples for using the Olama model within various contexts such as start, stop, status checks, shutdown procedures, stopping on errors, restarting after crashes, setting up a server with environment variables, starting in interactive mode, running scripts or commands through it, checking its version, downloading source code, and compiling from Git.",
       "summary_approved": true,
       "title": "ollama.help",
-      "last_processed": "2025-11-20T11:31:12.347179"
-    },
-    "./sample_run.txt": {
-      "hash": "sha256:ec2a200c009f6a682c4afd270dfd80fb145f492618fac09ae4201108de0ed76c",
-      "category": "Workflows",
-      "summary": "Document Management System processes files in Doc/, generating AI summaries for text documents and handling pending tasks.",
-      "summary_approved": true,
-      "title": "sample_run",
-      "last_processed": "2025-11-20T11:31:12.347183"
-    },
-    "./index.html-after-del-orphans.html": {
-      "hash": "sha256:397de36aa8defb7792902c4b90c6e631b61aa978a071cd5e87f7079937265160",
-      "category": "Guides",
-      "summary": "This document serves as an index for project documentation with sections on setup and usage instructions.",
-      "summary_approved": true,
-      "title": "index.html-after-del-orphans",
-      "last_processed": "2025-11-20T11:31:12.347188"
+      "last_processed": "2025-11-19T23:16:56.795723"
     },
     "./image descriptions.txt": {
       "hash": "sha256:1e50efa1034914cf1ca1716e3a49a3ae2b6a947a7c7c92bcbc8ef9544968306d",
-      "category": "Models",
-      "summary": "The document provides guidance on selecting and using open-source coding models for different tasks like autocomplete and reasoning.",
+      "category": "Junk",
+      "summary": "The document provides summaries for three images detailing the best open-source coding models and their configurations or usage tips.",
       "summary_approved": true,
       "title": "image descriptions",
-      "last_processed": "2025-11-20T11:31:12.347192"
-    },
-    "./Open WebUI Management Guide.pdf": {
-      "hash": "sha256:48b93f0e708f7210ce98270f435ec182060b12a9b2841cfbb0befad0e78b9a48",
-      "category": "Guides",
-      "summary": "Open WebUI Management Guide PDF provides instructions for managing web user interfaces.",
-      "summary_approved": true,
-      "title": "Open WebUI Management Guide",
-      "last_processed": "2025-11-20T11:31:12.347196"
+      "last_processed": "2025-11-19T23:16:56.795854"
     },
     "./md_outputs/IMG_4666.jpeg.txt": {
       "hash": "sha256:ac6d0cff33700975adc6d5e621e4687ba0932ac24b365656bc1e46fa360a43e7",
-      "category": "Workflows",
-      "summary": "The document provides OCR-extracted instructions for optimizing local versus cloud model performance using OpenVanilla AY and switching models.",
+      "category": "Junk",
+      "summary": "This document provides instructions for optimizing Ollama's performance and adding models via OpenAI API.",
       "summary_approved": true,
       "title": "IMG_4666.jpeg",
-      "last_processed": "2025-11-20T11:31:12.347201"
+      "last_processed": "2025-11-19T23:16:56.796089"
     },
     "./md_outputs/Need more info on Tool Use.png.txt": {
       "hash": "sha256:99bd24d3ce81b595c12f7d660a3cf276738225b6f92ebea142e3a7cdff64fa4e",
-      "category": "QuickRefs",
-      "summary": "The document seeks clarification on the use of tools and their categorization for optimization purposes.",
+      "category": "Junk",
+      "summary": "The document seeks additional information on tool use and mentions specific tools needing exact counts.",
       "summary_approved": true,
       "title": "Need more info on Tool Use.png",
-      "last_processed": "2025-11-20T11:31:12.347205"
+      "last_processed": "2025-11-19T23:16:56.796317"
     },
     "./md_outputs/Day of rtx3040 models.png.txt": {
       "hash": "sha256:f97e2ea32bab67dc9c457da75685283c2828e0bfc9656f05e86a889016f1b351",
-      "category": "Workflows",
-      "summary": "This document provides instructions for setting up and testing RTX 3xx models on Windows 11 using OLMADA.",
+      "category": "Junk",
+      "summary": "This document provides instructions for setting up and testing RTX3060 models using Ollama on Windows 11.",
       "summary_approved": true,
       "title": "Day of rtx3040 models.png",
-      "last_processed": "2025-11-20T11:31:12.347210"
+      "last_processed": "2025-11-19T23:16:56.796466"
     },
     "./md_outputs/aichat not working.png.txt": {
       "hash": "sha256:7f8bcad05a68964a2374413125f638e7edacaccde9279bdfa96d8319d7080e6a",
-      "category": "Guides",
-      "summary": "The document outlines the configuration for an AI chat interface using Ollama and LLMs like llama3.2.",
+      "category": "Junk",
+      "summary": "The document provides instructions for setting up the AI chatbot 'aichat' using Ollama with specific model configurations and usage commands.",
       "summary_approved": true,
       "title": "aichat not working.png",
-      "last_processed": "2025-11-20T11:31:12.347215"
+      "last_processed": "2025-11-19T23:16:56.796724"
     },
     "./md_outputs/IMG_4664.jpeg.txt": {
       "hash": "sha256:5a7fa32ab92075bd09129245349a4e59fe763a6c221e19c4de6bab1031cd5070",
-      "category": "Models",
-      "summary": "The document provides instructions for installing and referencing the best open models (WY ven 2 end-to-end coder) using Ollama.",
+      "category": "Junk",
+      "summary": "The document provides instructions for installing and referencing the 'qwen2.5-coder' model using Ollama.",
       "summary_approved": true,
       "title": "IMG_4664.jpeg",
-      "last_processed": "2025-11-20T11:31:12.347219"
+      "last_processed": "2025-11-19T23:16:56.796848"
     },
     "./md_outputs/IMG_4665.jpeg.txt": {
       "hash": "sha256:963ad4de771d5c2f38dfaeb95ac9d8316a96afd31182dbeffcf75d11f37ddd59",
-      "category": "QuickRefs",
-      "summary": "The document contains OCR-extracted text from the image 'IMG_4665', discussing AI model suggestions for coding tasks.",
+      "category": "Junk",
+      "summary": "The document contains OCR-extracted text from an image discussing AI coding tasks and file management strategies.",
       "summary_approved": true,
       "title": "IMG_4665.jpeg",
-      "last_processed": "2025-11-20T11:31:12.347224"
+      "last_processed": "2025-11-19T23:16:56.797022"
     },
     "./md_outputs/what is a tool enabled prompt.png.txt": {
       "hash": "sha256:f757bd6fb462ffbf5995715710ea39d83ed467c2473981cff970d990a9c78643",
-      "category": "Models",
-      "summary": "The document provides instructions for using Ollama with different models and suggests changes when upgrading GPUs.",
+      "category": "Junk",
+      "summary": "The document provides quick commands for testing Ollama models and instructions on adjusting settings upon the arrival of an RTX 3CTX.",
       "summary_approved": true,
       "title": "what is a tool enabled prompt.png",
-      "last_processed": "2025-11-20T11:31:12.347230"
+      "last_processed": "2025-11-19T23:16:56.797305"
     },
     "./md_outputs/what does local api server mean.png.txt": {
       "hash": "sha256:2d36c119ddf5592b13b9a38a1078740ac8b5e120e853359b3d9e174616a0da7a",
-      "category": "Guides",
-      "summary": "The document explains how to start a local HTTP server exposing OpenAl-compatible API for LLMs using 'aichat', allowing seamless integration with existing applications.",
+      "category": "Junk",
+      "summary": "This document explains how to start a local HTTP server for OpenAl API using 'aichat' models and redirect existing applications from standard APIs.",
       "summary_approved": true,
       "title": "what does local api server mean.png",
-      "last_processed": "2025-11-20T11:31:12.347235"
+      "last_processed": "2025-11-19T23:16:56.797463"
     },
     "./md_outputs/Prep for 3060 - in the mean time as well.docx.txt": {
       "hash": "sha256:62352add10f6cff7af11175086ed22524fef33bd15d011d17f4c2dbba2a32dd4",
-      "category": "Models",
-      "summary": "This document details the configuration and use of various LLMs on an Ollama server for different tasks until RTX 3060 hardware becomes available.",
+      "category": "Junk",
+      "summary": "This document details the configuration for using various AI models on different hardware until an RTX 3060 GPU becomes available.",
       "summary_approved": true,
       "title": "Prep for 3060 - in the mean time as well.docx",
-      "last_processed": "2025-11-20T11:31:12.347240"
+      "last_processed": "2025-11-19T23:16:56.797875"
     },
     "./md_outputs/DMS Summarization Pipeline Debug Report - Gemini fixing Claude Code.md": {
       "hash": "sha256:26a3bedaa74c731ae9d8a66a0b792bc86f714fb871583f098b8b2482f9806ac0",
-      "category": "Scripts",
-      "summary": "Debug report details fixes for DMS summarization pipeline issues and enhancements.",
+      "category": "Junk",
+      "summary": "Debug report details fixes in DMS summarization pipeline for connection stability and model reliability.",
       "summary_approved": true,
       "title": "DMS Summarization Pipeline Debug Report - Gemini fixing Claude Code",
-      "last_processed": "2025-11-20T11:31:12.347245"
+      "last_processed": "2025-11-19T23:16:56.798005"
+    },
+    "./i.html": {
+      "hash": "sha256:eae492aa49003a225abb5fe5d3b0e52e5e4228b5f4d6d8d894fdc0f033f67761",
+      "category": "Junk",
+      "summary": "This document serves as an index for project documentation with sections on setup and usage guides.",
+      "summary_approved": true,
+      "title": "i",
+      "last_processed": "2025-11-20T07:48:20.618226"
     }
   }
 }
