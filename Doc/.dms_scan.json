@@ -1,22 +1,11 @@
 {
-  "timestamp": "2025-11-20T14:39:13.991338",
-  "new_files": [
-    {
-      "path": "./md_outputs/IMG_4666 copy.txt",
-      "hash": "sha256:3df6d7a9aed0b3307e37a7b6ed5c1acc5a340cee6a5d905a019d37f6201cb9e1",
-      "size": 334
-    },
-    {
-      "path": "./md_outputs/IMG_4666.jpeg.txt",
-      "hash": "sha256:ac6d0cff33700975adc6d5e621e4687ba0932ac24b365656bc1e46fa360a43e7",
-      "size": 428
-    }
-  ],
+  "timestamp": "2025-11-20T15:24:09.307959",
+  "new_files": [],
   "changed_files": [
     {
       "path": "./index.html",
       "old_hash": "",
-      "new_hash": "sha256:f59f022671863629aa43b526e0445b38576b08cad3afbe2984ee101a66e4647e"
+      "new_hash": "sha256:9b1f2daf55eb434be547d2e3a7e6347ba16b5dcdf3a270f7c2b25b648e51c62a"
     }
   ],
   "missing_files": []
