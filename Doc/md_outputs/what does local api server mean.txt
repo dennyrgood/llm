@@ -1,0 +1,8 @@
+C. Local API Server
+
+@Serve Mode (--serve): You can start a lightweight local HTTP server that exposes an
+OpenAl-compatible API for the LLMs configured in aichat. This means that any
+existing application, script, or framework (like LangChain) written to use the
+standard OpenAl API can be seamlessly re-routed to use your local aichat server
+
+and the models it hosts (e.g., gemma3:4b), simply by changing the api_base URL.
