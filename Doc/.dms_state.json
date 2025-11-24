@@ -1,7 +1,7 @@
 {
   "metadata": {
     "last_scan": "2025-11-20T07:48:20.618243",
-    "last_apply": "2025-11-24T18:30:27.756769",
+    "last_apply": "2025-11-25T00:21:07.368374",
     "migrated_from_embedded": true,
     "migration_date": "2025-11-20T11:45:24.485598"
   },
@@ -179,11 +179,11 @@
     "./index.html": {
       "hash": "",
       "category": "Guides",
-      "summary": "An HTML document serving as an index for project documentation, featuring a styled layout with navigation elements and search functionality.",
+      "summary": "This HTML document serves as an index page for project documentation, featuring a styled sidebar with search functionality and file listings.",
       "summary_approved": true,
       "title": "index",
-      "last_processed": "2025-11-24T17:57:30.660832",
-      "file_mtime": "2025-11-24T17:56:19.438508"
+      "last_processed": "2025-11-25T00:21:07.368332",
+      "file_mtime": "2025-11-24T18:30:27.784666"
     },
     "./ollama show model batch file.txt": {
       "hash": "sha256:c8e985fd58669b089bbe8387ec47c4eaffb71ff13a6fa710118ddcb8a11f4b78",

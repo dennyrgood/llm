@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-11-25T00:20:55.592330",
+  "summaries": [
+    {
+      "file": {
+        "path": "./index.html",
+        "hash": "",
+        "size": 0
+      },
+      "summary": "This HTML document serves as an index page for project documentation, featuring a styled sidebar with search functionality and file listings.",
+      "category": "Guides",
+      "is_new_category": false,
+      "title": "index",
+      "timestamp": "2025-11-25T00:20:55.591894"
+    }
+  ]
+}
