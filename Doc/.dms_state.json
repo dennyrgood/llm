@@ -1,7 +1,7 @@
 {
   "metadata": {
     "last_scan": "2025-11-20T07:48:20.618243",
-    "last_apply": "2025-11-25T12:46:04.529994",
+    "last_apply": "2025-11-25T23:41:41.407842",
     "migrated_from_embedded": true,
     "migration_date": "2025-11-20T11:45:24.485598"
   },
@@ -179,11 +179,11 @@
     "./index.html": {
       "hash": "",
       "category": "Guides",
-      "summary": "This document is an HTML file containing the style and structure for a documentation index page with a dark theme, featuring a sidebar for navigation.",
+      "summary": "An HTML document serving as an index page for project documentation with styling and layout for navigation elements like headers, sidebar, search bar, and file listings.",
       "summary_approved": true,
       "title": "index",
-      "last_processed": "2025-11-25T12:46:04.529974",
-      "file_mtime": "2025-11-25T00:21:07.399345"
+      "last_processed": "2025-11-25T23:41:41.407824",
+      "file_mtime": "2025-11-25T12:46:04.564009"
     },
     "./ollama show model batch file.txt": {
       "hash": "sha256:c8e985fd58669b089bbe8387ec47c4eaffb71ff13a6fa710118ddcb8a11f4b78",
@@ -507,6 +507,26 @@
       "last_processed": "2025-11-25T12:46:04.529941",
       "file_mtime": "2025-11-25T12:44:46.879551",
       "readable_version": "./md_outputs/RTX 3060 Image Manipulation Setup Guide (Win11 - 2025).md"
+    },
+    "./Missing Files - Download These Now.pdf": {
+      "hash": "sha256:e119e55772a058f9a302febe75dc5c657551f6cea5c3d4a63eebc65b3c28349d",
+      "category": "Guides",
+      "summary": "Document provides download links and instructions for three files necessary to optimize the Flux setup: clip_l.safetensors, t5xxl_fp8_e4m3fn.safetensors, and ae.safetensors.",
+      "summary_approved": true,
+      "title": "Missing Files - Download These Now",
+      "last_processed": "2025-11-25T23:41:41.407779",
+      "file_mtime": "2025-11-25T23:35:27.398899",
+      "readable_version": "./md_outputs/Missing Files - Download These Now.md"
+    },
+    "./ComfyUI Explained - Understanding the Basics.pdf": {
+      "hash": "sha256:2113b1e59eed62ed899701912a19f479162b6cfe90ead9f69c044c7c9c823a9e",
+      "category": "Guides",
+      "summary": "Explains the core concepts and processes of AI image generation in ComfyUI using nodes for MODEL, CLIP, and VAE.",
+      "summary_approved": true,
+      "title": "ComfyUI Explained - Understanding the Basics",
+      "last_processed": "2025-11-25T23:41:41.407807",
+      "file_mtime": "2025-11-25T23:25:02.109883",
+      "readable_version": "./md_outputs/ComfyUI Explained - Understanding the Basics.md"
     }
   }
 }
