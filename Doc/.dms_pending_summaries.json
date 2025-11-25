@@ -1,17 +1,30 @@
 {
-  "timestamp": "2025-11-25T00:20:55.592330",
+  "timestamp": "2025-11-25T12:45:57.174575",
   "summaries": [
+    {
+      "file": {
+        "path": "./RTX 3060 Image Manipulation Setup Guide (Win11 - 2025).pdf",
+        "hash": "sha256:adeffd426481a70c17229a7627b4dd3d0e36183dd9561a625dca7d458d7d452c",
+        "size": 123508,
+        "readable_version": "./md_outputs/RTX 3060 Image Manipulation Setup Guide (Win11 - 2025).md"
+      },
+      "summary": "This guide provides instructions for setting up image manipulation tools on an RTX 3060 with Windows 11, including software installation and recommended stack configuration.",
+      "category": "Guides",
+      "is_new_category": false,
+      "title": "RTX 3060 Image Manipulation Setup Guide (Win11 - 2025)",
+      "timestamp": "2025-11-25T12:45:53.650225"
+    },
     {
       "file": {
         "path": "./index.html",
         "hash": "",
         "size": 0
       },
-      "summary": "This HTML document serves as an index page for project documentation, featuring a styled sidebar with search functionality and file listings.",
+      "summary": "This document is an HTML file containing the style and structure for a documentation index page with a dark theme, featuring a sidebar for navigation.",
       "category": "Guides",
       "is_new_category": false,
       "title": "index",
-      "timestamp": "2025-11-25T00:20:55.591894"
+      "timestamp": "2025-11-25T12:45:57.174546"
     }
   ]
 }
