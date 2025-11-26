@@ -26,6 +26,9 @@
     .search{flex:1;display:flex;align-items:center;background:var(--glass);padding:8px;border-radius:8px}
     .search input{flex:1;border:0;background:transparent;color:inherit;padding:6px 8px;font-size:14px;outline:none}
     .search small{color:var(--muted);font-size:12px;margin-left:6px}
+    .sort-btn{padding:8px 12px;background:var(--glass);border:1px solid rgba(255,255,255,0.1);border-radius:8px;color:inherit;cursor:pointer;font-size:13px;white-space:nowrap;transition:background 0.2s}
+    .sort-btn:hover{background:rgba(255,255,255,0.08)}
+    .sort-btn.active{background:var(--accent);color:#000;font-weight:600}
     .category {margin-top:10px}
     .category h2{margin:6px 0 6px;font-size:13px;color:var(--accent)}
     ul.files{list-style:none;padding:0;margin:0}
@@ -86,7 +89,7 @@ SCRIPTS_DIR = Path(__file__).parent.parent
 {
   "metadata": {
     "last_scan": "2025-11-20T07:48:20.618243",
-    "last_apply": "2025-11-25T23:41:41.407842",
+    "last_apply": "2025-11-26T18:40:06.988861",
     "migrated_from_embedded": true,
     "migration_date": "2025-11-20T11:45:24.485598"
   },
@@ -96,7 +99,8 @@ SCRIPTS_DIR = Path(__file__).parent.parent
     "Models",
     "Workflows",
     "Scripts",
-    "Junk"
+    "Junk",
+    "Troubleshooting"
   ],
   "documents": {
     "./GROK.Ollama.on.Win11.Ultimate.Perf.Guide.md": {
@@ -264,11 +268,11 @@ SCRIPTS_DIR = Path(__file__).parent.parent
     "./index.html": {
       "hash": "",
       "category": "Guides",
-      "summary": "An HTML document serving as an index page for project documentation with styling and layout for navigation elements like headers, sidebar, search bar, and file listings.",
+      "summary": "An HTML document serving as an index page for project documentation, featuring a styled sidebar with categories and files list.",
       "summary_approved": true,
       "title": "index",
-      "last_processed": "2025-11-25T23:41:41.407824",
-      "file_mtime": "2025-11-25T12:46:04.564009"
+      "last_processed": "2025-11-26T18:40:06.988841",
+      "file_mtime": "2025-11-25T23:41:41.439149"
     },
     "./ollama show model batch file.txt": {
       "hash": "sha256:c8e985fd58669b089bbe8387ec47c4eaffb71ff13a6fa710118ddcb8a11f4b78",
@@ -612,6 +616,64 @@ SCRIPTS_DIR = Path(__file__).parent.parent
       "last_processed": "2025-11-25T23:41:41.407807",
       "file_mtime": "2025-11-25T23:25:02.109883",
       "readable_version": "./md_outputs/ComfyUI Explained - Understanding the Basics.md"
+    },
+    "./RTX 3060 Image Manipulation Setup Guide - (Win11 - 2025) \u2013 Complete Log - (PDF).pdf": {
+      "hash": "sha256:f1a9a0bc420d270338e232044447945c7087c8fb50f07aaa1c72b649c3082839",
+      "category": "Guides",
+      "summary": "This document provides a step-by-step guide for setting up image manipulation with an RTX 3060 on Windows 11, including CUDA version updates, folder structure optimization, and performance expectations.",
+      "summary_approved": true,
+      "title": "RTX 3060 Image Manipulation Setup Guide - (Win11 - 2025) \u2013 Complete Log - (PDF)",
+      "last_processed": "2025-11-26T18:40:06.988708",
+      "file_mtime": "2025-11-26T18:29:24.202070",
+      "readable_version": "./md_outputs/RTX 3060 Image Manipulation Setup Guide - (Win11 - 2025) \u2013 Complete Log - (PDF).md"
+    },
+    "./RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log & Lessons Learned - (Win11 - 2025) \u2013 Complete Log - Last Run.txt": {
+      "hash": "sha256:a3f097eff8e5906368016ce7604a52700896176450a89ccee3008a6d6633e674",
+      "category": "Troubleshooting",
+      "summary": "A troubleshooting log detailing the execution of an image manipulation prompt using RTX 3060 with Flux-schnell-fast-workflow on Windows 11, highlighting performance and resource usage.",
+      "summary_approved": true,
+      "title": "RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log & Lessons Learned - (Win11 - 2025) \u2013 Complete Log - Last Run",
+      "last_processed": "2025-11-26T18:40:06.988740",
+      "file_mtime": "2025-11-26T14:35:21"
+    },
+    "./FLUX Optimazation.docx": {
+      "hash": "sha256:1eb04aa07f5910627301beef492be604d1a4c4f753697f659e000bd5e77b245e",
+      "category": "Guides",
+      "summary": "The document analyzes the performance of the FP8 quantized FLUX model in ComfyUI on an RTX 3060 and provides optimization suggestions.",
+      "summary_approved": true,
+      "title": "FLUX Optimazation",
+      "last_processed": "2025-11-26T18:40:06.988770",
+      "file_mtime": "2025-11-26T00:41:46.131720",
+      "readable_version": "./md_outputs/FLUX Optimazation.md"
+    },
+    "./RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log & Lessons Learned - (Win11 - 2025) \u2013 Complete Log.docx": {
+      "hash": "sha256:7c2e3c063a5d582d1deb71f41d53db114303df81110c6cc38c66f482c9c2faa8",
+      "category": "Guides",
+      "summary": "This document provides a step-by-step guide for setting up image manipulation on Windows 11 with an RTX 3060 GPU, including driver installation, software setup, and troubleshooting tips.",
+      "summary_approved": true,
+      "title": "RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log & Lessons Learned - (Win11 - 2025) \u2013 Complete Log",
+      "last_processed": "2025-11-26T18:40:06.988789",
+      "file_mtime": "2025-11-26T18:37:15.469220",
+      "readable_version": "./md_outputs/RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log & Lessons Learned - (Win11 - 2025) \u2013 Complete Log.md"
+    },
+    "./Acer Specs.txt": {
+      "hash": "sha256:45e75a0bcff8f335d06f31ac6cdc6a7ee137fe2f323d24db724493b97c522314",
+      "category": "Models",
+      "summary": "This document provides technical specifications for the Acer Aspire TC-885 system model, focusing on its processor details.",
+      "summary_approved": true,
+      "title": "Acer Specs",
+      "last_processed": "2025-11-26T18:40:06.988807",
+      "file_mtime": "2025-11-26T08:53:21"
+    },
+    "./ComfyUI RTX 3060 Setup.pdf": {
+      "hash": "sha256:c2487ad05863fb2306d3d9e888a0a33db0396394ea8149cdade93d55e98240f9",
+      "category": "Guides",
+      "summary": "This document details the setup process for ComfyUI on a Windows system with an RTX 3060 GPU, including model installation and troubleshooting issues encountered during initialization.",
+      "summary_approved": true,
+      "title": "ComfyUI RTX 3060 Setup",
+      "last_processed": "2025-11-26T18:40:06.988825",
+      "file_mtime": "2025-11-26T09:33:00.738141",
+      "readable_version": "./md_outputs/ComfyUI RTX 3060 Setup.md"
     }
   }
 }
@@ -628,166 +690,195 @@ SCRIPTS_DIR = Path(__file__).parent.parent
           <input type="text" id="searchInput" placeholder="Search..." />
           <small id="resultCount">0 shown</small>
         </div>
+        <button id="sortBtn" class="sort-btn" title="Sort by date (most recent first)">📅 Newest</button>
       </div>
 
             <section class="category" data-category="Guides">
         <h2>Guides</h2>
         <ul class="files">
-            <li class="file" data-path="./AIChat CLI_ Capabilities and User Guide Summary.pdf" data-link="./AIChat CLI_ Capabilities and User Guide Summary.pdf">
+            <li class="file" data-path="./AIChat CLI_ Capabilities and User Guide Summary.pdf" data-link="./AIChat CLI_ Capabilities and User Guide Summary.pdf" data-mtime="2025-11-10T00:11:20.228661">
       <div class="meta">
         <div class="title"><a href="#./AIChat CLI_ Capabilities and User Guide Summary.pdf" class="file-link">AIChat CLI_ Capabilities and User Guide Summary</a></div>
         <div class="desc">The document provides a detailed user guide for the AIChat CLI tool, outlining its three core interaction modes and key capabilities in code development and shell automation.<br><small><a href="#./md_outputs/AIChat CLI_ Capabilities and User Guide Summary.md" style="color:var(--accent-2)">📄 View PDF Text</a></small></div>
         <div class="tags small-muted">PDF · Guides</div>
         <div class="mtime">📅 2025-11-10 00:11:20</div>
       </div>
-            </li>            <li class="file" data-path="./Claude session - started the whole rabbit trail of hosting my own LLM.md" data-link="./Claude session - started the whole rabbit trail of hosting my own LLM.md">
+            </li>            <li class="file" data-path="./Claude session - started the whole rabbit trail of hosting my own LLM.md" data-link="./Claude session - started the whole rabbit trail of hosting my own LLM.md" data-mtime="2025-11-18T01:35:49.929046">
       <div class="meta">
         <div class="title"><a href="#./Claude session - started the whole rabbit trail of hosting my own LLM.md" class="file-link">Claude session - started the whole rabbit trail of hosting my own LLM.md</a></div>
         <div class="desc">Experiment notes: commit-message automation approaches, Ollama examples, costs, and a copilot-like script for local usage.</div>
         <div class="tags small-muted">MD · Guides</div>
         <div class="mtime">📅 2025-11-18 01:35:49</div>
       </div>
-            </li>            <li class="file" data-path="./ComfyUI Explained - Understanding the Basics.pdf" data-link="./ComfyUI Explained - Understanding the Basics.pdf">
+            </li>            <li class="file" data-path="./ComfyUI Explained - Understanding the Basics.pdf" data-link="./ComfyUI Explained - Understanding the Basics.pdf" data-mtime="2025-11-25T23:25:02.109883">
       <div class="meta">
         <div class="title"><a href="#./ComfyUI Explained - Understanding the Basics.pdf" class="file-link">ComfyUI Explained - Understanding the Basics</a></div>
         <div class="desc">Explains the core concepts and processes of AI image generation in ComfyUI using nodes for MODEL, CLIP, and VAE.<br><small><a href="#./md_outputs/ComfyUI Explained - Understanding the Basics.md" style="color:var(--accent-2)">📄 View PDF Text</a></small></div>
         <div class="tags small-muted">PDF · Guides</div>
         <div class="mtime">📅 2025-11-25 23:25:02</div>
       </div>
-            </li>            <li class="file" data-path="./Fix File upload OpenWebUI.png" data-link="./Fix File upload OpenWebUI.png">
+            </li>            <li class="file" data-path="./ComfyUI RTX 3060 Setup.pdf" data-link="./ComfyUI RTX 3060 Setup.pdf" data-mtime="2025-11-26T09:33:00.738141">
+      <div class="meta">
+        <div class="title"><a href="#./ComfyUI RTX 3060 Setup.pdf" class="file-link">ComfyUI RTX 3060 Setup</a></div>
+        <div class="desc">This document details the setup process for ComfyUI on a Windows system with an RTX 3060 GPU, including model installation and troubleshooting issues encountered during initialization.<br><small><a href="#./md_outputs/ComfyUI RTX 3060 Setup.md" style="color:var(--accent-2)">📄 View PDF Text</a></small></div>
+        <div class="tags small-muted">PDF · Guides</div>
+        <div class="mtime">📅 2025-11-26 09:33:00</div>
+      </div>
+            </li>            <li class="file" data-path="./FLUX Optimazation.docx" data-link="./FLUX Optimazation.docx" data-mtime="2025-11-26T00:41:46.131720">
+      <div class="meta">
+        <div class="title"><a href="#./FLUX Optimazation.docx" class="file-link">FLUX Optimazation</a></div>
+        <div class="desc">The document analyzes the performance of the FP8 quantized FLUX model in ComfyUI on an RTX 3060 and provides optimization suggestions.<br><small><a href="./FLUX Optimazation.docx" download style="color:var(--accent-2)">📋 Download Document</a></small></div>
+        <div class="tags small-muted">DOCX · Guides</div>
+        <div class="mtime">📅 2025-11-26 00:41:46</div>
+      </div>
+            </li>            <li class="file" data-path="./Fix File upload OpenWebUI.png" data-link="./Fix File upload OpenWebUI.png" data-mtime="2025-11-22T18:01:13">
       <div class="meta">
         <div class="title"><a href="#./Fix File upload OpenWebUI.png" class="file-link">Fix File upload OpenWebUI</a></div>
         <div class="desc">Provides instructions for installing chardet using Python 3.11&#x27;s pip to ensure compatibility with the NSSM service.<br><small><a href="#./md_outputs/Fix File upload OpenWebUI.txt" style="color:var(--accent-2)">📄 View OCR Text</a></small></div>
         <div class="tags small-muted">PNG · Guides</div>
         <div class="mtime">📅 2025-11-22 18:01:13</div>
       </div>
-            </li>            <li class="file" data-path="./GROK.Ollama.on.Win11.Ultimate.Perf.Guide.md" data-link="./GROK.Ollama.on.Win11.Ultimate.Perf.Guide.md">
+            </li>            <li class="file" data-path="./GROK.Ollama.on.Win11.Ultimate.Perf.Guide.md" data-link="./GROK.Ollama.on.Win11.Ultimate.Perf.Guide.md" data-mtime="2025-11-18T01:35:49.934018">
       <div class="meta">
         <div class="title"><a href="#./GROK.Ollama.on.Win11.Ultimate.Perf.Guide.md" class="file-link">GROK.Ollama.on.Win11.Ultimate.Perf.Guide.md</a></div>
         <div class="desc">Ollama on Windows 11 – Ultimate Performance Guide for RTX 3060: drivers, CUDA, Ollama settings, quantization, monitoring and model leaderboard.</div>
         <div class="tags small-muted">MD · Guides</div>
         <div class="mtime">📅 2025-11-18 01:35:49</div>
       </div>
-            </li>            <li class="file" data-path="./Image Generation Options for Open WebUI.pdf" data-link="./Image Generation Options for Open WebUI.pdf">
+            </li>            <li class="file" data-path="./Image Generation Options for Open WebUI.pdf" data-link="./Image Generation Options for Open WebUI.pdf" data-mtime="2025-11-16T19:04:31.774265">
       <div class="meta">
         <div class="title"><a href="#./Image Generation Options for Open WebUI.pdf" class="file-link">Image Generation Options for Open WebUI</a></div>
         <div class="desc">This document outlines image generation options for Open WebUI using Ollama models and Stable Diffusion integration, detailing capabilities and limitations of each approach.<br><small><a href="#./md_outputs/Image Generation Options for Open WebUI.md" style="color:var(--accent-2)">📄 View PDF Text</a></small></div>
         <div class="tags small-muted">PDF · Guides</div>
         <div class="mtime">📅 2025-11-16 19:04:31</div>
       </div>
-            </li>            <li class="file" data-path="./LLM Recommendations for Programming and Development.pdf" data-link="./LLM Recommendations for Programming and Development.pdf">
+            </li>            <li class="file" data-path="./LLM Recommendations for Programming and Development.pdf" data-link="./LLM Recommendations for Programming and Development.pdf" data-mtime="2025-11-10T00:11:20.229064">
       <div class="meta">
         <div class="title"><a href="#./LLM Recommendations for Programming and Development.pdf" class="file-link">LLM Recommendations for Programming and Development</a></div>
         <div class="desc">The document provides recommendations for Large Language Models suitable for programming and development tasks based on their capabilities in coding, reasoning, tools usage, agentic workflows, and vision.<br><small><a href="#./md_outputs/LLM Recommendations for Programming and Development.md" style="color:var(--accent-2)">📄 View PDF Text</a></small></div>
         <div class="tags small-muted">PDF · Guides</div>
         <div class="mtime">📅 2025-11-10 00:11:20</div>
       </div>
-            </li>            <li class="file" data-path="./Managing Ollama Environment Variables in NSSM.pdf" data-link="./Managing Ollama Environment Variables in NSSM.pdf">
+            </li>            <li class="file" data-path="./Managing Ollama Environment Variables in NSSM.pdf" data-link="./Managing Ollama Environment Variables in NSSM.pdf" data-mtime="2025-11-22T17:13:09.264725">
       <div class="meta">
         <div class="title"><a href="#./Managing Ollama Environment Variables in NSSM.pdf" class="file-link">Managing Ollama Environment Variables in NSSM</a></div>
         <div class="desc">This document provides instructions on how to manage Ollama environment variables through NSSM (Non-Sucking Service Manager) for Windows Services, focusing on setting the OLLAMA_KEEP_ALIVE variable.<br><small><a href="#./md_outputs/Managing Ollama Environment Variables in NSSM.md" style="color:var(--accent-2)">📄 View PDF Text</a></small></div>
         <div class="tags small-muted">PDF · Guides</div>
         <div class="mtime">📅 2025-11-22 17:13:09</div>
       </div>
-            </li>            <li class="file" data-path="./Missing Files - Download These Now.pdf" data-link="./Missing Files - Download These Now.pdf">
+            </li>            <li class="file" data-path="./Missing Files - Download These Now.pdf" data-link="./Missing Files - Download These Now.pdf" data-mtime="2025-11-25T23:35:27.398899">
       <div class="meta">
         <div class="title"><a href="#./Missing Files - Download These Now.pdf" class="file-link">Missing Files - Download These Now</a></div>
         <div class="desc">Document provides download links and instructions for three files necessary to optimize the Flux setup: clip_l.safetensors, t5xxl_fp8_e4m3fn.safetensors, and ae.safetensors.<br><small><a href="#./md_outputs/Missing Files - Download These Now.md" style="color:var(--accent-2)">📄 View PDF Text</a></small></div>
         <div class="tags small-muted">PDF · Guides</div>
         <div class="mtime">📅 2025-11-25 23:35:27</div>
       </div>
-            </li>            <li class="file" data-path="./Models - local vs cloud.jpeg" data-link="./Models - local vs cloud.jpeg">
+            </li>            <li class="file" data-path="./Models - local vs cloud.jpeg" data-link="./Models - local vs cloud.jpeg" data-mtime="2025-11-19T11:42:56.342038">
       <div class="meta">
         <div class="title"><a href="#./Models - local vs cloud.jpeg" class="file-link">Models - local vs cloud</a></div>
         <div class="desc">The document compares the performance of local and cloud-based AI models like ChatGPT and Ollama, offering speed optimization tips for cloud use and introducing model flexibility via OpenAPI.<br><small><a href="#./md_outputs/Models - local vs cloud.txt" style="color:var(--accent-2)">📄 View OCR Text</a></small></div>
         <div class="tags small-muted">JPEG · Guides</div>
         <div class="mtime">📅 2025-11-19 11:42:56</div>
       </div>
-            </li>            <li class="file" data-path="./New RTX 3060 Setup - SETTING_UP_REAL_IMAGE_MANIPULATION_LOCAL_SERVER.md" data-link="./New RTX 3060 Setup - SETTING_UP_REAL_IMAGE_MANIPULATION_LOCAL_SERVER.md">
+            </li>            <li class="file" data-path="./New RTX 3060 Setup - SETTING_UP_REAL_IMAGE_MANIPULATION_LOCAL_SERVER.md" data-link="./New RTX 3060 Setup - SETTING_UP_REAL_IMAGE_MANIPULATION_LOCAL_SERVER.md" data-mtime="2025-11-16T23:09:46.582449">
       <div class="meta">
         <div class="title"><a href="#./New RTX 3060 Setup - SETTING_UP_REAL_IMAGE_MANIPULATION_LOCAL_SERVER.md" class="file-link">New RTX 3060 Setup - SETTING_UP_REAL_IMAGE_MANIPULATION_LOCAL_SERVER.md</a></div>
         <div class="desc">ComfyUI + Flux image pipeline step-by-step, ControlNet, workflows (background replace, restoration), and Open WebUI integration.</div>
         <div class="tags small-muted">MD · Guides</div>
         <div class="mtime">📅 2025-11-16 23:09:46</div>
       </div>
-            </li>            <li class="file" data-path="./OLLAMA_GUIDE.md" data-link="./OLLAMA_GUIDE.md">
+            </li>            <li class="file" data-path="./OLLAMA_GUIDE.md" data-link="./OLLAMA_GUIDE.md" data-mtime="2025-11-22T15:08:35.400316">
       <div class="meta">
         <div class="title"><a href="#./OLLAMA_GUIDE.md" class="file-link">OLLAMA_GUIDE</a></div>
         <div class="desc">The document outlines different Ollama models categorized by their intended use: coding, chat, and special tasks like math/reasoning or image processing, providing guidance on which model to select based on specific needs.</div>
         <div class="tags small-muted">MD · Guides</div>
         <div class="mtime">📅 2025-11-22 15:08:35</div>
       </div>
-            </li>            <li class="file" data-path="./Open WebUI Installation Guide for Windows 11.pdf" data-link="./Open WebUI Installation Guide for Windows 11.pdf">
+            </li>            <li class="file" data-path="./Open WebUI Installation Guide for Windows 11.pdf" data-link="./Open WebUI Installation Guide for Windows 11.pdf" data-mtime="2025-11-16T18:53:00.302245">
       <div class="meta">
         <div class="title"><a href="#./Open WebUI Installation Guide for Windows 11.pdf" class="file-link">Open WebUI Installation Guide for Windows 11</a></div>
         <div class="desc">This guide provides step-by-step instructions for installing Python 3.11 alongside an existing version and setting up Open WebUI on Windows 11 with remote access via Cloudflare Tunnel.<br><small><a href="#./md_outputs/Open WebUI Installation Guide for Windows 11.md" style="color:var(--accent-2)">📄 View PDF Text</a></small></div>
         <div class="tags small-muted">PDF · Guides</div>
         <div class="mtime">📅 2025-11-16 18:53:00</div>
       </div>
-            </li>            <li class="file" data-path="./Open WebUI Management Guide.pdf" data-link="./Open WebUI Management Guide.pdf">
+            </li>            <li class="file" data-path="./Open WebUI Management Guide.pdf" data-link="./Open WebUI Management Guide.pdf" data-mtime="2025-11-16T18:51:08.182925">
       <div class="meta">
         <div class="title"><a href="#./Open WebUI Management Guide.pdf" class="file-link">Open WebUI Management Guide</a></div>
         <div class="desc">This document provides instructions for managing the Open WebUI service, including installation details, management commands, and troubleshooting tips.<br><small><a href="#./md_outputs/Open WebUI Management Guide.md" style="color:var(--accent-2)">📄 View PDF Text</a></small></div>
         <div class="tags small-muted">PDF · Guides</div>
         <div class="mtime">📅 2025-11-16 18:51:08</div>
       </div>
-            </li>            <li class="file" data-path="./Prep for 3060 - in the mean time as well.docx" data-link="./Prep for 3060 - in the mean time as well.docx">
+            </li>            <li class="file" data-path="./Prep for 3060 - in the mean time as well.docx" data-link="./Prep for 3060 - in the mean time as well.docx" data-mtime="2025-11-18T22:42:20.010381">
       <div class="meta">
         <div class="title"><a href="#./Prep for 3060 - in the mean time as well.docx" class="file-link">Prep for 3060 - in the mean time as well</a></div>
         <div class="desc">Document outlines pre-existing large language models on an Ollama server and recommends models suitable for a GT 1030 GPU until a RTX 3060 upgrade.<br><small><a href="./Prep for 3060 - in the mean time as well.docx" download style="color:var(--accent-2)">📋 Download Document</a></small></div>
         <div class="tags small-muted">DOCX · Guides</div>
         <div class="mtime">📅 2025-11-18 22:42:20</div>
       </div>
-            </li>            <li class="file" data-path="./RTX 3060 Image Manipulation Setup Guide (Win11 - 2025).pdf" data-link="./RTX 3060 Image Manipulation Setup Guide (Win11 - 2025).pdf">
+            </li>            <li class="file" data-path="./RTX 3060 Image Manipulation Setup Guide (Win11 - 2025).pdf" data-link="./RTX 3060 Image Manipulation Setup Guide (Win11 - 2025).pdf" data-mtime="2025-11-25T12:44:46.879551">
       <div class="meta">
         <div class="title"><a href="#./RTX 3060 Image Manipulation Setup Guide (Win11 - 2025).pdf" class="file-link">RTX 3060 Image Manipulation Setup Guide (Win11 - 2025)</a></div>
         <div class="desc">This guide provides instructions for setting up image manipulation tools on an RTX 3060 with Windows 11, including software installation and recommended stack configuration.<br><small><a href="#./md_outputs/RTX 3060 Image Manipulation Setup Guide (Win11 - 2025).md" style="color:var(--accent-2)">📄 View PDF Text</a></small></div>
         <div class="tags small-muted">PDF · Guides</div>
         <div class="mtime">📅 2025-11-25 12:44:46</div>
       </div>
-            </li>            <li class="file" data-path="./RTX 3060 Setup Guide - Complete AI Coding Workflow.pdf" data-link="./RTX 3060 Setup Guide - Complete AI Coding Workflow.pdf">
+            </li>            <li class="file" data-path="./RTX 3060 Image Manipulation Setup Guide - (Win11 - 2025) – Complete Log - (PDF).pdf" data-link="./RTX 3060 Image Manipulation Setup Guide - (Win11 - 2025) – Complete Log - (PDF).pdf" data-mtime="2025-11-26T18:29:24.202070">
+      <div class="meta">
+        <div class="title"><a href="#./RTX 3060 Image Manipulation Setup Guide - (Win11 - 2025) – Complete Log - (PDF).pdf" class="file-link">RTX 3060 Image Manipulation Setup Guide - (Win11 - 2025) – Complete Log - (PDF)</a></div>
+        <div class="desc">This document provides a step-by-step guide for setting up image manipulation with an RTX 3060 on Windows 11, including CUDA version updates, folder structure optimization, and performance expectations.<br><small><a href="#./md_outputs/RTX 3060 Image Manipulation Setup Guide - (Win11 - 2025) – Complete Log - (PDF).md" style="color:var(--accent-2)">📄 View PDF Text</a></small></div>
+        <div class="tags small-muted">PDF · Guides</div>
+        <div class="mtime">📅 2025-11-26 18:29:24</div>
+      </div>
+            </li>            <li class="file" data-path="./RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log &amp; Lessons Learned - (Win11 - 2025) – Complete Log.docx" data-link="./RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log &amp; Lessons Learned - (Win11 - 2025) – Complete Log.docx" data-mtime="2025-11-26T18:37:15.469220">
+      <div class="meta">
+        <div class="title"><a href="#./RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log &amp; Lessons Learned - (Win11 - 2025) – Complete Log.docx" class="file-link">RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log &amp; Lessons Learned - (Win11 - 2025) – Complete Log</a></div>
+        <div class="desc">This document provides a step-by-step guide for setting up image manipulation on Windows 11 with an RTX 3060 GPU, including driver installation, software setup, and troubleshooting tips.<br><small><a href="./RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log &amp; Lessons Learned - (Win11 - 2025) – Complete Log.docx" download style="color:var(--accent-2)">📋 Download Document</a></small></div>
+        <div class="tags small-muted">DOCX · Guides</div>
+        <div class="mtime">📅 2025-11-26 18:37:15</div>
+      </div>
+            </li>            <li class="file" data-path="./RTX 3060 Setup Guide - Complete AI Coding Workflow.pdf" data-link="./RTX 3060 Setup Guide - Complete AI Coding Workflow.pdf" data-mtime="2025-11-18T08:25:56.108167">
       <div class="meta">
         <div class="title"><a href="#./RTX 3060 Setup Guide - Complete AI Coding Workflow.pdf" class="file-link">RTX 3060 Setup Guide - Complete AI Coding Workflow</a></div>
         <div class="desc">This document provides instructions for installing and setting up an RTX 3060 GPU with NVIDIA drivers on Windows 11, intended for AI coding workflows.<br><small><a href="#./md_outputs/RTX 3060 Setup Guide - Complete AI Coding Workflow.md" style="color:var(--accent-2)">📄 View PDF Text</a></small></div>
         <div class="tags small-muted">PDF · Guides</div>
         <div class="mtime">📅 2025-11-18 08:25:56</div>
       </div>
-            </li>            <li class="file" data-path="./Rtx3060 Supplemental Improvements.pdf" data-link="./Rtx3060 Supplemental Improvements.pdf">
+            </li>            <li class="file" data-path="./Rtx3060 Supplemental Improvements.pdf" data-link="./Rtx3060 Supplemental Improvements.pdf" data-mtime="2025-11-18T08:32:49.109219">
       <div class="meta">
         <div class="title"><a href="#./Rtx3060 Supplemental Improvements.pdf" class="file-link">Rtx3060 Supplemental Improvements</a></div>
         <div class="desc">This document provides a streamlined setup guide and tips for running AI coding models on an RTX 3060 GPU with Ollama and Continue CLI, emphasizing compatibility and performance considerations.<br><small><a href="#./md_outputs/Rtx3060 Supplemental Improvements.md" style="color:var(--accent-2)">📄 View PDF Text</a></small></div>
         <div class="tags small-muted">PDF · Guides</div>
         <div class="mtime">📅 2025-11-18 08:32:49</div>
       </div>
-            </li>            <li class="file" data-path="./Setting Up Real Image Manipulation on Your Local Server.pdf" data-link="./Setting Up Real Image Manipulation on Your Local Server.pdf">
+            </li>            <li class="file" data-path="./Setting Up Real Image Manipulation on Your Local Server.pdf" data-link="./Setting Up Real Image Manipulation on Your Local Server.pdf" data-mtime="2025-11-16T23:09:46.588791">
       <div class="meta">
         <div class="title"><a href="#./Setting Up Real Image Manipulation on Your Local Server.pdf" class="file-link">Setting Up Real Image Manipulation on Your Local Server</a></div>
         <div class="desc">This document provides instructions for setting up advanced image manipulation tools on Windows 11 using ComfyUI and the RTX 3060 GPU.<br><small><a href="#./md_outputs/Setting Up Real Image Manipulation on Your Local Server.md" style="color:var(--accent-2)">📄 View PDF Text</a></small></div>
         <div class="tags small-muted">PDF · Guides</div>
         <div class="mtime">📅 2025-11-16 23:09:46</div>
       </div>
-            </li>            <li class="file" data-path="./Using 1040 until 3060 Gets Here.txt" data-link="./Using 1040 until 3060 Gets Here.txt">
+            </li>            <li class="file" data-path="./Using 1040 until 3060 Gets Here.txt" data-link="./Using 1040 until 3060 Gets Here.txt" data-mtime="2025-11-19T00:23:19.428740">
       <div class="meta">
         <div class="title"><a href="#./Using 1040 until 3060 Gets Here.txt" class="file-link">Using 1040 until 3060 Gets Here</a></div>
         <div class="desc">Tactical guidance and default model choices while on CPU / GTX 1040, with suggested timeouts and quick model picks.</div>
         <div class="tags small-muted">TXT · Guides</div>
         <div class="mtime">📅 2025-11-19 00:23:19</div>
       </div>
-            </li>            <li class="file" data-path="./aichat not working.png" data-link="./aichat not working.png">
+            </li>            <li class="file" data-path="./aichat not working.png" data-link="./aichat not working.png" data-mtime="2025-11-19T15:01:04.172607">
       <div class="meta">
         <div class="title"><a href="#./aichat not working.png" class="file-link">aichat not working</a></div>
         <div class="desc">The document outlines the setup and usage instructions for configuring AI Chat using Ollama with specific LLM models.<br><small><a href="#./md_outputs/aichat not working.txt" style="color:var(--accent-2)">📄 View OCR Text</a></small></div>
         <div class="tags small-muted">PNG · Guides</div>
         <div class="mtime">📅 2025-11-19 15:01:04</div>
       </div>
-            </li>            <li class="file" data-path="./index.html" data-link="./index.html">
+            </li>            <li class="file" data-path="./index.html" data-link="./index.html" data-mtime="2025-11-25T23:41:41.439149">
       <div class="meta">
         <div class="title"><a href="#./index.html" class="file-link">index</a></div>
-        <div class="desc">An HTML document serving as an index page for project documentation with styling and layout for navigation elements like headers, sidebar, search bar, and file listings.</div>
+        <div class="desc">An HTML document serving as an index page for project documentation, featuring a styled sidebar with categories and files list.</div>
         <div class="tags small-muted">HTML · Guides</div>
-        <div class="mtime">📅 2025-11-25 12:46:04</div>
+        <div class="mtime">📅 2025-11-25 23:41:41</div>
       </div>
-            </li>            <li class="file" data-path="./what does local api server mean.png" data-link="./what does local api server mean.png">
+            </li>            <li class="file" data-path="./what does local api server mean.png" data-link="./what does local api server mean.png" data-mtime="2025-11-19T15:35:25.726449">
       <div class="meta">
         <div class="title"><a href="#./what does local api server mean.png" class="file-link">what does local api server mean</a></div>
         <div class="desc">The document describes how to start a local HTTP server exposing OpenAL-compatible APIs for LLMs using &#x27;aichat&#x27; configurations.<br><small><a href="#./md_outputs/what does local api server mean.txt" style="color:var(--accent-2)">📄 View OCR Text</a></small></div>
@@ -801,77 +892,77 @@ SCRIPTS_DIR = Path(__file__).parent.parent
       <section class="category" data-category="QuickRefs">
         <h2>QuickRefs</h2>
         <ul class="files">
-            <li class="file" data-path="./Doc_INDEX_Version6.md" data-link="./Doc_INDEX_Version6.md">
+            <li class="file" data-path="./Doc_INDEX_Version6.md" data-link="./Doc_INDEX_Version6.md" data-mtime="2025-11-19T00:23:19.434865">
       <div class="meta">
         <div class="title"><a href="#./Doc_INDEX_Version6.md" class="file-link">Doc_INDEX_Version6</a></div>
         <div class="desc">Curated toc</div>
         <div class="tags small-muted">MD · QuickRefs</div>
         <div class="mtime">📅 2025-11-19 00:23:19</div>
       </div>
-            </li>            <li class="file" data-path="./LLM Infrastructure Cheat Sheet (Updated).pdf" data-link="./LLM Infrastructure Cheat Sheet (Updated).pdf">
+            </li>            <li class="file" data-path="./LLM Infrastructure Cheat Sheet (Updated).pdf" data-link="./LLM Infrastructure Cheat Sheet (Updated).pdf" data-mtime="2025-11-12T01:24:03.659621">
       <div class="meta">
         <div class="title"><a href="#./LLM Infrastructure Cheat Sheet (Updated).pdf" class="file-link">LLM Infrastructure Cheat Sheet (Updated)</a></div>
         <div class="desc">This document provides an overview of 20 large language model (LLM) options available on the Ollama server, categorized by access method and primary strength.<br><small><a href="#./md_outputs/LLM Infrastructure Cheat Sheet (Updated).md" style="color:var(--accent-2)">📄 View PDF Text</a></small></div>
         <div class="tags small-muted">PDF · QuickRefs</div>
         <div class="mtime">📅 2025-11-12 01:24:03</div>
       </div>
-            </li>            <li class="file" data-path="./LLM Infrastructure Cheat Sheet_old.pdf" data-link="./LLM Infrastructure Cheat Sheet_old.pdf">
+            </li>            <li class="file" data-path="./LLM Infrastructure Cheat Sheet_old.pdf" data-link="./LLM Infrastructure Cheat Sheet_old.pdf" data-mtime="2025-11-11T02:07:29.296672">
       <div class="meta">
         <div class="title"><a href="#./LLM Infrastructure Cheat Sheet_old.pdf" class="file-link">LLM Infrastructure Cheat Sheet_old</a></div>
         <div class="desc">This document provides an overview of the 15 large language models available on Ollama server, detailing their performance characteristics and use cases based on access method (Cloud or Local).<br><small><a href="#./md_outputs/LLM Infrastructure Cheat Sheet_old.md" style="color:var(--accent-2)">📄 View PDF Text</a></small></div>
         <div class="tags small-muted">PDF · QuickRefs</div>
         <div class="mtime">📅 2025-11-11 02:07:29</div>
       </div>
-            </li>            <li class="file" data-path="./LLM QUICK SELECTION GUIDE.txt" data-link="./LLM QUICK SELECTION GUIDE.txt">
+            </li>            <li class="file" data-path="./LLM QUICK SELECTION GUIDE.txt" data-link="./LLM QUICK SELECTION GUIDE.txt" data-mtime="2025-11-18T01:35:49.929203">
       <div class="meta">
         <div class="title"><a href="#./LLM QUICK SELECTION GUIDE.txt" class="file-link">LLM QUICK SELECTION GUIDE.txt</a></div>
         <div class="desc">Quick model-selection cheat sheet: what model to use for reasoning, coding, vision, or speed.</div>
         <div class="tags small-muted">TXT · QuickRefs</div>
         <div class="mtime">📅 2025-11-18 01:35:49</div>
       </div>
-            </li>            <li class="file" data-path="./Need more info on Tool Use.png" data-link="./Need more info on Tool Use.png">
+            </li>            <li class="file" data-path="./Need more info on Tool Use.png" data-link="./Need more info on Tool Use.png" data-mtime="2025-11-19T15:47:11.576201">
       <div class="meta">
         <div class="title"><a href="#./Need more info on Tool Use.png" class="file-link">Need more info on Tool Use</a></div>
         <div class="desc">The document appears to be an OCR extraction of text related to tool use and kenobservers for tools.<br><small><a href="#./md_outputs/Need more info on Tool Use.txt" style="color:var(--accent-2)">📄 View OCR Text</a></small></div>
         <div class="tags small-muted">PNG · QuickRefs</div>
         <div class="mtime">📅 2025-11-19 15:47:11</div>
       </div>
-            </li>            <li class="file" data-path="./Ollama CLI Help.txt" data-link="./Ollama CLI Help.txt">
+            </li>            <li class="file" data-path="./Ollama CLI Help.txt" data-link="./Ollama CLI Help.txt" data-mtime="2025-11-19T03:03:28.015349">
       <div class="meta">
         <div class="title"><a href="#./Ollama CLI Help.txt" class="file-link">Ollama CLI Help</a></div>
         <div class="desc">This document provides usage instructions and available commands for the Ollama CLI tool, which manages large language models including creation, running, stopping, pulling, pushing, listing, copying, removing, signing in/out, and displaying help.</div>
         <div class="tags small-muted">TXT · QuickRefs</div>
         <div class="mtime">📅 2025-11-19 03:03:28</div>
       </div>
-            </li>            <li class="file" data-path="./Ollama Download Commands for Recommended LLMs.pdf" data-link="./Ollama Download Commands for Recommended LLMs.pdf">
+            </li>            <li class="file" data-path="./Ollama Download Commands for Recommended LLMs.pdf" data-link="./Ollama Download Commands for Recommended LLMs.pdf" data-mtime="2025-11-10T00:11:20.229343">
       <div class="meta">
         <div class="title"><a href="#./Ollama Download Commands for Recommended LLMs.pdf" class="file-link">Ollama Download Commands for Recommended LLMs</a></div>
         <div class="desc">This document provides ollama run commands for downloading recommended large language models (LLMs) categorized by their primary use cases such as programming tasks and general conversation.<br><small><a href="#./md_outputs/Ollama Download Commands for Recommended LLMs.md" style="color:var(--accent-2)">📄 View PDF Text</a></small></div>
         <div class="tags small-muted">PDF · QuickRefs</div>
         <div class="mtime">📅 2025-11-10 00:11:20</div>
       </div>
-            </li>            <li class="file" data-path="./Ollama Model Cheat Sheet (Local LLMs) pdf version.pdf" data-link="./Ollama Model Cheat Sheet (Local LLMs) pdf version.pdf">
+            </li>            <li class="file" data-path="./Ollama Model Cheat Sheet (Local LLMs) pdf version.pdf" data-link="./Ollama Model Cheat Sheet (Local LLMs) pdf version.pdf" data-mtime="2025-11-21T23:43:14.213875">
       <div class="meta">
         <div class="title"><a href="#./Ollama Model Cheat Sheet (Local LLMs) pdf version.pdf" class="file-link">Ollama Model Cheat Sheet (Local LLMs) pdf version</a></div>
         <div class="desc">This document provides a cheat sheet for local Large Language Models (LLMs) with details on model sizes, VRAM requirements, context windows, speed, and primary uses, aiding in selection based on specific needs.<br><small><a href="#./md_outputs/Ollama Model Cheat Sheet (Local LLMs) pdf version.md" style="color:var(--accent-2)">📄 View PDF Text</a></small></div>
         <div class="tags small-muted">PDF · QuickRefs</div>
         <div class="mtime">📅 2025-11-21 23:43:14</div>
       </div>
-            </li>            <li class="file" data-path="./Quantization &amp; Context Tokens — A One‑Page Practical Guide.md" data-link="./Quantization &amp; Context Tokens — A One‑Page Practical Guide.md">
+            </li>            <li class="file" data-path="./Quantization &amp; Context Tokens — A One‑Page Practical Guide.md" data-link="./Quantization &amp; Context Tokens — A One‑Page Practical Guide.md" data-mtime="2025-11-18T22:42:20.002924">
       <div class="meta">
         <div class="title"><a href="#./Quantization &amp; Context Tokens — A One‑Page Practical Guide.md" class="file-link">Quantization &amp; Context Tokens — A One‑Page Practical Guide.md</a></div>
         <div class="desc">Token heuristics and practical summary of quantization labels (Q4_K_M, Q4_0, BF16, FP8). Good cheat-sheet for offline decisions.</div>
         <div class="tags small-muted">MD · QuickRefs</div>
         <div class="mtime">📅 2025-11-18 22:42:20</div>
       </div>
-            </li>            <li class="file" data-path="./Quantization and Context Tokens — One‑Page Guide.html" data-link="./Quantization and Context Tokens — One‑Page Guide.html">
+            </li>            <li class="file" data-path="./Quantization and Context Tokens — One‑Page Guide.html" data-link="./Quantization and Context Tokens — One‑Page Guide.html" data-mtime="2025-11-18T22:42:20.003273">
       <div class="meta">
         <div class="title"><a href="#./Quantization and Context Tokens — One‑Page Guide.html" class="file-link">Quantization and Context Tokens — One‑Page Guide.html</a></div>
         <div class="desc">HTML view of the one-page guide (open in browser for nicely formatted view).</div>
         <div class="tags small-muted">HTML · QuickRefs</div>
         <div class="mtime">📅 2025-11-18 22:42:20</div>
       </div>
-            </li>            <li class="file" data-path="./what is a tool enabled prompt.png" data-link="./what is a tool enabled prompt.png">
+            </li>            <li class="file" data-path="./what is a tool enabled prompt.png" data-link="./what is a tool enabled prompt.png" data-mtime="2025-11-19T14:49:24.636771">
       <div class="meta">
         <div class="title"><a href="#./what is a tool enabled prompt.png" class="file-link">what is a tool enabled prompt</a></div>
         <div class="desc">The document provides quick command usage for various Ollama models and suggests changes when using the RTX 3tablet PCs; it appears to be aimed at facilitating accessibility of language AI tools.<br><small><a href="#./md_outputs/what is a tool enabled prompt.txt" style="color:var(--accent-2)">📄 View OCR Text</a></small></div>
@@ -885,105 +976,112 @@ SCRIPTS_DIR = Path(__file__).parent.parent
       <section class="category" data-category="Models">
         <h2>Models</h2>
         <ul class="files">
-            <li class="file" data-path="./GROK.recommended.llms.w.RTX.3060.txt" data-link="./GROK.recommended.llms.w.RTX.3060.txt">
+            <li class="file" data-path="./Acer Specs.txt" data-link="./Acer Specs.txt" data-mtime="2025-11-26T08:53:21">
+      <div class="meta">
+        <div class="title"><a href="#./Acer Specs.txt" class="file-link">Acer Specs</a></div>
+        <div class="desc">This document provides technical specifications for the Acer Aspire TC-885 system model, focusing on its processor details.</div>
+        <div class="tags small-muted">TXT · Models</div>
+        <div class="mtime">📅 2025-11-26 08:53:21</div>
+      </div>
+            </li>            <li class="file" data-path="./GROK.recommended.llms.w.RTX.3060.txt" data-link="./GROK.recommended.llms.w.RTX.3060.txt" data-mtime="2025-11-16T14:46:25.322289">
       <div class="meta">
         <div class="title"><a href="#./GROK.recommended.llms.w.RTX.3060.txt" class="file-link">GROK.recommended.llms.w.RTX.3060.txt</a></div>
         <div class="desc">Recommended pulls and priority list for RTX 3060 12GB; includes one-line commands to pull recommended models.</div>
         <div class="tags small-muted">TXT · Models</div>
         <div class="mtime">📅 2025-11-16 14:46:25</div>
       </div>
-            </li>            <li class="file" data-path="./GROK.recommended.nano.banana.replacement.txt" data-link="./GROK.recommended.nano.banana.replacement.txt">
+            </li>            <li class="file" data-path="./GROK.recommended.nano.banana.replacement.txt" data-link="./GROK.recommended.nano.banana.replacement.txt" data-mtime="2025-11-16T14:46:06.646882">
       <div class="meta">
         <div class="title"><a href="#./GROK.recommended.nano.banana.replacement.txt" class="file-link">GROK.recommended.nano.banana.replacement.txt</a></div>
         <div class="desc">Image-focused recommendations: ComfyUI + Flux (FP8) and the best local tools for image restoration/editing.</div>
         <div class="tags small-muted">TXT · Models</div>
         <div class="mtime">📅 2025-11-16 14:46:06</div>
       </div>
-            </li>            <li class="file" data-path="./MODELS_recommendations_by_claude.md" data-link="./MODELS_recommendations_by_claude.md">
+            </li>            <li class="file" data-path="./MODELS_recommendations_by_claude.md" data-link="./MODELS_recommendations_by_claude.md" data-mtime="2025-11-22T15:03:33.061419">
       <div class="meta">
         <div class="title"><a href="#./MODELS_recommendations_by_claude.md" class="file-link">MODELS_recommendations_by_claude</a></div>
         <div class="desc">This document outlines the removal of less efficient models and recommends an optimized lineup of high-quality coding, chat, and specialized AI models for enhanced performance.</div>
         <div class="tags small-muted">MD · Models</div>
         <div class="mtime">📅 2025-11-22 15:03:33</div>
       </div>
-            </li>            <li class="file" data-path="./MODELS_recommendations_by_claude_summary.txt" data-link="./MODELS_recommendations_by_claude_summary.txt">
+            </li>            <li class="file" data-path="./MODELS_recommendations_by_claude_summary.txt" data-link="./MODELS_recommendations_by_claude_summary.txt" data-mtime="2025-11-22T15:06:34.083045">
       <div class="meta">
         <div class="title"><a href="#./MODELS_recommendations_by_claude_summary.txt" class="file-link">MODELS_recommendations_by_claude_summary</a></div>
         <div class="desc">The document lists AI models categorized for coding, chat, and specialized tasks like math and image analysis, providing recommendations based on their strengths.</div>
         <div class="tags small-muted">TXT · Models</div>
         <div class="mtime">📅 2025-11-22 15:06:34</div>
       </div>
-            </li>            <li class="file" data-path="./Models.txt" data-link="./Models.txt">
+            </li>            <li class="file" data-path="./Models.txt" data-link="./Models.txt" data-mtime="2025-11-22T12:27:15.464196">
       <div class="meta">
         <div class="title"><a href="#./Models.txt" class="file-link">Models</a></div>
         <div class="desc">A list of AI model names, IDs, sizes, and modification times, providing an overview of available models in a repository or system.</div>
         <div class="tags small-muted">TXT · Models</div>
         <div class="mtime">📅 2025-11-22 12:27:15</div>
       </div>
-            </li>            <li class="file" data-path="./Models - fast autocomplete.jpeg" data-link="./Models - fast autocomplete.jpeg">
+            </li>            <li class="file" data-path="./Models - fast autocomplete.jpeg" data-link="./Models - fast autocomplete.jpeg" data-mtime="2025-11-19T11:42:56.340456">
       <div class="meta">
         <div class="title"><a href="#./Models - fast autocomplete.jpeg" class="file-link">Models - fast autocomplete</a></div>
         <div class="desc">Document lists model configurations for fast autocomplete and heavy reasoning tasks with example setups.<br><small><a href="#./md_outputs/Models - fast autocomplete.txt" style="color:var(--accent-2)">📄 View OCR Text</a></small></div>
         <div class="tags small-muted">JPEG · Models</div>
         <div class="mtime">📅 2025-11-19 11:42:56</div>
       </div>
-            </li>            <li class="file" data-path="./Models - inline coding.jpeg" data-link="./Models - inline coding.jpeg">
+            </li>            <li class="file" data-path="./Models - inline coding.jpeg" data-link="./Models - inline coding.jpeg" data-mtime="2025-11-19T11:42:56.339209">
       <div class="meta">
         <div class="title"><a href="#./Models - inline coding.jpeg" class="file-link">Models - inline coding</a></div>
         <div class="desc">The document lists recommended models for inline coding and provides an installation example using qwen2.5-coder.<br><small><a href="#./md_outputs/Models - inline coding.txt" style="color:var(--accent-2)">📄 View OCR Text</a></small></div>
         <div class="tags small-muted">JPEG · Models</div>
         <div class="mtime">📅 2025-11-19 11:42:56</div>
       </div>
-            </li>            <li class="file" data-path="./Models - recommendation for programming.png" data-link="./Models - recommendation for programming.png">
+            </li>            <li class="file" data-path="./Models - recommendation for programming.png" data-link="./Models - recommendation for programming.png" data-mtime="2025-11-22T18:41:13.648649">
       <div class="meta">
         <div class="title"><a href="#./Models - recommendation for programming.png" class="file-link">Models - recommendation for programming</a></div>
         <div class="desc">Document provides recommendations for programming models based on system configuration, emphasizing qwen2.5:14b for efficiency and codestral:22b for accuracy in complex tasks.<br><small><a href="#./md_outputs/Models - recommendation for programming.txt" style="color:var(--accent-2)">📄 View OCR Text</a></small></div>
         <div class="tags small-muted">PNG · Models</div>
         <div class="mtime">📅 2025-11-22 18:41:13</div>
       </div>
-            </li>            <li class="file" data-path="./Models for Python coding.docx" data-link="./Models for Python coding.docx">
+            </li>            <li class="file" data-path="./Models for Python coding.docx" data-link="./Models for Python coding.docx" data-mtime="2025-11-21T18:35:59.697177">
       <div class="meta">
         <div class="title"><a href="#./Models for Python coding.docx" class="file-link">Models for Python coding</a></div>
         <div class="desc">The document ranks various AI models for Python coding tasks based on code quality, debugging ability, and feature addition efficiency.<br><small><a href="./Models for Python coding.docx" download style="color:var(--accent-2)">📋 Download Document</a></small></div>
         <div class="tags small-muted">DOCX · Models</div>
         <div class="mtime">📅 2025-11-21 18:35:59</div>
       </div>
-            </li>            <li class="file" data-path="./Ollama Models as of 2025 11 18.txt" data-link="./Ollama Models as of 2025 11 18.txt">
+            </li>            <li class="file" data-path="./Ollama Models as of 2025 11 18.txt" data-link="./Ollama Models as of 2025 11 18.txt" data-mtime="2025-11-19T00:23:19.428365">
       <div class="meta">
         <div class="title"><a href="#./Ollama Models as of 2025 11 18.txt" class="file-link">Ollama Models as of 2025 11 18</a></div>
         <div class="desc">Model-by-model essentials, suggested defaults, and quantization notes — guidance for what to keep and what to pull for the 3060.</div>
         <div class="tags small-muted">TXT · Models</div>
         <div class="mtime">📅 2025-11-19 00:23:19</div>
       </div>
-            </li>            <li class="file" data-path="./image descriptions.txt" data-link="./image descriptions.txt">
+            </li>            <li class="file" data-path="./image descriptions.txt" data-link="./image descriptions.txt" data-mtime="2025-11-19T11:42:56.331165">
       <div class="meta">
         <div class="title"><a href="#./image descriptions.txt" class="file-link">image descriptions</a></div>
         <div class="desc">The document provides summaries for three images detailing the best open-source coding models and their configurations or usage tips.</div>
         <div class="tags small-muted">TXT · Models</div>
         <div class="mtime">📅 2025-11-19 11:42:56</div>
       </div>
-            </li>            <li class="file" data-path="./ollama show model batch file.txt" data-link="./ollama show model batch file.txt">
+            </li>            <li class="file" data-path="./ollama show model batch file.txt" data-link="./ollama show model batch file.txt" data-mtime="2025-11-19T00:23:19.428908">
       <div class="meta">
         <div class="title"><a href="#./ollama show model batch file.txt" class="file-link">ollama show model batch file</a></div>
         <div class="desc">Document lists various Ollama models for text-based tasks such as coding assistance and language understanding.</div>
         <div class="tags small-muted">TXT · Models</div>
         <div class="mtime">📅 2025-11-19 00:23:19</div>
       </div>
-            </li>            <li class="file" data-path="./ollama website list - LLM.txt" data-link="./ollama website list - LLM.txt">
+            </li>            <li class="file" data-path="./ollama website list - LLM.txt" data-link="./ollama website list - LLM.txt" data-mtime="2025-11-18T01:35:49.929510">
       <div class="meta">
         <div class="title"><a href="#./ollama website list - LLM.txt" class="file-link">ollama website list - LLM.txt</a></div>
         <div class="desc">Catalog of model families, sizes and short descriptions to inform pull decisions.</div>
         <div class="tags small-muted">TXT · Models</div>
         <div class="mtime">📅 2025-11-18 01:35:49</div>
       </div>
-            </li>            <li class="file" data-path="./ollama-ls.txt" data-link="./ollama-ls.txt">
+            </li>            <li class="file" data-path="./ollama-ls.txt" data-link="./ollama-ls.txt" data-mtime="2025-11-18T22:42:20.013557">
       <div class="meta">
         <div class="title"><a href="#./ollama-ls.txt" class="file-link">ollama-ls.txt</a></div>
         <div class="desc">Raw output of `ollama ls` showing installed models and sizes (useful for cleanup planning).</div>
         <div class="tags small-muted">TXT · Models</div>
         <div class="mtime">📅 2025-11-18 22:42:20</div>
       </div>
-            </li>            <li class="file" data-path="./ollama-show-out.txt" data-link="./ollama-show-out.txt">
+            </li>            <li class="file" data-path="./ollama-show-out.txt" data-link="./ollama-show-out.txt" data-mtime="2025-11-18T22:42:20.014077">
       <div class="meta">
         <div class="title"><a href="#./ollama-show-out.txt" class="file-link">ollama-show-out.txt</a></div>
         <div class="desc">Collected `ollama show` output for many models with quantization, context lengths and capabilities listed.</div>
@@ -997,21 +1095,21 @@ SCRIPTS_DIR = Path(__file__).parent.parent
       <section class="category" data-category="Workflows">
         <h2>Workflows</h2>
         <ul class="files">
-            <li class="file" data-path="./DMS System - sample_run.txt" data-link="./DMS System - sample_run.txt">
+            <li class="file" data-path="./DMS System - sample_run.txt" data-link="./DMS System - sample_run.txt" data-mtime="2025-11-20T07:51:27.647507">
       <div class="meta">
         <div class="title"><a href="#./DMS System - sample_run.txt" class="file-link">DMS System - sample_run</a></div>
         <div class="desc">This document contains the command-line output and usage instructions for DMS System, an AI-driven document management tool that can scan, process images, generate summaries, review changes, apply modifications, initialize directories, and show status.</div>
         <div class="tags small-muted">TXT · Workflows</div>
         <div class="mtime">📅 2025-11-20 07:51:27</div>
       </div>
-            </li>            <li class="file" data-path="./Day of rtx3040 models.png" data-link="./Day of rtx3040 models.png">
+            </li>            <li class="file" data-path="./Day of rtx3040 models.png" data-link="./Day of rtx3040 models.png" data-mtime="2025-11-19T15:07:46.594118">
       <div class="meta">
         <div class="title"><a href="#./Day of rtx3040 models.png" class="file-link">Day of rtx3040 models</a></div>
         <div class="desc">This document outlines steps for utilizing RTX3040 GPUs in model download and testing tasks using ollama on Windows 11.<br><small><a href="#./md_outputs/Day of rtx3040 models.txt" style="color:var(--accent-2)">📄 View OCR Text</a></small></div>
         <div class="tags small-muted">PNG · Workflows</div>
         <div class="mtime">📅 2025-11-19 15:07:46</div>
       </div>
-            </li>            <li class="file" data-path="./OpenWebUI — Task Scheduler CLI Reference.txt" data-link="./OpenWebUI — Task Scheduler CLI Reference.txt">
+            </li>            <li class="file" data-path="./OpenWebUI — Task Scheduler CLI Reference.txt" data-link="./OpenWebUI — Task Scheduler CLI Reference.txt" data-mtime="2025-11-18T01:35:49.929377">
       <div class="meta">
         <div class="title"><a href="#./OpenWebUI — Task Scheduler CLI Reference.txt" class="file-link">OpenWebUI — Task Scheduler CLI Reference.txt</a></div>
         <div class="desc">Run OpenWebUI via Task Scheduler at startup (SYSTEM): run script sample, schtasks commands, and logging/debugging tips.</div>
@@ -1025,19 +1123,33 @@ SCRIPTS_DIR = Path(__file__).parent.parent
       <section class="category" data-category="Scripts">
         <h2>Scripts</h2>
         <ul class="files">
-            <li class="file" data-path="./What to Try Next.txt" data-link="./What to Try Next.txt">
+            <li class="file" data-path="./What to Try Next.txt" data-link="./What to Try Next.txt" data-mtime="2025-11-10T18:33:48.810335">
       <div class="meta">
         <div class="title"><a href="#./What to Try Next.txt" class="file-link">What to Try Next.txt</a></div>
         <div class="desc">Short list of experiments and models to try next using your local setup.</div>
         <div class="tags small-muted">TXT · Scripts</div>
         <div class="mtime">📅 2025-11-10 18:33:48</div>
       </div>
-            </li>            <li class="file" data-path="./ollama-show.bat" data-link="./ollama-show.bat">
+            </li>            <li class="file" data-path="./ollama-show.bat" data-link="./ollama-show.bat" data-mtime="2025-11-18T22:42:20.014192">
       <div class="meta">
         <div class="title"><a href="#./ollama-show.bat" class="file-link">ollama-show.bat</a></div>
         <div class="desc">Windows batch to run a set of `ollama show` commands quickly.</div>
         <div class="tags small-muted">BAT · Scripts</div>
         <div class="mtime">📅 2025-11-18 22:42:20</div>
+      </div>
+            </li>
+        </ul>
+      </section>
+
+      <section class="category" data-category="Troubleshooting">
+        <h2>Troubleshooting</h2>
+        <ul class="files">
+            <li class="file" data-path="./RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log &amp; Lessons Learned - (Win11 - 2025) – Complete Log - Last Run.txt" data-link="./RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log &amp; Lessons Learned - (Win11 - 2025) – Complete Log - Last Run.txt" data-mtime="2025-11-26T14:35:21">
+      <div class="meta">
+        <div class="title"><a href="#./RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log &amp; Lessons Learned - (Win11 - 2025) – Complete Log - Last Run.txt" class="file-link">RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log &amp; Lessons Learned - (Win11 - 2025) – Complete Log - Last Run</a></div>
+        <div class="desc">A troubleshooting log detailing the execution of an image manipulation prompt using RTX 3060 with Flux-schnell-fast-workflow on Windows 11, highlighting performance and resource usage.</div>
+        <div class="tags small-muted">TXT · Troubleshooting</div>
+        <div class="mtime">📅 2025-11-26 14:35:21</div>
       </div>
             </li>
         </ul>
@@ -1062,11 +1174,14 @@ SCRIPTS_DIR = Path(__file__).parent.parent
 
   <script>
     const searchInput = document.getElementById('searchInput');
+    const sortBtn = document.getElementById('sortBtn');
     const resultCount = document.getElementById('resultCount');
     const viewerTitle = document.getElementById('viewerTitle');
     const mdViewer = document.getElementById('mdViewer');
     const rawViewer = document.getElementById('rawViewer');
     const pdfViewer = document.getElementById('pdfViewer');
+    
+    let sortByDate = false;
 
     function extOf(path) {
       const ext = path.split('.').pop()?.toLowerCase() || '';
@@ -1175,23 +1290,42 @@ SCRIPTS_DIR = Path(__file__).parent.parent
     function filterFiles(q){
       q = (q||'').toLowerCase().trim();
       const files = document.querySelectorAll('li.file');
-      let visible = 0;
+      let visible = [];
       files.forEach(li=>{
         const title = li.querySelector('.title').innerText.toLowerCase();
         const desc = li.querySelector('.desc').innerText.toLowerCase();
         const tags = li.querySelector('.tags').innerText.toLowerCase();
         if(!q || title.includes(q) || desc.includes(q) || tags.includes(q)){
           li.style.display = '';
-          visible++;
+          visible.push({el: li, mtime: li.dataset.mtime || ''});
         } else {
           li.style.display = 'none';
         }
       });
-      resultCount.textContent = visible ? `${visible} shown` : 'no results';
+      
+      if(sortByDate){
+        visible.sort((a,b)=>{
+          if(!a.mtime || !b.mtime) return 0;
+          return new Date(b.mtime) - new Date(a.mtime);
+        });
+        
+        visible.forEach(item=>{
+          item.el.parentElement.appendChild(item.el);
+        });
+      }
+      
+      resultCount.textContent = visible.length ? `${visible.length} shown` : 'no results';
     }
 
     searchInput.addEventListener('input', (e)=>{
       filterFiles(e.target.value);
+    });
+
+    sortBtn.addEventListener('click', ()=>{
+      sortByDate = !sortByDate;
+      sortBtn.classList.toggle('active', sortByDate);
+      sortBtn.textContent = sortByDate ? '📅 Oldest' : '📅 Newest';
+      filterFiles(searchInput.value);
     });
 
     window.addEventListener('load', ()=>{

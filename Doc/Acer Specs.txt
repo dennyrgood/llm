@@ -1,0 +1,6 @@
+Acer
+
+System Model	Aspire TC-885
+
+
+Processor	Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz, 2808 Mhz, 6 Core(s), 6 Logical Processor(s)

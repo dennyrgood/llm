@@ -1,7 +1,7 @@
 {
   "metadata": {
     "last_scan": "2025-11-20T07:48:20.618243",
-    "last_apply": "2025-11-25T23:41:41.407842",
+    "last_apply": "2025-11-26T18:40:06.988861",
     "migrated_from_embedded": true,
     "migration_date": "2025-11-20T11:45:24.485598"
   },
@@ -11,7 +11,8 @@
     "Models",
     "Workflows",
     "Scripts",
-    "Junk"
+    "Junk",
+    "Troubleshooting"
   ],
   "documents": {
     "./GROK.Ollama.on.Win11.Ultimate.Perf.Guide.md": {
@@ -179,11 +180,11 @@
     "./index.html": {
       "hash": "",
       "category": "Guides",
-      "summary": "An HTML document serving as an index page for project documentation with styling and layout for navigation elements like headers, sidebar, search bar, and file listings.",
+      "summary": "An HTML document serving as an index page for project documentation, featuring a styled sidebar with categories and files list.",
       "summary_approved": true,
       "title": "index",
-      "last_processed": "2025-11-25T23:41:41.407824",
-      "file_mtime": "2025-11-25T12:46:04.564009"
+      "last_processed": "2025-11-26T18:40:06.988841",
+      "file_mtime": "2025-11-25T23:41:41.439149"
     },
     "./ollama show model batch file.txt": {
       "hash": "sha256:c8e985fd58669b089bbe8387ec47c4eaffb71ff13a6fa710118ddcb8a11f4b78",
@@ -527,6 +528,64 @@
       "last_processed": "2025-11-25T23:41:41.407807",
       "file_mtime": "2025-11-25T23:25:02.109883",
       "readable_version": "./md_outputs/ComfyUI Explained - Understanding the Basics.md"
+    },
+    "./RTX 3060 Image Manipulation Setup Guide - (Win11 - 2025) \u2013 Complete Log - (PDF).pdf": {
+      "hash": "sha256:f1a9a0bc420d270338e232044447945c7087c8fb50f07aaa1c72b649c3082839",
+      "category": "Guides",
+      "summary": "This document provides a step-by-step guide for setting up image manipulation with an RTX 3060 on Windows 11, including CUDA version updates, folder structure optimization, and performance expectations.",
+      "summary_approved": true,
+      "title": "RTX 3060 Image Manipulation Setup Guide - (Win11 - 2025) \u2013 Complete Log - (PDF)",
+      "last_processed": "2025-11-26T18:40:06.988708",
+      "file_mtime": "2025-11-26T18:29:24.202070",
+      "readable_version": "./md_outputs/RTX 3060 Image Manipulation Setup Guide - (Win11 - 2025) \u2013 Complete Log - (PDF).md"
+    },
+    "./RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log & Lessons Learned - (Win11 - 2025) \u2013 Complete Log - Last Run.txt": {
+      "hash": "sha256:a3f097eff8e5906368016ce7604a52700896176450a89ccee3008a6d6633e674",
+      "category": "Troubleshooting",
+      "summary": "A troubleshooting log detailing the execution of an image manipulation prompt using RTX 3060 with Flux-schnell-fast-workflow on Windows 11, highlighting performance and resource usage.",
+      "summary_approved": true,
+      "title": "RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log & Lessons Learned - (Win11 - 2025) \u2013 Complete Log - Last Run",
+      "last_processed": "2025-11-26T18:40:06.988740",
+      "file_mtime": "2025-11-26T14:35:21"
+    },
+    "./FLUX Optimazation.docx": {
+      "hash": "sha256:1eb04aa07f5910627301beef492be604d1a4c4f753697f659e000bd5e77b245e",
+      "category": "Guides",
+      "summary": "The document analyzes the performance of the FP8 quantized FLUX model in ComfyUI on an RTX 3060 and provides optimization suggestions.",
+      "summary_approved": true,
+      "title": "FLUX Optimazation",
+      "last_processed": "2025-11-26T18:40:06.988770",
+      "file_mtime": "2025-11-26T00:41:46.131720",
+      "readable_version": "./md_outputs/FLUX Optimazation.md"
+    },
+    "./RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log & Lessons Learned - (Win11 - 2025) \u2013 Complete Log.docx": {
+      "hash": "sha256:7c2e3c063a5d582d1deb71f41d53db114303df81110c6cc38c66f482c9c2faa8",
+      "category": "Guides",
+      "summary": "This document provides a step-by-step guide for setting up image manipulation on Windows 11 with an RTX 3060 GPU, including driver installation, software setup, and troubleshooting tips.",
+      "summary_approved": true,
+      "title": "RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log & Lessons Learned - (Win11 - 2025) \u2013 Complete Log",
+      "last_processed": "2025-11-26T18:40:06.988789",
+      "file_mtime": "2025-11-26T18:37:15.469220",
+      "readable_version": "./md_outputs/RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log & Lessons Learned - (Win11 - 2025) \u2013 Complete Log.md"
+    },
+    "./Acer Specs.txt": {
+      "hash": "sha256:45e75a0bcff8f335d06f31ac6cdc6a7ee137fe2f323d24db724493b97c522314",
+      "category": "Models",
+      "summary": "This document provides technical specifications for the Acer Aspire TC-885 system model, focusing on its processor details.",
+      "summary_approved": true,
+      "title": "Acer Specs",
+      "last_processed": "2025-11-26T18:40:06.988807",
+      "file_mtime": "2025-11-26T08:53:21"
+    },
+    "./ComfyUI RTX 3060 Setup.pdf": {
+      "hash": "sha256:c2487ad05863fb2306d3d9e888a0a33db0396394ea8149cdade93d55e98240f9",
+      "category": "Guides",
+      "summary": "This document details the setup process for ComfyUI on a Windows system with an RTX 3060 GPU, including model installation and troubleshooting issues encountered during initialization.",
+      "summary_approved": true,
+      "title": "ComfyUI RTX 3060 Setup",
+      "last_processed": "2025-11-26T18:40:06.988825",
+      "file_mtime": "2025-11-26T09:33:00.738141",
+      "readable_version": "./md_outputs/ComfyUI RTX 3060 Setup.md"
     }
   }
 }

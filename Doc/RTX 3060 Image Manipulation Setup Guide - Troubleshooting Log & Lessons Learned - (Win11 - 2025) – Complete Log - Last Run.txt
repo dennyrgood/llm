@@ -1,0 +1,435 @@
+Run with flux-schnell-fast-workflow
+
+prompt:  (as supplied by you)  a beautiful mountain landscape, golden hour, dramatic lighting, photorealistic, highly detailed, 8k --- negative text
+
+
+got prompt
+model weight dtype torch.float8_e4m3fn, manual cast: torch.bfloat16
+model_type FLOW
+Using pytorch attention in VAE
+Using pytorch attention in VAE
+VAE load device: cuda:0, offload device: cpu, dtype: torch.bfloat16
+Requested to load FluxClipModel_
+loaded completely; 95367431640625005117571072.00 MB usable, 4777.54 MB loaded, full load: True
+CLIP/text encoder model load device: cpu, offload device: cpu, current: cpu, dtype: torch.float16
+Requested to load Flux
+loaded partially; 9569.07 MB usable, 9563.73 MB loaded, 1776.58 MB offloaded, lowvram patches: 0
+100%|█████████████████████████████████| 4/4 [00:20<00:00,  5.18s/it]
+Requested to load AutoencodingEngine
+loaded partially: 5752.53 MB loaded, lowvram patches: 0
+loaded completely; 476.34 MB usable, 159.87 MB loaded, full load: True
+Prompt executed in 00:16:24
+
+
+
+ran it a second time
+
+
+
+got prompt
+loaded partially; 9569.07 MB usable, 9563.73 MB loaded, 1776.58 MB offloaded, lowvram patches: 0
+100%|█████████████████████████████████| 4/4 [00:12<00:00,  3.21s/it]
+Requested to load AutoencodingEngine
+loaded partially: 5797.54 MB loaded, lowvram patches: 0
+loaded completely; 431.34 MB usable, 159.87 MB loaded, full load: True
+Prompt executed in 19.08 seconds
+
+
+THIRD
+
+got prompt
+loaded partially; 9569.07 MB usable, 9563.73 MB loaded, 1776.58 MB offloaded, lowvram patches: 0
+100%|█████████████████████████████████| 4/4 [00:12<00:00,  3.24s/it]
+Requested to load AutoencodingEngine
+loaded partially: 5797.54 MB loaded, lowvram patches: 0
+loaded completely; 431.34 MB usable, 159.87 MB loaded, full load: True
+Prompt executed in 19.34 seconds
+
+
+NOTE:
+need a lightweight browser ... it is automatically loading comfyui in firefox .. which is a hog ... can i run the ui from another machine?
+
+switched to chrome (closed firefox) - using a default workflow - I will attached - w prompt: beautiful scenery nature glass bottle landscape, , purple galaxy bottle, --- and negative of text, watermark
+
+FORTH
+
+got prompt
+loaded partially; 9765.67 MB usable, 9761.80 MB loaded, 1578.51 MB offloaded, lowvram patches: 0
+100%|███████████████████████████████| 20/20 [00:45<00:00,  2.27s/it]
+Requested to load AutoencodingEngine
+loaded partially: 9218.22 MB loaded, lowvram patches: 0
+loaded partially; 128.00 MB usable, 128.00 MB loaded, 31.87 MB offloaded, lowvram patches: 0
+Prompt executed in 81.71 seconds
+
+
+
+Fifth, still on chrome:
+
+got prompt
+loaded partially; 9545.44 MB usable, 9545.35 MB loaded, 1794.96 MB offloaded, lowvram patches: 0
+100%|███████████████████████████████| 20/20 [00:40<00:00,  2.04s/it]
+Requested to load AutoencodingEngine
+loaded partially: 9191.21 MB loaded, lowvram patches: 0
+loaded partially; 155.33 MB usable, 155.33 MB loaded, 4.54 MB offloaded, lowvram patches: 0
+Prompt executed in 42.79 seconds
+
+sixth, still in chrome:
+
+got prompt
+loaded partially; 9536.25 MB usable, 9535.97 MB loaded, 1804.34 MB offloaded, lowvram patches: 0
+100%|███████████████████████████████| 20/20 [00:40<00:00,  2.04s/it]
+Requested to load AutoencodingEngine
+loaded partially: 9164.20 MB loaded, lowvram patches: 0
+loaded completely; 199.92 MB usable, 159.87 MB loaded, full load: True
+Prompt executed in 42.67 seconds
+
+seventh, on chrome (back to the flux-schnell-fast-workflow)
+
+
+got prompt
+loaded partially; 9335.35 MB usable, 9335.28 MB loaded, 2005.03 MB offloaded, lowvram patches: 0
+100%|█████████████████████████████████| 4/4 [00:12<00:00,  3.21s/it]
+Requested to load AutoencodingEngine
+loaded partially: 5932.54 MB loaded, lowvram patches: 0
+loaded completely; 296.33 MB usable, 159.87 MB loaded, full load: True
+Prompt executed in 47.66 seconds
+
+eighth, on chrome (back to the flux-schnell-fast-workflow)
+
+got prompt
+loaded partially; 9569.07 MB usable, 9563.73 MB loaded, 1776.58 MB offloaded, lowvram patches: 0
+100%|█████████████████████████████████| 4/4 [00:12<00:00,  3.13s/it]
+Requested to load AutoencodingEngine
+loaded partially: 5932.54 MB loaded, lowvram patches: 0
+loaded completely; 296.33 MB usable, 159.87 MB loaded, full load: True
+Prompt executed in 18.44 seconds
+
+
+changed prompt to:
+
+a beautiful cabin in the woods, with wild animals all around it, in a mountain valley landscape, golden hour, dramatic lighting, photorealistic, highly detailed, 8k
+
+got prompt
+loaded partially; 9569.07 MB usable, 9563.73 MB loaded, 1776.58 MB offloaded, lowvram patches: 0
+100%|█████████████████████████████████| 4/4 [00:12<00:00,  3.13s/it]
+Requested to load AutoencodingEngine
+loaded partially: 5932.54 MB loaded, lowvram patches: 0
+loaded completely; 296.33 MB usable, 159.87 MB loaded, full load: True
+Prompt executed in 33.27 seconds
+
+
+again
+
+got prompt
+loaded partially; 9569.07 MB usable, 9563.73 MB loaded, 1776.58 MB offloaded, lowvram patches: 0
+100%|█████████████████████████████████| 4/4 [00:12<00:00,  3.10s/it]
+Requested to load AutoencodingEngine
+loaded partially: 5932.54 MB loaded, lowvram patches: 0
+loaded completely; 296.33 MB usable, 159.87 MB loaded, full load: True
+Prompt executed in 17.87 seconds
+
+
+two more runs, back to cabin, at midnite in prompt:
+
+got prompt
+loaded partially; 9569.07 MB usable, 9563.73 MB loaded, 1776.58 MB offloaded, lowvram patches: 0
+100%|█████████████████████████████████| 4/4 [00:12<00:00,  3.13s/it]
+Requested to load AutoencodingEngine
+loaded partially: 5887.54 MB loaded, lowvram patches: 0
+loaded completely; 341.33 MB usable, 159.87 MB loaded, full load: True
+Prompt executed in 32.04 seconds
+got prompt
+loaded partially; 9569.07 MB usable, 9563.73 MB loaded, 1776.58 MB offloaded, lowvram patches: 0
+100%|█████████████████████████████████| 4/4 [00:12<00:00,  3.11s/it]
+Requested to load AutoencodingEngine
+loaded partially: 5887.54 MB loaded, lowvram patches: 0
+loaded completely; 341.33 MB usable, 159.87 MB loaded, full load: True
+Prompt executed in 17.86 seconds
+
+NOTE:
+
+I can live with the 18 seconds per repeated gen, the first one at over 16mins is hard to swallow, granted when i move to a nvme for the models it will help, but only a bit?
+
+
+killed server
+
+left chrome open to comfyui
+
+restarted
+
+.\run_nvidia_gpu.bat
+
+D:\Misc\ComfyUI>.\python_embeded\python.exe -s ComfyUI\main.py --windows-standalone-build --lowvram
+[START] Security scan
+[DONE] Security scan
+## ComfyUI-Manager: installing dependencies done.
+** ComfyUI startup time: 2025-11-26 13:08:41.076
+** Platform: Windows
+** Python version: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+** Python executable: D:\Misc\ComfyUI\python_embeded\python.exe
+** ComfyUI Path: D:\Misc\ComfyUI\ComfyUI
+** ComfyUI Base Folder Path: D:\Misc\ComfyUI\ComfyUI
+** User directory: D:\Misc\ComfyUI\ComfyUI\user
+** ComfyUI-Manager config path: D:\Misc\ComfyUI\ComfyUI\user\default\ComfyUI-Manager\config.ini
+** Log path: D:\Misc\ComfyUI\ComfyUI\user\comfyui.log
+
+Prestartup times for custom nodes:
+  11.8 seconds: D:\Misc\ComfyUI\ComfyUI\custom_nodes\ComfyUI-Manager
+
+D:\Misc\ComfyUI\python_embeded\Lib\site-packages\torch\cuda\__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Checkpoint files will always be loaded safely.
+Total VRAM 12288 MB, total RAM 32686 MB
+pytorch version: 2.9.1+cu128
+Set vram state to: LOW_VRAM
+Device: cuda:0 NVIDIA GeForce RTX 3060 : cudaMallocAsync
+Enabled pinned memory 14708.0
+working around nvidia conv3d memory bug.
+Using pytorch attention
+Python version: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+ComfyUI version: 0.3.71
+ComfyUI frontend version: 1.28.9
+[Prompt Server] web root: D:\Misc\ComfyUI\python_embeded\Lib\site-packages\comfyui_frontend_package\static
+Total VRAM 12288 MB, total RAM 32686 MB
+pytorch version: 2.9.1+cu128
+Set vram state to: LOW_VRAM
+Device: cuda:0 NVIDIA GeForce RTX 3060 : cudaMallocAsync
+Enabled pinned memory 14708.0
+[Crystools INFO] Crystools version: 1.27.4
+[Crystools INFO] Platform release: 11
+[Crystools INFO] JETSON: Not detected.
+[Crystools INFO] CPU: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz - Arch: AMD64 - OS: Windows 11
+[Crystools INFO] pynvml (NVIDIA) initialized.
+[Crystools INFO] GPU/s:
+[Crystools INFO] 0) NVIDIA GeForce RTX 3060
+[Crystools INFO] NVIDIA Driver: 581.80
+### Loading: ComfyUI-Impact-Pack (V8.28)
+[Impact Pack] Wildcard total size (0.00 MB) is within cache limit (50.00 MB). Using full cache mode.
+[Impact Pack] Wildcards loading done.
+### Loading: ComfyUI-Manager (V3.37.1)
+[ComfyUI-Manager] network_mode: public
+### ComfyUI Revision: 150 [c55fd748] *DETACHED | Released on '2025-11-21'
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+D:\Misc\ComfyUI\python_embeded\Lib\site-packages\timm\models\layers\__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+FETCH ComfyRegistry Data: 5/108
+Traceback (most recent call last):
+  File "D:\Misc\ComfyUI\ComfyUI\nodes.py", line 2136, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\Misc\ComfyUI\ComfyUI\custom_nodes\comfyui-various\__init__.py", line 78, in <module>
+    load_nodes(module_name)
+  File "D:\Misc\ComfyUI\ComfyUI\custom_nodes\comfyui-various\__init__.py", line 43, in load_nodes
+    module = importlib.import_module(module_name, package=__name__)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "importlib\__init__.py", line 90, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\Misc\ComfyUI\ComfyUI\custom_nodes\comfyui-various\comfyui_sound.py", line 7, in <module>
+    import soundfile as sf
+ModuleNotFoundError: No module named 'soundfile'
+
+Cannot import D:\Misc\ComfyUI\ComfyUI\custom_nodes\comfyui-various module for custom nodes: No module named 'soundfile'
+------------------------------------------
+Comfyroll Studio v1.76 :  175 Nodes Loaded
+------------------------------------------
+** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+------------------------------------------
+FETCH ComfyRegistry Data: 10/108
+FETCH ComfyRegistry Data: 15/108
+FETCH ComfyRegistry Data: 20/108
+FETCH ComfyRegistry Data: 25/108
+FETCH ComfyRegistry Data: 30/108
+WAS Node Suite: OpenCV Python FFMPEG support is enabled
+WAS Node Suite Warning: `ffmpeg_bin_path` is not set in `D:\Misc\ComfyUI\ComfyUI\custom_nodes\was-ns\was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.
+FETCH ComfyRegistry Data: 35/108
+WAS Node Suite: Finished. Loaded 220 nodes successfully.
+
+        "Dream big and dare to fail." - Norman Vaughan
+
+
+Import times for custom nodes:
+   0.0 seconds: D:\Misc\ComfyUI\ComfyUI\custom_nodes\websocket_image_save.py
+   0.0 seconds: D:\Misc\ComfyUI\ComfyUI\custom_nodes\comfyui-custom-scripts
+   0.1 seconds (IMPORT FAILED): D:\Misc\ComfyUI\ComfyUI\custom_nodes\comfyui-various
+   0.3 seconds: D:\Misc\ComfyUI\ComfyUI\custom_nodes\comfyui-advanced-controlnet
+   0.3 seconds: D:\Misc\ComfyUI\ComfyUI\custom_nodes\comfyui_essentials
+   0.4 seconds: D:\Misc\ComfyUI\ComfyUI\custom_nodes\ComfyUI-Manager
+   0.7 seconds: D:\Misc\ComfyUI\ComfyUI\custom_nodes\ComfyUI-Crystools
+   1.9 seconds: D:\Misc\ComfyUI\ComfyUI\custom_nodes\comfyui-impact-pack
+   2.6 seconds: D:\Misc\ComfyUI\ComfyUI\custom_nodes\ComfyUI_Comfyroll_CustomNodes
+   3.7 seconds: D:\Misc\ComfyUI\ComfyUI\custom_nodes\was-ns
+   4.1 seconds: D:\Misc\ComfyUI\ComfyUI\custom_nodes\comfyui-sam2
+  17.9 seconds: D:\Misc\ComfyUI\ComfyUI\custom_nodes\teacache
+
+Context impl SQLiteImpl.
+Will assume non-transactional DDL.
+No target revision found.
+FETCH ComfyRegistry Data: 40/108
+Starting server
+
+To see the GUI go to: http://127.0.0.1:8188
+FETCH ComfyRegistry Data: 45/108
+FETCH ComfyRegistry Data: 50/108
+FETCH ComfyRegistry Data: 55/108
+FETCH ComfyRegistry Data: 60/108
+FETCH ComfyRegistry Data: 65/108
+FETCH ComfyRegistry Data: 70/108
+FETCH ComfyRegistry Data: 75/108
+FETCH ComfyRegistry Data: 80/108
+FETCH ComfyRegistry Data: 85/108
+FETCH ComfyRegistry Data: 90/108
+FETCH ComfyRegistry Data: 95/108
+FETCH ComfyRegistry Data: 100/108
+FETCH ComfyRegistry Data: 105/108
+FETCH ComfyRegistry Data [DONE]
+[ComfyUI-Manager] default cache updated: https://api.comfy.org/nodes
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
+[ComfyUI-Manager] All startup tasks have been completed.
+
+
+killed firefox, (see above "To see the GUI go to: http://127.0.0.1:8188" that launched firefox) so it was not hogging memory
+
+ran cabin (at morning) again
+
+got prompt
+model weight dtype torch.float8_e4m3fn, manual cast: torch.bfloat16
+model_type FLOW
+Using pytorch attention in VAE
+Using pytorch attention in VAE
+VAE load device: cuda:0, offload device: cpu, dtype: torch.bfloat16
+Requested to load FluxClipModel_
+loaded completely; 95367431640625005117571072.00 MB usable, 4777.54 MB loaded, full load: True
+CLIP/text encoder model load device: cpu, offload device: cpu, current: cpu, dtype: torch.float16
+Requested to load Flux
+loaded partially; 9612.19 MB usable, 9611.75 MB loaded, 1728.56 MB offloaded, lowvram patches: 0
+100%|█████████████████████████████████| 4/4 [00:21<00:00,  5.45s/it]
+Requested to load AutoencodingEngine
+loaded partially: 5887.54 MB loaded, lowvram patches: 0
+loaded completely; 343.33 MB usable, 159.87 MB loaded, full load: True
+Prompt executed in 00:13:11
+
+
+again
+
+got prompt
+loaded partially; 9569.07 MB usable, 9563.73 MB loaded, 1776.58 MB offloaded, lowvram patches: 0
+100%|█████████████████████████████████| 4/4 [00:12<00:00,  3.10s/it]
+Requested to load AutoencodingEngine
+loaded partially: 5887.54 MB loaded, lowvram patches: 0
+loaded completely; 341.33 MB usable, 159.87 MB loaded, full load: True
+Prompt executed in 17.78 seconds
+
+
+Experiment
+
+I started an ollama session .... noticed:
+
+python still taking up 16gig of mem
+ollama now taking 2.4 gig
+
+ollama worked (loaded a model, gave an answer in the normal slow, i gotta load the model into the gpu way, and quick answers thereafter)
+
+went back to comfyui and hit run again
+
+got prompt
+loaded partially; 9569.07 MB usable, 9563.73 MB loaded, 1776.58 MB offloaded, lowvram patches: 0
+100%|█████████████████████████████████| 4/4 [00:14<00:00,  3.54s/it]
+Requested to load AutoencodingEngine
+loaded partially: 5032.49 MB loaded, lowvram patches: 0
+loaded completely; 1196.39 MB usable, 159.87 MB loaded, full load: True
+Prompt executed in 26.00 seconds
+
+another (not touching ollma session)
+
+got prompt
+loaded partially; 9569.07 MB usable, 9563.73 MB loaded, 1776.58 MB offloaded, lowvram patches: 0
+100%|█████████████████████████████████| 4/4 [00:12<00:00,  3.08s/it]
+Requested to load AutoencodingEngine
+loaded partially: 4447.45 MB loaded, lowvram patches: 0
+loaded completely; 1781.43 MB usable, 159.87 MB loaded, full load: True
+Prompt executed in 19.24 seconds
+
+ollama still responsive (no reloads)
+
+ran another comfyui prompt (same cabin)
+
+got prompt
+loaded partially; 9569.07 MB usable, 9563.73 MB loaded, 1776.58 MB offloaded, lowvram patches: 0
+100%|█████████████████████████████████| 4/4 [00:12<00:00,  3.24s/it]
+Requested to load AutoencodingEngine
+loaded partially: 5032.49 MB loaded, lowvram patches: 0
+loaded completely; 1196.39 MB usable, 159.87 MB loaded, full load: True
+Prompt executed in 23.86 seconds
+
+
+rather shocked, i seem to be able to go back and forth between the two ... albeit python is taking up 8.6 gig of memory and ollama 7.6 gig ... so who knows what is in the gpu at this point (task manager/performance shows only have of the 12g dedicated gpu memory is being used, and a third of the 16g shared)
+
+
+ollama still responsive (no reloads)
+
+closed ollama gui
+
+gpu memory went to 100% usage, and this:
+
+ollama ps
+NAME           ID              SIZE     PROCESSOR    CONTEXT    UNTIL
+qwen2.5:14b    7cdf5a0187d5    10 GB    100% GPU     4096       Forever
+
+trying a cabin gen:
+
+got prompt
+loaded partially; 9569.07 MB usable, 9563.73 MB loaded, 1776.58 MB offloaded, lowvram patches: 0
+100%|█████████████████████████████████| 4/4 [00:13<00:00,  3.43s/it]
+Requested to load AutoencodingEngine
+loaded partially: 5032.49 MB loaded, lowvram patches: 0
+loaded completely; 1196.39 MB usable, 159.87 MB loaded, full load: True
+Prompt executed in 22.94 seconds
+
+restarted ollama gui
+
+still responsive
+
+
+installed some software - cpu-z - to check cpu temp (force it busy) - all good
+
+went back to ollama, model still loaded, went back to comfyui, changed prompt to skyscraper, and ran it twice:
+
+
+got prompt
+loaded partially; 9569.07 MB usable, 9563.73 MB loaded, 1776.58 MB offloaded, lowvram patches: 0
+100%|█████████████████████████████████| 4/4 [00:15<00:00,  3.79s/it]
+Requested to load AutoencodingEngine
+loaded partially: 4447.45 MB loaded, lowvram patches: 0
+loaded completely; 1781.43 MB usable, 159.87 MB loaded, full load: True
+Prompt executed in 112.36 seconds
+got prompt
+loaded partially; 9569.07 MB usable, 9563.73 MB loaded, 1776.58 MB offloaded, lowvram patches: 0
+100%|█████████████████████████████████| 4/4 [00:13<00:00,  3.42s/it]
+Requested to load AutoencodingEngine
+loaded partially: 4447.45 MB loaded, lowvram patches: 0
+loaded completely; 1781.43 MB usable, 159.87 MB loaded, full load: True
+Prompt executed in 21.84 seconds
+
+
+oh, more facts:
+
+mem usage:
+
+python 12gig
+ollama 9gig
+firefox 1 gig (yes, i restarted that hog)
+chrome .5gig (this is where i am running the gui for comfyui)
+
+
+
