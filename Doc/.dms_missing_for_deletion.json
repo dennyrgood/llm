@@ -1,25 +1,9 @@
 {
-  "timestamp": "2025-11-24T18:22:24.059497",
+  "timestamp": "2025-11-26T23:12:35.022476",
   "files": [
     {
-      "path": "./ollama.help.txt",
+      "path": "./RTX 3060 Image Manipulation Setup Guide - (Win11 - 2025) \u2013 Complete Log - (PDF).pdf",
       "was_category": "Guides"
-    },
-    {
-      "path": "./IMG_4666.jpeg",
-      "was_category": "Workflows"
-    },
-    {
-      "path": "./IMG_4664.jpeg",
-      "was_category": "Models"
-    },
-    {
-      "path": "./IMG_4665.jpeg",
-      "was_category": "Workflows"
-    },
-    {
-      "path": "./Models",
-      "was_category": "Models"
     }
   ]
 }
