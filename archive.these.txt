@@ -1,0 +1,56 @@
+Adding Second PC and FLUX on Dual GPUs.docx
+aichat not working.png
+Best GPUs Next Level - 3090 - 25gig.docx
+Claude session - started the whole rabbit trail of hosting my own LLM.md
+CLEANUP_PLAN.md
+Conversation with Gemini - ComfyUI Models.docx
+Conversation with Gemini - Sequence of memory events during ComfyUI run.docx
+Day of rtx3040 models.png
+DMS System - sample_run.txt
+Doc_INDEX_Version6.md
+Fix File upload OpenWebUI.png
+FLUX Optimazation.docx
+GROK.Ollama.on.Win11.Ultimate.Perf.Guide.md
+GROK.recommended.llms.w.RTX.3060.txt
+GROK.recommended.nano.banana.replacement.txt
+image descriptions.txt
+Image Generation Options for Open WebUI.pdf
+LLM Infrastructure Cheat Sheet_old.pdf
+LLM Recommendations for Programming and Development.pdf
+Managing Ollama Environment Variables in NSSM.pdf
+Missing Files - Download These Now.pdf
+Models - fast autocomplete.jpeg
+Models - inline coding.jpeg
+Models - local vs cloud.jpeg
+Models - recommendation for programming.png
+Models for Python coding.docx
+Models Ollama ComfyUI Config Photorealistic Removal Restoration Mesh Objects.pdf
+MODELS_recommendations_by_claude_summary.txt
+MODELS_recommendations_by_claude.md
+Models.txt
+Need more info on Tool Use.png
+NVMe 2230 Acer - Macrium Reflect.docx
+Ollama Download Commands for Recommended LLMs.pdf
+Ollama Model Cheat Sheet (Local LLMs) pdf version.pdf
+Ollama Models as of 2025 11 18.txt
+ollama website list - LLM.txt
+OLLAMA_GUIDE.md
+ollama-ls.txt
+ollama-show-out.txt
+ollama-show.bat
+One pc rtx3080 other 2x1080ti 11g - best split of ollama and comfyUI.docx
+Open WebUI Installation Guide for Windows 11.pdf
+Open WebUI Management Guide.pdf
+OpenWebUI — Task Scheduler CLI Reference.txt
+Prep for 3060 - in the mean time as well.docx
+RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log & Lessons Learned - (Win11 - 2025) – Complete Log - (PDF).pdf
+RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log & Lessons Learned - (Win11 - 2025) – Complete Log - Last Run.txt
+RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log & Lessons Learned - (Win11 - 2025) – Complete Log.docx
+RTX 3060 Image Manipulation Setup Guide (Win11 - 2025).pdf
+RTX 3060 Setup Guide - Complete AI Coding Workflow.pdf
+Rtx3060 Supplemental Improvements.pdf
+Use both gpus (split functions) dual gpu machine flux clip etc.docx
+Using 1040 until 3060 Gets Here.txt
+what does local api server mean.png
+what is a tool enabled prompt.png
+What to Try Next.txt

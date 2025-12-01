@@ -1,7 +1,7 @@
 {
   "metadata": {
     "last_scan": "2025-11-20T07:48:20.618243",
-    "last_apply": "2025-11-27T01:20:27.369353",
+    "last_apply": "2025-12-01T12:02:49.794300",
     "migrated_from_embedded": true,
     "migration_date": "2025-11-20T11:45:24.485598"
   },
@@ -12,12 +12,18 @@
     "Workflows",
     "Scripts",
     "Junk",
-    "Troubleshooting"
+    "Troubleshooting",
+    "ARCHIVE-Guides",
+    "ARCHIVE-Hardware",
+    "ARCHIVE-OneTime",
+    "ARCHIVE-References",
+    "ARCHIVE-Screenshots",
+    "ARCHIVE-Utilities"
   ],
   "documents": {
     "./GROK.Ollama.on.Win11.Ultimate.Perf.Guide.md": {
       "hash": "sha256:fee677939504bf8219e90c3ae4bd32d06848b35edea79db9faba09b5cbd57ac7",
-      "category": "Guides",
+      "category": "ARCHIVE-References",
       "summary": "Ollama on Windows 11 \u2013 Ultimate Performance Guide for RTX 3060: drivers, CUDA, Ollama settings, quantization, monitoring and model leaderboard.",
       "summary_approved": true,
       "title": "GROK.Ollama.on.Win11.Ultimate.Perf.Guide.md",
@@ -35,7 +41,7 @@
     },
     "./Using 1040 until 3060 Gets Here.txt": {
       "hash": "sha256:5532031a61034cb24173bdc24da086622fb5286ca7ab2def5c0f01f8ac4dce5d",
-      "category": "Guides",
+      "category": "ARCHIVE-Utilities",
       "summary": "Tactical guidance and default model choices while on CPU / GTX 1040, with suggested timeouts and quick model picks.",
       "summary_approved": true,
       "title": "Using 1040 until 3060 Gets Here",
@@ -44,7 +50,7 @@
     },
     "./Claude session - started the whole rabbit trail of hosting my own LLM.md": {
       "hash": "sha256:983f583038f283e3dfb7118a34e61c5ae272599d00476ca4795c66788f196100",
-      "category": "Guides",
+      "category": "ARCHIVE-References",
       "summary": "Experiment notes: commit-message automation approaches, Ollama examples, costs, and a copilot-like script for local usage.",
       "summary_approved": true,
       "title": "Claude session - started the whole rabbit trail of hosting my own LLM.md",
@@ -80,7 +86,7 @@
     },
     "./Doc_INDEX_Version6.md": {
       "hash": "sha256:9d0aee3859fdd0fd162bb6279aff6dc830eb108c1e2208472140b00187a43a23",
-      "category": "QuickRefs",
+      "category": "ARCHIVE-Utilities",
       "summary": "Curated toc",
       "summary_approved": true,
       "title": "Doc_INDEX_Version6",
@@ -89,7 +95,7 @@
     },
     "./Ollama Models as of 2025 11 18.txt": {
       "hash": "sha256:47c565ec0da3735f4ae389eeafa30f0c5b979bea206858395bde5ca73743e19e",
-      "category": "Models",
+      "category": "ARCHIVE-References",
       "summary": "Model-by-model essentials, suggested defaults, and quantization notes \u2014 guidance for what to keep and what to pull for the 3060.",
       "summary_approved": true,
       "title": "Ollama Models as of 2025 11 18",
@@ -98,7 +104,7 @@
     },
     "./GROK.recommended.llms.w.RTX.3060.txt": {
       "hash": "sha256:4a4c72e8b790e80f8209589598b88233ad8826f2bdec09e119d3ccbf61dd6a24",
-      "category": "Models",
+      "category": "ARCHIVE-References",
       "summary": "Recommended pulls and priority list for RTX 3060 12GB; includes one-line commands to pull recommended models.",
       "summary_approved": true,
       "title": "GROK.recommended.llms.w.RTX.3060.txt",
@@ -107,7 +113,7 @@
     },
     "./GROK.recommended.nano.banana.replacement.txt": {
       "hash": "sha256:5a59429d95cc4e395c2cd302f87a7429805eeadc9c5ca0fc0a9e2c4485046415",
-      "category": "Models",
+      "category": "ARCHIVE-References",
       "summary": "Image-focused recommendations: ComfyUI + Flux (FP8) and the best local tools for image restoration/editing.",
       "summary_approved": true,
       "title": "GROK.recommended.nano.banana.replacement.txt",
@@ -116,7 +122,7 @@
     },
     "./ollama-ls.txt": {
       "hash": "sha256:24d1546eb5afe2b3178364a0953530c204aef43c263bfb2fc391c10424df445b",
-      "category": "Models",
+      "category": "ARCHIVE-References",
       "summary": "Raw output of `ollama ls` showing installed models and sizes (useful for cleanup planning).",
       "summary_approved": true,
       "title": "ollama-ls.txt",
@@ -125,7 +131,7 @@
     },
     "./ollama-show-out.txt": {
       "hash": "sha256:9510eb83c3de99cea575e15b32941c3d61faa4a6aef27cba531f36c992e124eb",
-      "category": "Models",
+      "category": "ARCHIVE-References",
       "summary": "Collected `ollama show` output for many models with quantization, context lengths and capabilities listed.",
       "summary_approved": true,
       "title": "ollama-show-out.txt",
@@ -134,7 +140,7 @@
     },
     "./ollama website list - LLM.txt": {
       "hash": "sha256:504c8d30ee9c83e05a248d31c90c503c2f45beffa68ae96be2134a4860c3e25d",
-      "category": "Models",
+      "category": "ARCHIVE-References",
       "summary": "Catalog of model families, sizes and short descriptions to inform pull decisions.",
       "summary_approved": true,
       "title": "ollama website list - LLM.txt",
@@ -143,7 +149,7 @@
     },
     "./OpenWebUI \u2014 Task Scheduler CLI Reference.txt": {
       "hash": "sha256:24f2a53111ee0ce270f39810bec12fa4b9329c38f660b93e61cbb58e7126ebae",
-      "category": "Workflows",
+      "category": "ARCHIVE-References",
       "summary": "Run OpenWebUI via Task Scheduler at startup (SYSTEM): run script sample, schtasks commands, and logging/debugging tips.",
       "summary_approved": true,
       "title": "OpenWebUI \u2014 Task Scheduler CLI Reference.txt",
@@ -152,7 +158,7 @@
     },
     "./What to Try Next.txt": {
       "hash": "sha256:394b6abc8707b81d767eb60596197fe551e79650115075914b69bd49a9b6b965",
-      "category": "Scripts",
+      "category": "ARCHIVE-Utilities",
       "summary": "Short list of experiments and models to try next using your local setup.",
       "summary_approved": true,
       "title": "What to Try Next.txt",
@@ -161,7 +167,7 @@
     },
     "./ollama-show.bat": {
       "hash": "sha256:4d7cc9928aef5c1f1b9c06f2d68c0c9b6793861aa63c789ae3b68845d1d22c9c",
-      "category": "Scripts",
+      "category": "ARCHIVE-References",
       "summary": "Windows batch to run a set of `ollama show` commands quickly.",
       "summary_approved": true,
       "title": "ollama-show.bat",
@@ -170,7 +176,7 @@
     },
     "./image descriptions.txt": {
       "hash": "sha256:1e50efa1034914cf1ca1716e3a49a3ae2b6a947a7c7c92bcbc8ef9544968306d",
-      "category": "Models",
+      "category": "ARCHIVE-Utilities",
       "summary": "The document provides summaries for three images detailing the best open-source coding models and their configurations or usage tips.",
       "summary_approved": true,
       "title": "image descriptions",
@@ -180,11 +186,11 @@
     "./index.html": {
       "hash": "",
       "category": "Guides",
-      "summary": "This HTML document contains the index page for project documentation with styling and layout for navigation elements including a sidebar, search functionality, and file list.",
+      "summary": "An HTML document serving as an index page for project documentation with styled navigation elements including header, sidebar, and file listings.",
       "summary_approved": true,
       "title": "index",
-      "last_processed": "2025-11-27T01:20:27.369319",
-      "file_mtime": "2025-11-26T23:14:34.865324"
+      "last_processed": "2025-12-01T12:02:49.794268",
+      "file_mtime": "2025-11-27T01:20:27.413715"
     },
     "./ollama show model batch file.txt": {
       "hash": "sha256:c8e985fd58669b089bbe8387ec47c4eaffb71ff13a6fa710118ddcb8a11f4b78",
@@ -197,7 +203,7 @@
     },
     "./what does local api server mean.png": {
       "hash": "sha256:79f93eb74813fcaf5e2703690c95c62a2bf2cb6d98aa7a770e10e1b1ddd87dab",
-      "category": "Guides",
+      "category": "ARCHIVE-Screenshots",
       "summary": "The document describes how to start a local HTTP server exposing OpenAL-compatible APIs for LLMs using 'aichat' configurations.",
       "summary_approved": true,
       "title": "what does local api server mean",
@@ -207,7 +213,7 @@
     },
     "./what is a tool enabled prompt.png": {
       "hash": "sha256:41047dd1d7b8c482b51317ec0587270ef3c87829c742bfa58f796ae3f50eb22e",
-      "category": "QuickRefs",
+      "category": "ARCHIVE-Screenshots",
       "summary": "The document provides quick command usage for various Ollama models and suggests changes when using the RTX 3tablet PCs; it appears to be aimed at facilitating accessibility of language AI tools.",
       "summary_approved": true,
       "title": "what is a tool enabled prompt",
@@ -217,7 +223,7 @@
     },
     "./Need more info on Tool Use.png": {
       "hash": "sha256:73955b0fff95930e30aafb451d2d74fd778761da8ebeb96c4062be4fd3ed68aa",
-      "category": "QuickRefs",
+      "category": "ARCHIVE-Screenshots",
       "summary": "The document appears to be an OCR extraction of text related to tool use and kenobservers for tools.",
       "summary_approved": true,
       "title": "Need more info on Tool Use",
@@ -227,7 +233,7 @@
     },
     "./Day of rtx3040 models.png": {
       "hash": "sha256:07d5d55052a5f5ee3d3c5585e75116d76610bcfe3677bbe789b67563661b5d16",
-      "category": "Workflows",
+      "category": "ARCHIVE-Screenshots",
       "summary": "This document outlines steps for utilizing RTX3040 GPUs in model download and testing tasks using ollama on Windows 11.",
       "summary_approved": true,
       "title": "Day of rtx3040 models",
@@ -237,7 +243,7 @@
     },
     "./aichat not working.png": {
       "hash": "sha256:c843169101f5be7c48d5d991a962d6910aaa569d9cbb0b91af74209a6f064246",
-      "category": "Guides",
+      "category": "ARCHIVE-Screenshots",
       "summary": "The document outlines the setup and usage instructions for configuring AI Chat using Ollama with specific LLM models.",
       "summary_approved": true,
       "title": "aichat not working",
@@ -247,7 +253,7 @@
     },
     "./OLLAMA_GUIDE.md": {
       "hash": "sha256:fa205c39b047db191ac830eea0bde8a4435e37b0faf65f14d5da2be1efddd4e9",
-      "category": "Guides",
+      "category": "ARCHIVE-References",
       "summary": "The document outlines different Ollama models categorized by their intended use: coding, chat, and special tasks like math/reasoning or image processing, providing guidance on which model to select based on specific needs.",
       "summary_approved": true,
       "title": "OLLAMA_GUIDE",
@@ -256,7 +262,7 @@
     },
     "./MODELS_recommendations_by_claude_summary.txt": {
       "hash": "sha256:66205d8879cf2641fcd1ebe84179fb6b1c2c6ff43d404e18a05052e46855f7a8",
-      "category": "Models",
+      "category": "ARCHIVE-References",
       "summary": "The document lists AI models categorized for coding, chat, and specialized tasks like math and image analysis, providing recommendations based on their strengths.",
       "summary_approved": true,
       "title": "MODELS_recommendations_by_claude_summary",
@@ -265,7 +271,7 @@
     },
     "./Fix File upload OpenWebUI.png": {
       "hash": "sha256:4a1576fe4ccd3a02485364d0b364feef169e304d81429570d30b0aae0873342c",
-      "category": "Guides",
+      "category": "ARCHIVE-Screenshots",
       "summary": "Provides instructions for installing chardet using Python 3.11's pip to ensure compatibility with the NSSM service.",
       "summary_approved": true,
       "title": "Fix File upload OpenWebUI",
@@ -275,7 +281,7 @@
     },
     "./DMS System - sample_run.txt": {
       "hash": "sha256:ec2a200c009f6a682c4afd270dfd80fb145f492618fac09ae4201108de0ed76c",
-      "category": "Workflows",
+      "category": "ARCHIVE-Utilities",
       "summary": "This document contains the command-line output and usage instructions for DMS System, an AI-driven document management tool that can scan, process images, generate summaries, review changes, apply modifications, initialize directories, and show status.",
       "summary_approved": true,
       "title": "DMS System - sample_run",
@@ -284,7 +290,7 @@
     },
     "./Models for Python coding.docx": {
       "hash": "sha256:2fe9ef5eb2501cf8d524af9625252676018b5019263df7978b2e7721305c8934",
-      "category": "Models",
+      "category": "ARCHIVE-References",
       "summary": "The document ranks various AI models for Python coding tasks based on code quality, debugging ability, and feature addition efficiency.",
       "summary_approved": true,
       "title": "Models for Python coding",
@@ -294,7 +300,7 @@
     },
     "./MODELS_recommendations_by_claude.md": {
       "hash": "sha256:a1585a9c8065adda8befe97b0a50e199e60e445c90a0a7ad76458839b73d4b26",
-      "category": "Models",
+      "category": "ARCHIVE-References",
       "summary": "This document outlines the removal of less efficient models and recommends an optimized lineup of high-quality coding, chat, and specialized AI models for enhanced performance.",
       "summary_approved": true,
       "title": "MODELS_recommendations_by_claude",
@@ -303,7 +309,7 @@
     },
     "./Models - recommendation for programming.png": {
       "hash": "sha256:850d5d4297c7daa88e1f584ced28b70f2ea02b0f9d446844e1521db66ac99b05",
-      "category": "Models",
+      "category": "ARCHIVE-Screenshots",
       "summary": "Document provides recommendations for programming models based on system configuration, emphasizing qwen2.5:14b for efficiency and codestral:22b for accuracy in complex tasks.",
       "summary_approved": true,
       "title": "Models - recommendation for programming",
@@ -323,7 +329,7 @@
     },
     "./Ollama Download Commands for Recommended LLMs.pdf": {
       "hash": "sha256:5ffe3eebb971f1cdeac71f7aced7c341b578280c7c651b8c85dd9beb432a34cb",
-      "category": "QuickRefs",
+      "category": "ARCHIVE-References",
       "summary": "This document provides ollama run commands for downloading recommended large language models (LLMs) categorized by their primary use cases such as programming tasks and general conversation.",
       "summary_approved": true,
       "title": "Ollama Download Commands for Recommended LLMs",
@@ -343,7 +349,7 @@
     },
     "./RTX 3060 Setup Guide - Complete AI Coding Workflow.pdf": {
       "hash": "sha256:ec57cf0a75712d023f2fefcd7e923a2bb0b3e86c0a81830da3e18f6821aa51e7",
-      "category": "Guides",
+      "category": "ARCHIVE-References",
       "summary": "This document provides instructions for installing and setting up an RTX 3060 GPU with NVIDIA drivers on Windows 11, intended for AI coding workflows.",
       "summary_approved": true,
       "title": "RTX 3060 Setup Guide - Complete AI Coding Workflow",
@@ -353,7 +359,7 @@
     },
     "./Managing Ollama Environment Variables in NSSM.pdf": {
       "hash": "sha256:82d95e70e3aff685a24d1e7d5ac420fb763f44307626b7362ae49d9e5c5f242c",
-      "category": "Guides",
+      "category": "ARCHIVE-References",
       "summary": "This document provides instructions on how to manage Ollama environment variables through NSSM (Non-Sucking Service Manager) for Windows Services, focusing on setting the OLLAMA_KEEP_ALIVE variable.",
       "summary_approved": true,
       "title": "Managing Ollama Environment Variables in NSSM",
@@ -363,7 +369,7 @@
     },
     "./Image Generation Options for Open WebUI.pdf": {
       "hash": "sha256:14bf125afa91e2cf5780e1c8236afaaab6d3a9f521e8b54f513b5691480c4d39",
-      "category": "Guides",
+      "category": "ARCHIVE-References",
       "summary": "This document outlines image generation options for Open WebUI using Ollama models and Stable Diffusion integration, detailing capabilities and limitations of each approach.",
       "summary_approved": true,
       "title": "Image Generation Options for Open WebUI",
@@ -383,7 +389,7 @@
     },
     "./LLM Recommendations for Programming and Development.pdf": {
       "hash": "sha256:04d1cdbfcf361d8a06ad8ff45b627ba7cee3ae2ab32299071edab1d921eb4779",
-      "category": "Guides",
+      "category": "ARCHIVE-Utilities",
       "summary": "The document provides recommendations for Large Language Models suitable for programming and development tasks based on their capabilities in coding, reasoning, tools usage, agentic workflows, and vision.",
       "summary_approved": true,
       "title": "LLM Recommendations for Programming and Development",
@@ -393,7 +399,7 @@
     },
     "./Rtx3060 Supplemental Improvements.pdf": {
       "hash": "sha256:c21729399953589884770d51e0c79a89a217518b45e396bad3b85adf3e5c0b61",
-      "category": "Guides",
+      "category": "ARCHIVE-Guides",
       "summary": "This document provides a streamlined setup guide and tips for running AI coding models on an RTX 3060 GPU with Ollama and Continue CLI, emphasizing compatibility and performance considerations.",
       "summary_approved": true,
       "title": "Rtx3060 Supplemental Improvements",
@@ -403,7 +409,7 @@
     },
     "./LLM Infrastructure Cheat Sheet_old.pdf": {
       "hash": "sha256:aabfcb7a6ce319541e74320e2f20d7d7588f42c9a2a0077d5d1e64737360b302",
-      "category": "QuickRefs",
+      "category": "ARCHIVE-Utilities",
       "summary": "This document provides an overview of the 15 large language models available on Ollama server, detailing their performance characteristics and use cases based on access method (Cloud or Local).",
       "summary_approved": true,
       "title": "LLM Infrastructure Cheat Sheet_old",
@@ -413,7 +419,7 @@
     },
     "./Open WebUI Installation Guide for Windows 11.pdf": {
       "hash": "sha256:7540c26a3429540e750f2ca96cf6dc2ecb315acab9444ea77ed7e6d4cd1163fd",
-      "category": "Guides",
+      "category": "ARCHIVE-References",
       "summary": "This guide provides step-by-step instructions for installing Python 3.11 alongside an existing version and setting up Open WebUI on Windows 11 with remote access via Cloudflare Tunnel.",
       "summary_approved": true,
       "title": "Open WebUI Installation Guide for Windows 11",
@@ -423,7 +429,7 @@
     },
     "./Open WebUI Management Guide.pdf": {
       "hash": "sha256:48b93f0e708f7210ce98270f435ec182060b12a9b2841cfbb0befad0e78b9a48",
-      "category": "Guides",
+      "category": "ARCHIVE-References",
       "summary": "This document provides instructions for managing the Open WebUI service, including installation details, management commands, and troubleshooting tips.",
       "summary_approved": true,
       "title": "Open WebUI Management Guide",
@@ -433,7 +439,7 @@
     },
     "./Ollama Model Cheat Sheet (Local LLMs) pdf version.pdf": {
       "hash": "sha256:92b7e2944a6e7ece64fec4924aad5640a7912270ead3bafad3b56cd8f130ac2e",
-      "category": "QuickRefs",
+      "category": "ARCHIVE-References",
       "summary": "This document provides a cheat sheet for local Large Language Models (LLMs) with details on model sizes, VRAM requirements, context windows, speed, and primary uses, aiding in selection based on specific needs.",
       "summary_approved": true,
       "title": "Ollama Model Cheat Sheet (Local LLMs) pdf version",
@@ -443,7 +449,7 @@
     },
     "./Prep for 3060 - in the mean time as well.docx": {
       "hash": "sha256:457563449e2ef0363c83849d155318690f0d577f73a57c9ddf83e9154db15891",
-      "category": "Guides",
+      "category": "ARCHIVE-Guides",
       "summary": "Document outlines pre-existing large language models on an Ollama server and recommends models suitable for a GT 1030 GPU until a RTX 3060 upgrade.",
       "summary_approved": true,
       "title": "Prep for 3060 - in the mean time as well",
@@ -453,7 +459,7 @@
     },
     "./Models.txt": {
       "hash": "sha256:213446677619762d8dc5c2d1aa136f87d4a01404687b530ce08312f26b6e8413",
-      "category": "Models",
+      "category": "ARCHIVE-References",
       "summary": "A list of AI model names, IDs, sizes, and modification times, providing an overview of available models in a repository or system.",
       "summary_approved": true,
       "title": "Models",
@@ -462,7 +468,7 @@
     },
     "./Models - inline coding.jpeg": {
       "hash": "sha256:15c3b08105dc9b6c1e1d252b8ff83b4d5555e8ba358e4ca8bcd75efc5674bc7d",
-      "category": "Models",
+      "category": "ARCHIVE-Screenshots",
       "summary": "The document lists recommended models for inline coding and provides an installation example using qwen2.5-coder.",
       "summary_approved": true,
       "title": "Models - inline coding",
@@ -472,7 +478,7 @@
     },
     "./Models - fast autocomplete.jpeg": {
       "hash": "sha256:e2b2ff6cec8523bbd5fd4f3997b30b9f2cbd03fc1cd43fdd86d9495aab5779df",
-      "category": "Models",
+      "category": "ARCHIVE-Screenshots",
       "summary": "Document lists model configurations for fast autocomplete and heavy reasoning tasks with example setups.",
       "summary_approved": true,
       "title": "Models - fast autocomplete",
@@ -491,7 +497,7 @@
     },
     "./Models - local vs cloud.jpeg": {
       "hash": "sha256:9de09295783cecbb945eec528ecb4240c9b0f3d43be4886c9920d294e12af505",
-      "category": "Guides",
+      "category": "ARCHIVE-Screenshots",
       "summary": "The document compares the performance of local and cloud-based AI models like ChatGPT and Ollama, offering speed optimization tips for cloud use and introducing model flexibility via OpenAPI.",
       "summary_approved": true,
       "title": "Models - local vs cloud",
@@ -501,7 +507,7 @@
     },
     "./RTX 3060 Image Manipulation Setup Guide (Win11 - 2025).pdf": {
       "hash": "sha256:adeffd426481a70c17229a7627b4dd3d0e36183dd9561a625dca7d458d7d452c",
-      "category": "Guides",
+      "category": "ARCHIVE-References",
       "summary": "This guide provides instructions for setting up image manipulation tools on an RTX 3060 with Windows 11, including software installation and recommended stack configuration.",
       "summary_approved": true,
       "title": "RTX 3060 Image Manipulation Setup Guide (Win11 - 2025)",
@@ -511,7 +517,7 @@
     },
     "./Missing Files - Download These Now.pdf": {
       "hash": "sha256:e119e55772a058f9a302febe75dc5c657551f6cea5c3d4a63eebc65b3c28349d",
-      "category": "Guides",
+      "category": "ARCHIVE-OneTime",
       "summary": "Document provides download links and instructions for three files necessary to optimize the Flux setup: clip_l.safetensors, t5xxl_fp8_e4m3fn.safetensors, and ae.safetensors.",
       "summary_approved": true,
       "title": "Missing Files - Download These Now",
@@ -531,7 +537,7 @@
     },
     "./RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log & Lessons Learned - (Win11 - 2025) \u2013 Complete Log - Last Run.txt": {
       "hash": "sha256:a3f097eff8e5906368016ce7604a52700896176450a89ccee3008a6d6633e674",
-      "category": "Troubleshooting",
+      "category": "ARCHIVE-References",
       "summary": "A troubleshooting log detailing the execution of an image manipulation prompt using RTX 3060 with Flux-schnell-fast-workflow on Windows 11, highlighting performance and resource usage.",
       "summary_approved": true,
       "title": "RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log & Lessons Learned - (Win11 - 2025) \u2013 Complete Log - Last Run",
@@ -540,7 +546,7 @@
     },
     "./FLUX Optimazation.docx": {
       "hash": "sha256:1eb04aa07f5910627301beef492be604d1a4c4f753697f659e000bd5e77b245e",
-      "category": "Guides",
+      "category": "ARCHIVE-References",
       "summary": "The document analyzes the performance of the FP8 quantized FLUX model in ComfyUI on an RTX 3060 and provides optimization suggestions.",
       "summary_approved": true,
       "title": "FLUX Optimazation",
@@ -550,7 +556,7 @@
     },
     "./RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log & Lessons Learned - (Win11 - 2025) \u2013 Complete Log.docx": {
       "hash": "sha256:7c2e3c063a5d582d1deb71f41d53db114303df81110c6cc38c66f482c9c2faa8",
-      "category": "Guides",
+      "category": "ARCHIVE-References",
       "summary": "This document provides a step-by-step guide for setting up image manipulation on Windows 11 with an RTX 3060 GPU, including driver installation, software setup, and troubleshooting tips.",
       "summary_approved": true,
       "title": "RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log & Lessons Learned - (Win11 - 2025) \u2013 Complete Log",
@@ -579,7 +585,7 @@
     },
     "./Conversation with Gemini - Sequence of memory events during ComfyUI run.docx": {
       "hash": "sha256:ec7aeecbc445b67ba53f66ea6a582410c5e12e6f09f7ab47d1350985946f3c50",
-      "category": "Guides",
+      "category": "ARCHIVE-References",
       "summary": "This document outlines the sequence of memory events during ComfyUI execution for image generation, detailing data flow from disk to VRAM in both cold start and subsequent iterations.",
       "summary_approved": true,
       "title": "Conversation with Gemini - Sequence of memory events during ComfyUI run",
@@ -609,7 +615,7 @@
     },
     "./Conversation with Gemini - ComfyUI Models.docx": {
       "hash": "sha256:1d7e69a2184c7772f8f79a378457b46711c51b435d40924500a54c80d1eb5adb",
-      "category": "Guides",
+      "category": "ARCHIVE-References",
       "summary": "This document discusses model recommendations for ComfyUI users aiming to perform background removal, person removal, and photo restoration on an RTX 3060 with 12GB VRAM.",
       "summary_approved": true,
       "title": "Conversation with Gemini - ComfyUI Models",
@@ -619,7 +625,7 @@
     },
     "./RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log & Lessons Learned - (Win11 - 2025) \u2013 Complete Log - (PDF).pdf": {
       "hash": "sha256:f1a9a0bc420d270338e232044447945c7087c8fb50f07aaa1c72b649c3082839",
-      "category": "Guides",
+      "category": "ARCHIVE-References",
       "summary": "This document provides a step-by-step guide for setting up image manipulation using an RTX 3060 on Windows 11, including updates for CUDA version, folder structure, and troubleshooting tips.",
       "summary_approved": true,
       "title": "RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log & Lessons Learned - (Win11 - 2025) \u2013 Complete Log - (PDF)",
@@ -636,6 +642,143 @@
       "last_processed": "2025-11-27T01:20:27.369276",
       "file_mtime": "2025-11-27T00:08:09.345613",
       "readable_version": "./md_outputs/RTX 3060 Image Manipulation - Implementation Plan.md"
+    },
+    "./ComfyUI Image Comparer Node.pdf": {
+      "hash": "sha256:f654ec0219c4dd8e3ad173d9368b67825cc9cfa687e5087d288633d2f692130c",
+      "category": "Guides",
+      "summary": "Describes the Image Comparer Node in ComfyUI for visually comparing two images side-by-side using an interactive slider.",
+      "summary_approved": true,
+      "title": "ComfyUI Image Comparer Node",
+      "last_processed": "2025-12-01T12:02:49.793905",
+      "file_mtime": "2025-12-01T11:28:48.630420",
+      "readable_version": "./md_outputs/ComfyUI Image Comparer Node.md"
+    },
+    "./Models Ollama ComfyUI Config Photorealistic Removal Restoration Mesh Objects (md).md": {
+      "hash": "sha256:7d112514806f348b8f24514e38679b8654f4a695c5f5b83755949305fc3aaf46",
+      "category": "Troubleshooting",
+      "summary": "The document discusses challenges in finding a model capable of analyzing entire Git repositories using Ollama server and CLI tools, mentioning constraints like context window limitations.",
+      "summary_approved": true,
+      "title": "Models Ollama ComfyUI Config Photorealistic Removal Restoration Mesh Objects (md)",
+      "last_processed": "2025-12-01T12:02:49.793958",
+      "file_mtime": "2025-12-01T11:22:14.215112"
+    },
+    "./Best GPUs Next Level - 3090 - 25gig (PDF).pdf": {
+      "hash": "sha256:bf4dd4165e99765c213430935e932283ce80d7d7f3e9e8e5f18d2957400e6b88",
+      "category": "Guides",
+      "summary": "This document provides a list of recommended GPUs for AI-based image generation and manipulation at home in 2025, focusing on models with high VRAM capacity and performance.",
+      "summary_approved": true,
+      "title": "Best GPUs Next Level - 3090 - 25gig (PDF)",
+      "last_processed": "2025-12-01T12:02:49.793987",
+      "file_mtime": "2025-12-01T11:51:19.879349",
+      "readable_version": "./md_outputs/Best GPUs Next Level - 3090 - 25gig (PDF).md"
+    },
+    "./NVMe 2230 Acer - Macrium Reflect.docx": {
+      "hash": "sha256:953b872eaec5ef6e008a655dc30ea69b3541101b17cb03213769cd1f7c5df11d",
+      "category": "ARCHIVE-OneTime",
+      "summary": "This document provides advice on improving Ollama model switching performance by moving model files to an NVMe SSD and includes steps for Windows users.",
+      "summary_approved": true,
+      "title": "NVMe 2230 Acer - Macrium Reflect",
+      "last_processed": "2025-12-01T12:02:49.794010",
+      "file_mtime": "2025-12-01T11:47:21.662426",
+      "readable_version": "./md_outputs/NVMe 2230 Acer - Macrium Reflect.md"
+    },
+    "./Use both gpus (split functions) dual gpu machine flux clip etc (pdf).pdf": {
+      "hash": "sha256:c9a99fcfe307b0b7e5c9576187a9c65fb440148bd638f55fd0a0eacc9790cb38",
+      "category": "Guides",
+      "summary": "This document discusses configuring ComfyUI for dual GPU setups, focusing on options like VRAM pooling and running separate instances, with recommendations based on GPU capabilities.",
+      "summary_approved": true,
+      "title": "Use both gpus (split functions) dual gpu machine flux clip etc (pdf)",
+      "last_processed": "2025-12-01T12:02:49.794042",
+      "file_mtime": "2025-12-01T11:40:39.592841",
+      "readable_version": "./md_outputs/Use both gpus (split functions) dual gpu machine flux clip etc (pdf).md"
+    },
+    "./NVMe 2230 Acer - Macrium Reflect (pdf).pdf": {
+      "hash": "sha256:8fe3cc0c66c3faa33e82231a2902ba6f1794c2fc70b4589fa8c3876b9849c6e4",
+      "category": "Guides",
+      "summary": "Document discusses improving Ollama model switching performance on Windows by moving models to an NVMe SSD and provides instructions for relocation and optimization techniques.",
+      "summary_approved": true,
+      "title": "NVMe 2230 Acer - Macrium Reflect (pdf)",
+      "last_processed": "2025-12-01T12:02:49.794063",
+      "file_mtime": "2025-12-01T11:47:35.042217",
+      "readable_version": "./md_outputs/NVMe 2230 Acer - Macrium Reflect (pdf).md"
+    },
+    "./Adding Second PC and FLUX on Dual GPUs.docx": {
+      "hash": "sha256:46f3079fd19d6355dc01bf9790a84590daacf7e3abb3ea358277516032f57e9d",
+      "category": "ARCHIVE-Hardware",
+      "summary": "This document outlines how to enhance an existing Windows 11 setup with an RTX 3060 by adding a second PC under $1K for improved performance in Ollama and ComfyUI workflows.",
+      "summary_approved": true,
+      "title": "Adding Second PC and FLUX on Dual GPUs",
+      "last_processed": "2025-12-01T12:02:49.794087",
+      "file_mtime": "2025-12-01T10:42:45.518565",
+      "readable_version": "./md_outputs/Adding Second PC and FLUX on Dual GPUs.md"
+    },
+    "./One pc rtx3080 other 2x1080ti 11g - best split of ollama and comfyUI.docx": {
+      "hash": "sha256:240eb7bc50c12481b618be22f56d644681b6aa5b4ad8ad1ae3eed8243ff2819e",
+      "category": "ARCHIVE-Hardware",
+      "summary": "Compares the performance of RTX 3060 and two GTX 1080 Ti cards for running Ollama and ComfyUI on Windows 11, highlighting VRAM, compute power, and AI acceleration benefits.",
+      "summary_approved": true,
+      "title": "One pc rtx3080 other 2x1080ti 11g - best split of ollama and comfyUI",
+      "last_processed": "2025-12-01T12:02:49.794114",
+      "file_mtime": "2025-12-01T11:43:57.611666",
+      "readable_version": "./md_outputs/One pc rtx3080 other 2x1080ti 11g - best split of ollama and comfyUI.md"
+    },
+    "./One pc rtx3080 other 2x1080ti 11g - best split of ollama and comfyUI (PDF).pdf": {
+      "hash": "sha256:f9c6888e8f0adb567757cfda50e7a90d331c4d8d6f25d54c8ecd5f897033b54b",
+      "category": "Guides",
+      "summary": "The document compares GPU configurations for running Ollama and ComfyUI on Windows 11, recommending an RTX 3060 over two GTX 1050 Ti cards due to VRAM capacity and performance advantages.",
+      "summary_approved": true,
+      "title": "One pc rtx3080 other 2x1080ti 11g - best split of ollama and comfyUI (PDF)",
+      "last_processed": "2025-12-01T12:02:49.794139",
+      "file_mtime": "2025-12-01T11:44:29.681991",
+      "readable_version": "./md_outputs/One pc rtx3080 other 2x1080ti 11g - best split of ollama and comfyUI (PDF).md"
+    },
+    "./Models Ollama ComfyUI Config Photorealistic Removal Restoration Mesh Objects.pdf": {
+      "hash": "sha256:4b8015c573869c163e1f1f01b1cd87a7cf5efa48cc553fd8bbec94e313fd7e43",
+      "category": "ARCHIVE-References",
+      "summary": "This document contains configuration settings and models for Ollama ComfyUI related to photorealistic image generation, object removal, restoration, meshing, and photorealism enhancement.",
+      "summary_approved": true,
+      "title": "Models Ollama ComfyUI Config Photorealistic Removal Restoration Mesh Objects",
+      "last_processed": "2025-12-01T12:02:49.794159",
+      "file_mtime": "2025-12-01T11:04:32.939569"
+    },
+    "./Best GPUs Next Level - 3090 - 25gig.docx": {
+      "hash": "sha256:e041b4437055f4dcd90a49e0a5f4673093bd7eb8f206c9962bd45b9d60f9bf4f",
+      "category": "ARCHIVE-Hardware",
+      "summary": "Document provides recommendations for high-performance GPUs suitable for AI-based image generation and manipulation, focusing on VRAM capacity and modern tensor cores.",
+      "summary_approved": true,
+      "title": "Best GPUs Next Level - 3090 - 25gig",
+      "last_processed": "2025-12-01T12:02:49.794178",
+      "file_mtime": "2025-12-01T11:51:06.456630",
+      "readable_version": "./md_outputs/Best GPUs Next Level - 3090 - 25gig.md"
+    },
+    "./Adding Second PC and FLUX on Dual GPUs (PDF).pdf": {
+      "hash": "sha256:3ebe1edb31f50a6b5f08276ef7d09dae484afd0ee5eec6081182b7ad19361305",
+      "category": "Guides",
+      "summary": "This document outlines how to add a second PC with a high-end GPU under $1K to complement an existing RTX 3060 for distributed computing tasks in Ollama and ComfyUI.",
+      "summary_approved": true,
+      "title": "Adding Second PC and FLUX on Dual GPUs (PDF)",
+      "last_processed": "2025-12-01T12:02:49.794203",
+      "file_mtime": "2025-12-01T10:43:06.699670",
+      "readable_version": "./md_outputs/Adding Second PC and FLUX on Dual GPUs (PDF).md"
+    },
+    "./Use both gpus (split functions) dual gpu machine flux clip etc.docx": {
+      "hash": "sha256:c629493cfe19a6072d61db00eac6e90c665bd4573e2641882fd79a491f9d2abc",
+      "category": "ARCHIVE-Hardware",
+      "summary": "The document details how to configure ComfyUI for dual GPU usage on Win11, focusing on VRAM pooling and running separate instances for different GPUs.",
+      "summary_approved": true,
+      "title": "Use both gpus (split functions) dual gpu machine flux clip etc",
+      "last_processed": "2025-12-01T12:02:49.794223",
+      "file_mtime": "2025-12-01T11:40:14.704527",
+      "readable_version": "./md_outputs/Use both gpus (split functions) dual gpu machine flux clip etc.md"
+    },
+    "./Dual RTX 3060 and GTX 1080 Ti Ollama ComfyUI.md": {
+      "hash": "sha256:3c38f365a25b8ca86e5e7b03ee3eaea091da24dead732b22f5a1f9b2930f1669",
+      "category": "Guides",
+      "summary": "Discussion on the performance comparison between a single GTX 1080 Ti and dual RTX 3060 GPUs for running large language models on Windows 11.",
+      "summary_approved": true,
+      "title": "Dual RTX 3060 and GTX 1080 Ti Ollama ComfyUI",
+      "last_processed": "2025-12-01T12:02:49.794247",
+      "file_mtime": "2025-12-01T11:20:05.441762"
     }
   }
 }
