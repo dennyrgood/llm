@@ -1,0 +1,214 @@
+# ComfyUI Multi-GPU Configuration
+# Hardware: 2x GTX 1080 Ti (11GB each) on Windows 11
+# Place this file in: C:\ComfyUI\multi_gpu_config.yaml
+# 
+# Strategy: Split workflows by compute intensity
+# - GPU 0: Heavy 3D generation models (long-running)
+# - GPU 1: Fast inpainting/masking (quick turnaround)
+
+# =============================================================================
+# GPU ASSIGNMENTS
+# =============================================================================
+
+gpu_assignments:
+  
+  # ---------------------------------------------------------------------------
+  # GPU 0 (First 1080 Ti) - 3D Generation Pipeline
+  # ---------------------------------------------------------------------------
+  - device: "cuda:0"
+    vram_limit: 10.5  # Leave 0.5GB headroom for system
+    priority: "3d_generation"
+    
+    models:
+      # Primary 3D mesh generation
+      - "TripoSR"           # Single-image → mesh (4-12s)
+      - "InstantMesh"       # Multi-view → mesh fallback
+      - "Wonder3D"          # Complex geometry fallback
+      
+      # Supporting models for 3D pipeline
+      - "depth_anything"    # Depth estimation
+      - "normal_bae"        # Normal map generation
+      
+    workflows:
+      - "single_image_to_stl"
+      - "multi_view_3d"
+      - "product_photo_mesh"
+    
+    optimization:
+      attention_mode: "pytorch"      # Better for Pascal
+      precision: "fp16"              # Critical for speed
+      batch_size: 1                  # 1080 Ti can't handle batching
+      enable_model_unload: true      # Swap models aggressively
+  
+  # ---------------------------------------------------------------------------
+  # GPU 1 (Second 1080 Ti) - Inpainting & Restoration Pipeline
+  # ---------------------------------------------------------------------------
+  - device: "cuda:1"
+    vram_limit: 10.5
+    priority: "inpainting_restoration"
+    
+    models:
+      # People removal & object erasure
+      - "AnimateDiff"       # Motion masks for human detection
+      - "LaMa"              # Fast inpainting fill
+      - "Fooocus_inpaint"   # Detail refinement pass
+      
+      # Masking & segmentation
+      - "SAM2"              # Segment Anything for auto-masking
+      - "face_detailer"     # Face detection/isolation
+      - "YOLOv8"            # Object detection
+      
+      # Enhancement models
+      - "CodeFormer"        # Face restoration
+      - "RealESRGAN"        # Upscaling (2x-4x)
+      
+    workflows:
+      - "remove_people"
+      - "object_removal"
+      - "photo_restoration"
+      - "batch_enhancement"
+    
+    optimization:
+      attention_mode: "pytorch"
+      precision: "fp16"
+      max_input_size: 512           # 1080 Ti limit for AnimateDiff
+      enable_tiled_processing: true # For large images
+
+# =============================================================================
+# LOAD BALANCING RULES
+# =============================================================================
+
+load_balancing:
+  mode: "manual"  # Don't auto-balance; stick to assignments above
+  
+  # If GPU 0 is busy, don't move 3D models to GPU 1 (they're too heavy)
+  gpu0_overflow: "queue"
+  
+  # If GPU 1 is busy, can overflow light inpainting to GPU 0
+  gpu1_overflow: "gpu0_if_idle"
+  
+  # Queue limit before rejecting new jobs
+  max_queue_depth: 3
+
+# =============================================================================
+# MEMORY MANAGEMENT
+# =============================================================================
+
+memory_management:
+  # Aggressively unload models after use (1080 Ti has limited VRAM)
+  unload_delay: 5  # seconds after last use
+  
+  # Move finished outputs to system RAM immediately
+  offload_outputs: true
+  
+  # Cache small models (under 1GB) in VRAM
+  keep_loaded:
+    - "depth_anything"
+    - "YOLOv8"
+    - "face_detailer"
+  
+  # Emergency fallback if OOM
+  oom_recovery:
+    enabled: true
+    clear_cache: true
+    restart_workflow: true
+
+# =============================================================================
+# WORKFLOW ROUTING (Automatic assignment based on workflow name)
+# =============================================================================
+
+workflow_routing:
+  # 3D workflows → GPU 0
+  - pattern: ".*3d.*|.*mesh.*|.*stl.*|.*tripo.*"
+    device: "cuda:0"
+  
+  # Inpainting workflows → GPU 1
+  - pattern: ".*inpaint.*|.*remove.*|.*restore.*|.*enhance.*"
+    device: "cuda:1"
+  
+  # If both keywords present, prioritize by first match
+  - pattern: ".*batch.*"
+    device: "cuda:1"  # Batch jobs usually lighter per-image
+
+# =============================================================================
+# PARALLEL EXECUTION SETTINGS
+# =============================================================================
+
+parallel_execution:
+  enabled: true
+  
+  # Maximum simultaneous workflows per GPU
+  max_concurrent_per_gpu: 1  # 1080 Ti can't handle multiple heavy models
+  
+  # Allow GPU 0 and GPU 1 to run different workflows simultaneously
+  cross_gpu_parallel: true
+  
+  # Priority order (1 = highest)
+  priority_levels:
+    urgent: 1     # Manual "run now" clicks
+    normal: 2     # API requests
+    batch: 3      # Background processing
+
+# =============================================================================
+# PERFORMANCE MONITORING
+# =============================================================================
+
+monitoring:
+  enabled: true
+  log_level: "INFO"
+  
+  # Alert if VRAM usage > 95%
+  vram_alert_threshold: 0.95
+  
+  # Log slow models (helpful for optimization)
+  log_model_performance: true
+  slow_model_threshold: 30  # seconds
+  
+  # Output location
+  log_path: "logs/multi_gpu_performance.log"
+
+# =============================================================================
+# NETWORK CONFIGURATION (for Ollama integration)
+# =============================================================================
+
+network:
+  # Your RTX 3060 workstation IP (running Ollama)
+  ollama_host: "http://192.168.1.100:11434"  # CHANGE THIS to your actual IP
+  
+  # If using IF_AI_tools nodes to call Ollama from ComfyUI
+  default_ollama_model: "gemma2:27b-instruct-q5_K_M"
+  
+  # Timeout for LLM calls (prompt generation)
+  ollama_timeout: 30  # seconds
+
+# =============================================================================
+# WINDOWS-SPECIFIC SETTINGS
+# =============================================================================
+
+windows:
+  # Force GPU order (prevents Windows from randomly reassigning)
+  cuda_device_order: "PCI_BUS_ID"
+  
+  # Prevent Windows from putting GPUs to sleep
+  disable_gpu_sleep: true
+  
+  # Use Windows high-performance power plan during generation
+  force_high_performance: true
+
+# =============================================================================
+# EXAMPLE WORKFLOW ASSIGNMENTS (for testing)
+# =============================================================================
+
+# Test your setup with these commands:
+#
+# GPU 0 test (3D generation):
+#   python comfy_api.py --workflow single_image_to_stl.json --gpu 0
+#
+# GPU 1 test (inpainting):
+#   python comfy_api.py --workflow remove_people.json --gpu 1
+#
+# Parallel test (both GPUs):
+#   python comfy_api.py --workflow single_image_to_stl.json --gpu 0 &
+#   python comfy_api.py --workflow remove_people.json --gpu 1 &
+#
+# Should see both workflows running simultaneously with no VRAM conflicts.

@@ -1,0 +1,7 @@
+ollama ls
+NAME                                                  ID              SIZE      MODIFIED
+qwen2.5-coder:32b                                     b92d6a0bd47e    19 GB     5 hours ago
+impactframes/llama3_ifai_sd_prompt_mkr_q4km:latest    2ed36d992405    4.9 GB    5 hours ago
+gemma2:27b-instruct-q5_K_M                            fc62fd7d70c9    19 GB     5 hours ago
+qwen2.5:14b                                           7cdf5a0187d5    9.0 GB    10 days ago
+codestral:22b                                         0898a8b286d5    12 GB     10 days ago

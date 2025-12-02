@@ -1,17 +1,68 @@
 {
-  "timestamp": "2025-12-01T13:35:21.555040",
+  "timestamp": "2025-12-02T11:57:25.221910",
   "summaries": [
     {
       "file": {
-        "path": "./What to Try Next.txt",
-        "hash": "",
-        "size": 0
+        "path": "./Complete Endgame Setup - Critical Refinements.pdf",
+        "hash": "sha256:872e6e0dc1ca450e0f3d27f6fc000831e8c825d3754926518425aa8d7c961a4f",
+        "size": 157009,
+        "readable_version": "./md_outputs/Complete Endgame Setup - Critical Refinements.md"
       },
-      "summary": "Document suggests alternative powerful and specialized models for local use, including state-of-the-art options, high-performance/efficiency choices, and multimodal tasks.",
+      "summary": "This document outlines critical refinements for enhancing endgame setup in image processing and 3D printing, addressing complex human figure removal and automated mesh post-processing.",
+      "category": "Guides",
+      "is_new_category": false,
+      "title": "Complete Endgame Setup - Critical Refinements",
+      "timestamp": "2025-12-02T11:57:12.272119"
+    },
+    {
+      "file": {
+        "path": "./Multi-GPU Setup README.pdf",
+        "hash": "sha256:59eddad7b0063952fd81446e49ebe874fdd4de732a439851493a7bcf7113f8cd",
+        "size": 181774,
+        "readable_version": "./md_outputs/Multi-GPU Setup README.md"
+      },
+      "summary": "This document outlines a dual GTX 1080 Ti configuration for parallel processing of 3D generation and image restoration tasks, detailing workload distribution between GPUs.",
+      "category": "Guides",
+      "is_new_category": false,
+      "title": "Multi-GPU Setup README",
+      "timestamp": "2025-12-02T11:57:15.689271"
+    },
+    {
+      "file": {
+        "path": "./multi_gpu_config.txt",
+        "hash": "sha256:40cbe582525fa154fbc238e04e3cf1a77d1a70d6f0b71cd876f98445b1981e4e",
+        "size": 7324
+      },
+      "summary": "Configures ComfyUI for two GTX 1080 Ti GPUs on Windows 11, assigning heavy 3D generation tasks to GPU 0 and fast inpainting/restoration tasks to GPU 1.",
+      "category": "Guides",
+      "is_new_category": false,
+      "title": "multi_gpu_config",
+      "timestamp": "2025-12-02T11:57:19.148931"
+    },
+    {
+      "file": {
+        "path": "./ollama ls.txt",
+        "hash": "sha256:61cbac658d5818c7efdb58ba3c7b986a2f287f090ef5c9d941a83262c31464ff",
+        "size": 564
+      },
+      "summary": "A list of ollama container images with details including names, IDs, sizes, and modification times.",
       "category": "Models",
       "is_new_category": false,
-      "title": "What to Try Next",
-      "timestamp": "2025-12-01T13:35:21.555002"
+      "title": "ollama ls",
+      "timestamp": "2025-12-02T11:57:21.640533"
+    },
+    {
+      "file": {
+        "path": "./Your Complete Endgame Setup - November 30 2025.pdf",
+        "hash": "sha256:4d7795c6e6b119d0d149f24a4b50556f1c7ce6f65558d88e4dbf52f476072653",
+        "size": 146866,
+        "readable_version": "./md_outputs/Your Complete Endgame Setup - November 30 2025.md"
+      },
+      "summary": "This document outlines a minimalist hardware and software setup for efficient AI model deployment, focusing on endgame tasks like image-to-STL conversion and photorealistic generation with limited VRAM usage.",
+      "category": "Workflows",
+      "is_new_category": false,
+      "title": "Your Complete Endgame Setup - November 30 2025",
+      "timestamp": "2025-12-02T11:57:25.221870"
     }
   ]
 }
