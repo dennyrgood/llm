@@ -1,0 +1,33 @@
+# Set the default model to use when you start aichat.
+# CRITICAL FIX: Include client prefix 'ollama:' and use quotes.
+# Setting the default to the robust 'alfred' model.
+model: "ollama:Qwen2.5-coder:14b"
+
+# The clients block defines how aichat connects to different providers.
+clients:
+  - type: openai-compatible
+    name: ollama
+    
+    # CRITICAL: This base URL MUST include the /v1 path for aichat to work with Ollama.
+    # NOTE: You are using HTTPS, ensure your certificate is correctly configured.
+    api_base: https://ollama.ldmathes.cc/v1
+    
+    # Ollama does not use an API key, but aichat often requires a placeholder.
+    api_key: "sk-ollama-placeholder"
+    
+    # List the specific models available on your Ollama server.
+    models:
+      - name: qwen2.5:14b
+        display_name: Qwen2.5 (14b)
+
+      - name: codestral:22b
+        display_name: Codestral (22b)
+
+      - name: gemma2:27b-instruct-q5_K_M
+        display_name: Gemma2 (27b-instruct-q5_K_M)
+
+      - name: impactframes/llama3_ifai_sd_prompt_mkr_q4km:latest
+        display_name: Impactframes/llama3_ifai_sd_prompt_mkr_q4km
+
+      - name: qwen2.5-coder:32b
+        display_name: Qwen2.5 Coder (32b)
