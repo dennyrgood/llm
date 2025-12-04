@@ -1,82 +1,31 @@
 {
-  "timestamp": "2025-12-04T20:13:08.572035",
+  "timestamp": "2025-12-04T20:52:17.802887",
   "summaries": [
     {
       "file": {
-        "path": "./\u2265 Game PC _ GTX 1080 TI 11 GB _ Ryzen 5 5500 _ M.2 512GB \u2014 Desktop Pc's \u2014 Marktplaats.pdf",
-        "hash": "sha256:1c126bc0b9d34b2df686094a0b21a0562c9145cc218fcf09744de167d89fad90",
-        "size": 2239820,
-        "readable_version": "./md_outputs/\u2265 Game PC _ GTX 1080 TI 11 GB _ Ryzen 5 5500 _ M.2 512GB \u2014 Desktop Pc's \u2014 Marktplaats.md"
+        "path": "./Next GPU possibilities.docx",
+        "hash": "sha256:2b137c2c2048cb48ddca45f5e698ba3b4bea898361b9b3ccd78b8a5c097b6440",
+        "size": 94725,
+        "readable_version": "./md_outputs/Next GPU possibilities.md"
       },
-      "summary": "Document details a custom-built gaming PC with an AMD Ryzen 5 5500 processor, NVIDIA GTX 1080 Ti graphics card, and other high-performance components listed for sale on Marktplaats.",
-      "category": "Models",
-      "is_new_category": false,
-      "title": "\u2265 Game PC _ GTX 1080 TI 11 GB _ Ryzen 5 5500 _ M.2 512GB \u2014 Desktop Pc's \u2014 Marktplaats",
-      "timestamp": "2025-12-04T20:12:51.638492"
-    },
-    {
-      "file": {
-        "path": "./RemoteDesktopIssue.docx",
-        "hash": "sha256:42522571a853e7cdd53c47bfe090cc7f6d572bf9b75490b17cb63e95e5a68e3b",
-        "size": 192225,
-        "readable_version": "./md_outputs/RemoteDesktopIssue.md"
-      },
-      "summary": "This document provides instructions on enabling Remote Desktop Protocol (RDP) in Windows 11 Pro through the Settings app.",
+      "summary": "The document discusses upgrading GPUs for ComfyUI on Windows 11, focusing on VRAM limitations and multi-GPU support solutions.",
       "category": "Guides",
       "is_new_category": false,
-      "title": "RemoteDesktopIssue",
-      "timestamp": "2025-12-04T20:12:55.220612"
+      "title": "Next GPU possibilities",
+      "timestamp": "2025-12-04T20:52:14.062841"
     },
     {
       "file": {
-        "path": "./\u2265 MSI GeForce GTX 1080 Ti AERO 11G OC \u2014 Videokaarten \u2014 Marktplaats.pdf",
-        "hash": "sha256:0b95e8964ac5bc74fcfe0c491bed8d719955c9e23f9a982c716efebc4c7c1570",
-        "size": 2966779,
-        "readable_version": "./md_outputs/\u2265 MSI GeForce GTX 1080 Ti AERO 11G OC \u2014 Videokaarten \u2014 Marktplaats.md"
+        "path": "./Next GPU possibilities.pdf",
+        "hash": "sha256:f61111a1c13f6146445db8a2e5cc546d0973d8c1ec91bf6f3d1a5efa133b8062",
+        "size": 373770,
+        "readable_version": "./md_outputs/Next GPU possibilities.md"
       },
-      "summary": "This document is an advertisement for a used MSI GeForce GTX 1080 Ti AERO 11G OC graphics card with specifications and details about its condition and availability.",
-      "category": "Models",
-      "is_new_category": false,
-      "title": "\u2265 MSI GeForce GTX 1080 Ti AERO 11G OC \u2014 Videokaarten \u2014 Marktplaats",
-      "timestamp": "2025-12-04T20:12:59.107678"
-    },
-    {
-      "file": {
-        "path": "./machines.txt",
-        "hash": "sha256:29e3b1216a2cdc79a224ccaec5a3ee3a6922a9c19f3436bc0280a287f2c56fd5",
-        "size": 437
-      },
-      "summary": "The document lists hardware specifications of two Windows 11 machines including processor, graphics card, memory, storage, and power supply details along with pricing increments for upgrades.",
-      "category": "QuickRefs",
-      "is_new_category": false,
-      "title": "machines",
-      "timestamp": "2025-12-04T20:13:02.068522"
-    },
-    {
-      "file": {
-        "path": "./RemoteDesktopIssue (pdf).pdf",
-        "hash": "sha256:f2053899bff426e774e0508350107de9e004265c1f965cb34f45734e69352ffb",
-        "size": 344036,
-        "readable_version": "./md_outputs/RemoteDesktopIssue (pdf).md"
-      },
-      "summary": "This document provides step-by-step instructions on enabling Remote Desktop in Windows 11 Pro using the Settings app and Control Panel.",
+      "summary": "This document discusses upgrading GPU options for VRAM-intensive tasks in ComfyUI on Windows 11, focusing on compatibility and performance with NVIDIA RTX 30/40-series GPUs.",
       "category": "Guides",
       "is_new_category": false,
-      "title": "RemoteDesktopIssue (pdf)",
-      "timestamp": "2025-12-04T20:13:05.232808"
-    },
-    {
-      "file": {
-        "path": "./Home AI Infrastructure Setup Summary.pdf",
-        "hash": "sha256:c94b3808f93d2f1f4227a4a762340e4029a4a512af923c4e233b009cd5a0c22e",
-        "size": 172895,
-        "readable_version": "./md_outputs/Home AI Infrastructure Setup Summary.md"
-      },
-      "summary": "This document summarizes the home AI infrastructure setup including hardware inventory and network architecture for Ollama inference servers and image generation workstations.",
-      "category": "Guides",
-      "is_new_category": false,
-      "title": "Home AI Infrastructure Setup Summary",
-      "timestamp": "2025-12-04T20:13:08.571982"
+      "title": "Next GPU possibilities",
+      "timestamp": "2025-12-04T20:52:17.802816"
     }
   ]
 }

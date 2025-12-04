@@ -1,7 +1,7 @@
 {
   "metadata": {
     "last_scan": "2025-11-20T07:48:20.618243",
-    "last_apply": "2025-12-04T20:14:23.794720",
+    "last_apply": "2025-12-04T20:52:26.005642",
     "migrated_from_embedded": true,
     "migration_date": "2025-11-20T11:45:24.485598"
   },
@@ -907,6 +907,26 @@
       "last_processed": "2025-12-04T20:14:23.794692",
       "file_mtime": "2025-12-01T16:36:33",
       "readable_version": "./md_outputs/Home AI Infrastructure Setup Summary.md"
+    },
+    "./Next GPU possibilities.docx": {
+      "hash": "sha256:2b137c2c2048cb48ddca45f5e698ba3b4bea898361b9b3ccd78b8a5c097b6440",
+      "category": "Guides",
+      "summary": "The document discusses upgrading GPUs for ComfyUI on Windows 11, focusing on VRAM limitations and multi-GPU support solutions.",
+      "summary_approved": true,
+      "title": "Next GPU possibilities",
+      "last_processed": "2025-12-04T20:52:26.005583",
+      "file_mtime": "2025-12-04T20:50:27.205872",
+      "readable_version": "./md_outputs/Next GPU possibilities.md"
+    },
+    "./Next GPU possibilities.pdf": {
+      "hash": "sha256:f61111a1c13f6146445db8a2e5cc546d0973d8c1ec91bf6f3d1a5efa133b8062",
+      "category": "Guides",
+      "summary": "This document discusses upgrading GPU options for VRAM-intensive tasks in ComfyUI on Windows 11, focusing on compatibility and performance with NVIDIA RTX 30/40-series GPUs.",
+      "summary_approved": true,
+      "title": "Next GPU possibilities",
+      "last_processed": "2025-12-04T20:52:26.005621",
+      "file_mtime": "2025-12-04T20:50:43.786142",
+      "readable_version": "./md_outputs/Next GPU possibilities.md"
     }
   }
 }
