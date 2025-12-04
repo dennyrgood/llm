@@ -1,7 +1,7 @@
 {
   "metadata": {
     "last_scan": "2025-11-20T07:48:20.618243",
-    "last_apply": "2025-12-02T11:57:39.149290",
+    "last_apply": "2025-12-04T20:14:23.794720",
     "migrated_from_embedded": true,
     "migration_date": "2025-11-20T11:45:24.485598"
   },
@@ -818,6 +818,95 @@
       "last_processed": "2025-12-02T11:57:39.149265",
       "file_mtime": "2025-12-02T00:47:39.319970",
       "readable_version": "./md_outputs/Your Complete Endgame Setup - November 30 2025.md"
+    },
+    "./Setting up Cloudflare Tunnel for Clips.pdf": {
+      "hash": "sha256:451869a0b3840c586d9b07c18ebdc8a150fbd9702dc743a33ad29fa4d1d3598d",
+      "category": "Guides",
+      "summary": "This document outlines the steps for setting up Cloudflare Tunnel on a Windows machine, including installation, authentication, tunnel creation, and running as a service.",
+      "summary_approved": true,
+      "title": "Setting up Cloudflare Tunnel for Clips",
+      "last_processed": "2025-12-04T20:09:08.995783",
+      "file_mtime": "2025-12-04T19:28:16.661793",
+      "readable_version": "./md_outputs/Setting up Cloudflare Tunnel for Clips.md"
+    },
+    "./Dual GPU Configuration Check.pdf": {
+      "hash": "sha256:f4e0a7987b80ecdcf5f3c926e6ad38312db5a0dcc75515051c6a395be0303e43",
+      "category": "Guides",
+      "summary": "This document provides guidance on configuring NVMe SSDs and dual GPU setups for the ASRock B450 Steel Legend motherboard, including slot recommendations and compatibility considerations.",
+      "summary_approved": true,
+      "title": "Dual GPU Configuration Check",
+      "last_processed": "2025-12-04T20:09:08.995817",
+      "file_mtime": "2025-12-02T19:12:32.529014",
+      "readable_version": "./md_outputs/Dual GPU Configuration Check.md"
+    },
+    "./Looking at current state of ComfyUI setup on Original Win11.pdf": {
+      "hash": "sha256:4aea505a99f3b953a26d9bb181956782688443111ba1c6e3dc4b13939e7f63f7",
+      "category": "Guides",
+      "summary": "This document outlines the current state of ComfyUI setup on Windows 11 and provides recommendations for optimizing model distribution across hardware based on VRAM capacity.",
+      "summary_approved": true,
+      "title": "Looking at current state of ComfyUI setup on Original Win11",
+      "last_processed": "2025-12-04T20:09:08.995833",
+      "file_mtime": "2025-12-02T15:00:38.037163",
+      "readable_version": "./md_outputs/Looking at current state of ComfyUI setup on Original Win11.md"
+    },
+    "./\u2265 Game PC _ GTX 1080 TI 11 GB _ Ryzen 5 5500 _ M.2 512GB \u2014 Desktop Pc's \u2014 Marktplaats.pdf": {
+      "hash": "sha256:1c126bc0b9d34b2df686094a0b21a0562c9145cc218fcf09744de167d89fad90",
+      "category": "QuickRefs",
+      "summary": "Document details a custom-built gaming PC with an AMD Ryzen 5 5500 processor, NVIDIA GTX 1080 Ti graphics card, and other high-performance components listed for sale on Marktplaats.",
+      "summary_approved": true,
+      "title": "\u2265 Game PC _ GTX 1080 TI 11 GB _ Ryzen 5 5500 _ M.2 512GB \u2014 Desktop Pc's \u2014 Marktplaats",
+      "last_processed": "2025-12-04T20:14:23.794563",
+      "file_mtime": "2025-11-28T00:21:58.640812",
+      "readable_version": "./md_outputs/\u2265 Game PC _ GTX 1080 TI 11 GB _ Ryzen 5 5500 _ M.2 512GB \u2014 Desktop Pc's \u2014 Marktplaats.md"
+    },
+    "./RemoteDesktopIssue.docx": {
+      "hash": "sha256:42522571a853e7cdd53c47bfe090cc7f6d572bf9b75490b17cb63e95e5a68e3b",
+      "category": "Workflows",
+      "summary": "This document provides instructions on enabling Remote Desktop Protocol (RDP) in Windows 11 Pro through the Settings app.",
+      "summary_approved": true,
+      "title": "RemoteDesktopIssue",
+      "last_processed": "2025-12-04T20:14:23.794607",
+      "file_mtime": "2025-12-04T10:57:28",
+      "readable_version": "./md_outputs/RemoteDesktopIssue.md"
+    },
+    "./\u2265 MSI GeForce GTX 1080 Ti AERO 11G OC \u2014 Videokaarten \u2014 Marktplaats.pdf": {
+      "hash": "sha256:0b95e8964ac5bc74fcfe0c491bed8d719955c9e23f9a982c716efebc4c7c1570",
+      "category": "QuickRefs",
+      "summary": "This document is an advertisement for a used MSI GeForce GTX 1080 Ti AERO 11G OC graphics card with specifications and details about its condition and availability.",
+      "summary_approved": true,
+      "title": "\u2265 MSI GeForce GTX 1080 Ti AERO 11G OC \u2014 Videokaarten \u2014 Marktplaats",
+      "last_processed": "2025-12-04T20:14:23.794640",
+      "file_mtime": "2025-11-28T00:23:24.332482",
+      "readable_version": "./md_outputs/\u2265 MSI GeForce GTX 1080 Ti AERO 11G OC \u2014 Videokaarten \u2014 Marktplaats.md"
+    },
+    "./machines.txt": {
+      "hash": "sha256:29e3b1216a2cdc79a224ccaec5a3ee3a6922a9c19f3436bc0280a287f2c56fd5",
+      "category": "QuickRefs",
+      "summary": "The document lists hardware specifications of two Windows 11 machines including processor, graphics card, memory, storage, and power supply details along with pricing increments for upgrades.",
+      "summary_approved": true,
+      "title": "machines",
+      "last_processed": "2025-12-04T20:14:23.794659",
+      "file_mtime": "2025-12-04T20:10:37.960231"
+    },
+    "./RemoteDesktopIssue (pdf).pdf": {
+      "hash": "sha256:f2053899bff426e774e0508350107de9e004265c1f965cb34f45734e69352ffb",
+      "category": "Workflows",
+      "summary": "This document provides step-by-step instructions on enabling Remote Desktop in Windows 11 Pro using the Settings app and Control Panel.",
+      "summary_approved": true,
+      "title": "RemoteDesktopIssue (pdf)",
+      "last_processed": "2025-12-04T20:14:23.794672",
+      "file_mtime": "2025-12-04T10:56:38",
+      "readable_version": "./md_outputs/RemoteDesktopIssue (pdf).md"
+    },
+    "./Home AI Infrastructure Setup Summary.pdf": {
+      "hash": "sha256:c94b3808f93d2f1f4227a4a762340e4029a4a512af923c4e233b009cd5a0c22e",
+      "category": "QuickRefs",
+      "summary": "This document summarizes the home AI infrastructure setup including hardware inventory and network architecture for Ollama inference servers and image generation workstations.",
+      "summary_approved": true,
+      "title": "Home AI Infrastructure Setup Summary",
+      "last_processed": "2025-12-04T20:14:23.794692",
+      "file_mtime": "2025-12-01T16:36:33",
+      "readable_version": "./md_outputs/Home AI Infrastructure Setup Summary.md"
     }
   }
 }

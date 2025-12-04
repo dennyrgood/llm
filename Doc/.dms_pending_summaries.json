@@ -1,68 +1,82 @@
 {
-  "timestamp": "2025-12-02T11:57:25.221910",
+  "timestamp": "2025-12-04T20:13:08.572035",
   "summaries": [
     {
       "file": {
-        "path": "./Complete Endgame Setup - Critical Refinements.pdf",
-        "hash": "sha256:872e6e0dc1ca450e0f3d27f6fc000831e8c825d3754926518425aa8d7c961a4f",
-        "size": 157009,
-        "readable_version": "./md_outputs/Complete Endgame Setup - Critical Refinements.md"
+        "path": "./\u2265 Game PC _ GTX 1080 TI 11 GB _ Ryzen 5 5500 _ M.2 512GB \u2014 Desktop Pc's \u2014 Marktplaats.pdf",
+        "hash": "sha256:1c126bc0b9d34b2df686094a0b21a0562c9145cc218fcf09744de167d89fad90",
+        "size": 2239820,
+        "readable_version": "./md_outputs/\u2265 Game PC _ GTX 1080 TI 11 GB _ Ryzen 5 5500 _ M.2 512GB \u2014 Desktop Pc's \u2014 Marktplaats.md"
       },
-      "summary": "This document outlines critical refinements for enhancing endgame setup in image processing and 3D printing, addressing complex human figure removal and automated mesh post-processing.",
-      "category": "Guides",
-      "is_new_category": false,
-      "title": "Complete Endgame Setup - Critical Refinements",
-      "timestamp": "2025-12-02T11:57:12.272119"
-    },
-    {
-      "file": {
-        "path": "./Multi-GPU Setup README.pdf",
-        "hash": "sha256:59eddad7b0063952fd81446e49ebe874fdd4de732a439851493a7bcf7113f8cd",
-        "size": 181774,
-        "readable_version": "./md_outputs/Multi-GPU Setup README.md"
-      },
-      "summary": "This document outlines a dual GTX 1080 Ti configuration for parallel processing of 3D generation and image restoration tasks, detailing workload distribution between GPUs.",
-      "category": "Guides",
-      "is_new_category": false,
-      "title": "Multi-GPU Setup README",
-      "timestamp": "2025-12-02T11:57:15.689271"
-    },
-    {
-      "file": {
-        "path": "./multi_gpu_config.txt",
-        "hash": "sha256:40cbe582525fa154fbc238e04e3cf1a77d1a70d6f0b71cd876f98445b1981e4e",
-        "size": 7324
-      },
-      "summary": "Configures ComfyUI for two GTX 1080 Ti GPUs on Windows 11, assigning heavy 3D generation tasks to GPU 0 and fast inpainting/restoration tasks to GPU 1.",
-      "category": "Guides",
-      "is_new_category": false,
-      "title": "multi_gpu_config",
-      "timestamp": "2025-12-02T11:57:19.148931"
-    },
-    {
-      "file": {
-        "path": "./ollama ls.txt",
-        "hash": "sha256:61cbac658d5818c7efdb58ba3c7b986a2f287f090ef5c9d941a83262c31464ff",
-        "size": 564
-      },
-      "summary": "A list of ollama container images with details including names, IDs, sizes, and modification times.",
+      "summary": "Document details a custom-built gaming PC with an AMD Ryzen 5 5500 processor, NVIDIA GTX 1080 Ti graphics card, and other high-performance components listed for sale on Marktplaats.",
       "category": "Models",
       "is_new_category": false,
-      "title": "ollama ls",
-      "timestamp": "2025-12-02T11:57:21.640533"
+      "title": "\u2265 Game PC _ GTX 1080 TI 11 GB _ Ryzen 5 5500 _ M.2 512GB \u2014 Desktop Pc's \u2014 Marktplaats",
+      "timestamp": "2025-12-04T20:12:51.638492"
     },
     {
       "file": {
-        "path": "./Your Complete Endgame Setup - November 30 2025.pdf",
-        "hash": "sha256:4d7795c6e6b119d0d149f24a4b50556f1c7ce6f65558d88e4dbf52f476072653",
-        "size": 146866,
-        "readable_version": "./md_outputs/Your Complete Endgame Setup - November 30 2025.md"
+        "path": "./RemoteDesktopIssue.docx",
+        "hash": "sha256:42522571a853e7cdd53c47bfe090cc7f6d572bf9b75490b17cb63e95e5a68e3b",
+        "size": 192225,
+        "readable_version": "./md_outputs/RemoteDesktopIssue.md"
       },
-      "summary": "This document outlines a minimalist hardware and software setup for efficient AI model deployment, focusing on endgame tasks like image-to-STL conversion and photorealistic generation with limited VRAM usage.",
-      "category": "Workflows",
+      "summary": "This document provides instructions on enabling Remote Desktop Protocol (RDP) in Windows 11 Pro through the Settings app.",
+      "category": "Guides",
       "is_new_category": false,
-      "title": "Your Complete Endgame Setup - November 30 2025",
-      "timestamp": "2025-12-02T11:57:25.221870"
+      "title": "RemoteDesktopIssue",
+      "timestamp": "2025-12-04T20:12:55.220612"
+    },
+    {
+      "file": {
+        "path": "./\u2265 MSI GeForce GTX 1080 Ti AERO 11G OC \u2014 Videokaarten \u2014 Marktplaats.pdf",
+        "hash": "sha256:0b95e8964ac5bc74fcfe0c491bed8d719955c9e23f9a982c716efebc4c7c1570",
+        "size": 2966779,
+        "readable_version": "./md_outputs/\u2265 MSI GeForce GTX 1080 Ti AERO 11G OC \u2014 Videokaarten \u2014 Marktplaats.md"
+      },
+      "summary": "This document is an advertisement for a used MSI GeForce GTX 1080 Ti AERO 11G OC graphics card with specifications and details about its condition and availability.",
+      "category": "Models",
+      "is_new_category": false,
+      "title": "\u2265 MSI GeForce GTX 1080 Ti AERO 11G OC \u2014 Videokaarten \u2014 Marktplaats",
+      "timestamp": "2025-12-04T20:12:59.107678"
+    },
+    {
+      "file": {
+        "path": "./machines.txt",
+        "hash": "sha256:29e3b1216a2cdc79a224ccaec5a3ee3a6922a9c19f3436bc0280a287f2c56fd5",
+        "size": 437
+      },
+      "summary": "The document lists hardware specifications of two Windows 11 machines including processor, graphics card, memory, storage, and power supply details along with pricing increments for upgrades.",
+      "category": "QuickRefs",
+      "is_new_category": false,
+      "title": "machines",
+      "timestamp": "2025-12-04T20:13:02.068522"
+    },
+    {
+      "file": {
+        "path": "./RemoteDesktopIssue (pdf).pdf",
+        "hash": "sha256:f2053899bff426e774e0508350107de9e004265c1f965cb34f45734e69352ffb",
+        "size": 344036,
+        "readable_version": "./md_outputs/RemoteDesktopIssue (pdf).md"
+      },
+      "summary": "This document provides step-by-step instructions on enabling Remote Desktop in Windows 11 Pro using the Settings app and Control Panel.",
+      "category": "Guides",
+      "is_new_category": false,
+      "title": "RemoteDesktopIssue (pdf)",
+      "timestamp": "2025-12-04T20:13:05.232808"
+    },
+    {
+      "file": {
+        "path": "./Home AI Infrastructure Setup Summary.pdf",
+        "hash": "sha256:c94b3808f93d2f1f4227a4a762340e4029a4a512af923c4e233b009cd5a0c22e",
+        "size": 172895,
+        "readable_version": "./md_outputs/Home AI Infrastructure Setup Summary.md"
+      },
+      "summary": "This document summarizes the home AI infrastructure setup including hardware inventory and network architecture for Ollama inference servers and image generation workstations.",
+      "category": "Guides",
+      "is_new_category": false,
+      "title": "Home AI Infrastructure Setup Summary",
+      "timestamp": "2025-12-04T20:13:08.571982"
     }
   ]
 }

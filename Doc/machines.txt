@@ -1,0 +1,19 @@
+My actual hardware:
+	•	Main workstation: Windows 11 + RTX 3060 12GB (Ollama host)
+	•	ComfyUI server: Windows 11 + 2x GTX 1080 Ti (11GB each) = 22GB total VRAM
+
+485euro
+
+Processor: Ryzen 5 5500
+Videokaart: GTX 1080 TI 11 GB
+Moederbord: ASRock B450 Steel Legend
+Ram geheugen: 16 GB HyperFury DDR4
+Opslag: 512 GB M.2 NVME SSD
+Besturingssysteem: Windows 11 Pro
+Voeding: Seasonic 550 watt 80+ Gold
+
+
+
++16gb + 50
+
++GTX 1080 TI 11 GB + 150
