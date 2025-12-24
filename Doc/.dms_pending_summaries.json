@@ -1,31 +1,31 @@
 {
-  "timestamp": "2025-12-04T20:52:17.802887",
+  "timestamp": "2025-12-24T22:00:02.564624",
   "summaries": [
     {
       "file": {
-        "path": "./Next GPU possibilities.docx",
-        "hash": "sha256:2b137c2c2048cb48ddca45f5e698ba3b4bea898361b9b3ccd78b8a5c097b6440",
-        "size": 94725,
-        "readable_version": "./md_outputs/Next GPU possibilities.md"
+        "path": "./PC Fleet Final Target State & Transition Plan.pdf",
+        "hash": "sha256:a00dbd3cd362dfc097808f595390b5fe27ab8b3cfef2dcfcba350e2e611ad56c",
+        "size": 47269,
+        "readable_version": "./md_outputs/PC Fleet Final Target State & Transition Plan.md"
       },
-      "summary": "The document discusses upgrading GPUs for ComfyUI on Windows 11, focusing on VRAM limitations and multi-GPU support solutions.",
+      "summary": "This document outlines the final technical specifications for three types of PC workstations and provides a detailed transition plan to achieve these configurations.",
       "category": "Guides",
       "is_new_category": false,
-      "title": "Next GPU possibilities",
-      "timestamp": "2025-12-04T20:52:14.062841"
+      "title": "PC Fleet Final Target State & Transition Plan",
+      "timestamp": "2025-12-24T21:59:59.951317"
     },
     {
       "file": {
-        "path": "./Next GPU possibilities.pdf",
-        "hash": "sha256:f61111a1c13f6146445db8a2e5cc546d0973d8c1ec91bf6f3d1a5efa133b8062",
-        "size": 373770,
-        "readable_version": "./md_outputs/Next GPU possibilities.md"
+        "path": "./Cloudflare Tunnels Securing Them.pdf",
+        "hash": "sha256:41c26b2d87112873899aca65fd0796602f2ee3393c67a6edd638afc6a5b94aae",
+        "size": 51047,
+        "readable_version": "./md_outputs/Cloudflare Tunnels Securing Them.md"
       },
-      "summary": "This document discusses upgrading GPU options for VRAM-intensive tasks in ComfyUI on Windows 11, focusing on compatibility and performance with NVIDIA RTX 30/40-series GPUs.",
+      "summary": "This document provides guidance on securing Cloudflare Tunnels using Cloudflare Access or basic authentication methods.",
       "category": "Guides",
       "is_new_category": false,
-      "title": "Next GPU possibilities",
-      "timestamp": "2025-12-04T20:52:17.802816"
+      "title": "Cloudflare Tunnels Securing Them",
+      "timestamp": "2025-12-24T22:00:02.564560"
     }
   ]
 }

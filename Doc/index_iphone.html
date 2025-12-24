@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Project Docs Index - Mobile</title>
+  <style>
+    :root {
+      --bg: #0f1720;
+      --panel: #0b1220;
+      --muted: #9aa4b2;
+      --accent: #79c0ff;
+      --card: #0f1726;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      margin: 0;
+      background-color: var(--bg);
+      color: #e6eef6;
+    }
+    #app {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    #main-content {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
+    }
+    #sidebar {
+      width: 100%;
+      border-right: 1px solid rgba(255,255,255,0.03);
+      overflow-y: auto;
+      padding: 1rem;
+      background: linear-gradient(180deg, rgba(255,255,255,0.012), rgba(255,255,255,0.008));
+    }
+    #viewer {
+      display: none;
+      flex: 1;
+      flex-direction: column;
+      padding: 1rem;
+    }
+    header {
+      padding: 1rem;
+      border-bottom: 1px solid rgba(255,255,255,0.03);
+    }
+    header h1 {
+      font-size: 1.25rem;
+      margin: 0;
+    }
+    .category h2 {
+      font-size: 1rem;
+      color: var(--accent);
+      margin-top: 1.5rem;
+    }
+    ul.files {
+      list-style: none;
+      padding: 0;
+    }
+    li.file {
+      padding: 0.75rem;
+      border-radius: 8px;
+      margin: 0.5rem 0;
+      background: linear-gradient(180deg, rgba(255,255,255,0.008), rgba(255,255,255,0.006));
+      cursor: pointer;
+    }
+    .file .title {
+      color: #dff3ff;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    .file .desc {
+      font-size: 0.875rem;
+      color: var(--muted);
+      line-height: 1.4;
+    }
+    #back-button {
+        display: none;
+        padding: 0.5rem 1rem;
+        background-color: var(--accent);
+        color: #000;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 1rem;
+    }
+    @media (min-width: 768px) {
+      #main-content {
+        flex-direction: row;
+      }
+      #sidebar {
+        width: 350px;
+      }
+      #viewer {
+        display: flex;
+      }
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>📚 Project Docs</h1>
+    </header>
+    <div id="main-content">
+      <section id="sidebar">
+        <section class="category" data-category="Guides">
+        <h2>Guides</h2>
+        <ul class="files">
+<li class="file" data-path="./AIChat CLI_ Capabilities and User Guide Summary.pdf" data-readable-version="./md_outputs/AIChat CLI_ Capabilities and User Guide Summary.md">
+          <div class="title">AIChat CLI_ Capabilities and User Guide Summary</div>
+          <div class="desc">The document provides a detailed user guide for the AIChat CLI tool, outlining its three core interaction modes and key capabilities in code development and shell automation.</div>
+        </li><li class="file" data-path="./Adding Second PC and FLUX on Dual GPUs (PDF).pdf" data-readable-version="./md_outputs/Adding Second PC and FLUX on Dual GPUs (PDF).md">
+          <div class="title">Adding Second PC and FLUX on Dual GPUs (PDF)</div>
+          <div class="desc">This document outlines how to add a second PC with a high-end GPU under $1K to complement an existing RTX 3060 for distributed computing tasks in Ollama and ComfyUI.</div>
+        </li><li class="file" data-path="./Best GPUs Next Level - 3090 - 25gig (PDF).pdf" data-readable-version="./md_outputs/Best GPUs Next Level - 3090 - 25gig (PDF).md">
+          <div class="title">Best GPUs Next Level - 3090 - 25gig (PDF)</div>
+          <div class="desc">This document provides a list of recommended GPUs for AI-based image generation and manipulation at home in 2025, focusing on models with high VRAM capacity and performance.</div>
+        </li><li class="file" data-path="./Cloudflare Tunnels Securing Them.pdf" data-readable-version="./md_outputs/Cloudflare Tunnels Securing Them.md">
+          <div class="title">Cloudflare Tunnels Securing Them</div>
+          <div class="desc">This document provides guidance on securing Cloudflare Tunnels using Cloudflare Access or basic authentication methods.</div>
+        </li><li class="file" data-path="./ComfyUI Explained - Understanding the Basics.pdf" data-readable-version="./md_outputs/ComfyUI Explained - Understanding the Basics.md">
+          <div class="title">ComfyUI Explained - Understanding the Basics</div>
+          <div class="desc">Explains the core concepts and processes of AI image generation in ComfyUI using nodes for MODEL, CLIP, and VAE.</div>
+        </li><li class="file" data-path="./ComfyUI Image Comparer Node.pdf" data-readable-version="./md_outputs/ComfyUI Image Comparer Node.md">
+          <div class="title">ComfyUI Image Comparer Node</div>
+          <div class="desc">Describes the Image Comparer Node in ComfyUI for visually comparing two images side-by-side using an interactive slider.</div>
+        </li><li class="file" data-path="./ComfyUI RTX 3060 Setup.pdf" data-readable-version="./md_outputs/ComfyUI RTX 3060 Setup.md">
+          <div class="title">ComfyUI RTX 3060 Setup</div>
+          <div class="desc">This document details the setup process for ComfyUI on a Windows system with an RTX 3060 GPU, including model installation and troubleshooting issues encountered during initialization.</div>
+        </li><li class="file" data-path="./Complete Endgame Setup - Critical Refinements.pdf" data-readable-version="./md_outputs/Complete Endgame Setup - Critical Refinements.md">
+          <div class="title">Complete Endgame Setup - Critical Refinements</div>
+          <div class="desc">This document outlines critical refinements for enhancing endgame setup in image processing and 3D printing, addressing complex human figure removal and automated mesh post-processing.</div>
+        </li><li class="file" data-path="./Conversation with Gemini - ComfyUI Models (PDF).pdf" data-readable-version="./md_outputs/Conversation with Gemini - ComfyUI Models (PDF).md">
+          <div class="title">Conversation with Gemini - ComfyUI Models (PDF)</div>
+          <div class="desc">This document provides model recommendations for ComfyUI users aiming to perform background/person removal, photo restoration, and other creative tasks efficiently on an RTX 3060 with limited VRAM.</div>
+        </li><li class="file" data-path="./Dual GPU Configuration Check.pdf" data-readable-version="./md_outputs/Dual GPU Configuration Check.md">
+          <div class="title">Dual GPU Configuration Check</div>
+          <div class="desc">This document provides guidance on configuring NVMe SSDs and dual GPU setups for the ASRock B450 Steel Legend motherboard, including slot recommendations and compatibility considerations.</div>
+        </li><li class="file" data-path="./Dual RTX 3060 and GTX 1080 Ti Ollama ComfyUI.md" >
+          <div class="title">Dual RTX 3060 and GTX 1080 Ti Ollama ComfyUI</div>
+          <div class="desc">Discussion on the performance comparison between a single GTX 1080 Ti and dual RTX 3060 GPUs for running large language models on Windows 11.</div>
+        </li><li class="file" data-path="./Looking at current state of ComfyUI setup on Original Win11.pdf" data-readable-version="./md_outputs/Looking at current state of ComfyUI setup on Original Win11.md">
+          <div class="title">Looking at current state of ComfyUI setup on Original Win11</div>
+          <div class="desc">This document outlines the current state of ComfyUI setup on Windows 11 and provides recommendations for optimizing model distribution across hardware based on VRAM capacity.</div>
+        </li><li class="file" data-path="./Multi-GPU Setup README.pdf" data-readable-version="./md_outputs/Multi-GPU Setup README.md">
+          <div class="title">Multi-GPU Setup README</div>
+          <div class="desc">This document outlines a dual GTX 1080 Ti configuration for parallel processing of 3D generation and image restoration tasks, detailing workload distribution between GPUs.</div>
+        </li><li class="file" data-path="./NVMe 2230 Acer - Macrium Reflect (pdf).pdf" data-readable-version="./md_outputs/NVMe 2230 Acer - Macrium Reflect (pdf).md">
+          <div class="title">NVMe 2230 Acer - Macrium Reflect (pdf)</div>
+          <div class="desc">Document discusses improving Ollama model switching performance on Windows by moving models to an NVMe SSD and provides instructions for relocation and optimization techniques.</div>
+        </li><li class="file" data-path="./New RTX 3060 Setup - SETTING_UP_REAL_IMAGE_MANIPULATION_LOCAL_SERVER.md" >
+          <div class="title">New RTX 3060 Setup - SETTING_UP_REAL_IMAGE_MANIPULATION_LOCAL_SERVER.md</div>
+          <div class="desc">ComfyUI + Flux image pipeline step-by-step, ControlNet, workflows (background replace, restoration), and Open WebUI integration.</div>
+        </li><li class="file" data-path="./Next GPU possibilities.docx" data-readable-version="./md_outputs/Next GPU possibilities.md">
+          <div class="title">Next GPU possibilities</div>
+          <div class="desc">The document discusses upgrading GPUs for ComfyUI on Windows 11, focusing on VRAM limitations and multi-GPU support solutions.</div>
+        </li><li class="file" data-path="./Next GPU possibilities.pdf" data-readable-version="./md_outputs/Next GPU possibilities.md">
+          <div class="title">Next GPU possibilities</div>
+          <div class="desc">This document discusses upgrading GPU options for VRAM-intensive tasks in ComfyUI on Windows 11, focusing on compatibility and performance with NVIDIA RTX 30/40-series GPUs.</div>
+        </li><li class="file" data-path="./One pc rtx3080 other 2x1080ti 11g - best split of ollama and comfyUI (PDF).pdf" data-readable-version="./md_outputs/One pc rtx3080 other 2x1080ti 11g - best split of ollama and comfyUI (PDF).md">
+          <div class="title">One pc rtx3080 other 2x1080ti 11g - best split of ollama and comfyUI (PDF)</div>
+          <div class="desc">The document compares GPU configurations for running Ollama and ComfyUI on Windows 11, recommending an RTX 3060 over two GTX 1050 Ti cards due to VRAM capacity and performance advantages.</div>
+        </li><li class="file" data-path="./PC Fleet Final Target State &amp; Transition Plan.pdf" data-readable-version="./md_outputs/PC Fleet Final Target State &amp; Transition Plan.md">
+          <div class="title">PC Fleet Final Target State &amp; Transition Plan</div>
+          <div class="desc">This document outlines the final technical specifications for three types of PC workstations and provides a detailed transition plan to achieve these configurations.</div>
+        </li><li class="file" data-path="./Setting Up Real Image Manipulation on Your Local Server.pdf" data-readable-version="./md_outputs/Setting Up Real Image Manipulation on Your Local Server.md">
+          <div class="title">Setting Up Real Image Manipulation on Your Local Server</div>
+          <div class="desc">This document provides instructions for setting up advanced image manipulation tools on Windows 11 using ComfyUI and the RTX 3060 GPU.</div>
+        </li><li class="file" data-path="./Setting up Cloudflare Tunnel for Clips.pdf" data-readable-version="./md_outputs/Setting up Cloudflare Tunnel for Clips.md">
+          <div class="title">Setting up Cloudflare Tunnel for Clips</div>
+          <div class="desc">This document outlines the steps for setting up Cloudflare Tunnel on a Windows machine, including installation, authentication, tunnel creation, and running as a service.</div>
+        </li><li class="file" data-path="./Use both gpus (split functions) dual gpu machine flux clip etc (pdf).pdf" data-readable-version="./md_outputs/Use both gpus (split functions) dual gpu machine flux clip etc (pdf).md">
+          <div class="title">Use both gpus (split functions) dual gpu machine flux clip etc (pdf)</div>
+          <div class="desc">This document discusses configuring ComfyUI for dual GPU setups, focusing on options like VRAM pooling and running separate instances, with recommendations based on GPU capabilities.</div>
+        </li><li class="file" data-path="./multi_gpu_config.txt" >
+          <div class="title">multi_gpu_config</div>
+          <div class="desc">Configures ComfyUI for two GTX 1080 Ti GPUs on Windows 11, assigning heavy 3D generation tasks to GPU 0 and fast inpainting/restoration tasks to GPU 1.</div>
+        </li>
+        </ul>
+      </section><section class="category" data-category="QuickRefs">
+        <h2>QuickRefs</h2>
+        <ul class="files">
+<li class="file" data-path="./Home AI Infrastructure Setup Summary.pdf" data-readable-version="./md_outputs/Home AI Infrastructure Setup Summary.md">
+          <div class="title">Home AI Infrastructure Setup Summary</div>
+          <div class="desc">This document summarizes the home AI infrastructure setup including hardware inventory and network architecture for Ollama inference servers and image generation workstations.</div>
+        </li><li class="file" data-path="./LLM Infrastructure Cheat Sheet (Updated).pdf" data-readable-version="./md_outputs/LLM Infrastructure Cheat Sheet (Updated).md">
+          <div class="title">LLM Infrastructure Cheat Sheet (Updated)</div>
+          <div class="desc">This document provides an overview of 20 large language model (LLM) options available on the Ollama server, categorized by access method and primary strength.</div>
+        </li><li class="file" data-path="./LLM QUICK SELECTION GUIDE.txt" >
+          <div class="title">LLM QUICK SELECTION GUIDE.txt</div>
+          <div class="desc">Quick model-selection cheat sheet: what model to use for reasoning, coding, vision, or speed.</div>
+        </li><li class="file" data-path="./Ollama CLI Help.txt" >
+          <div class="title">Ollama CLI Help</div>
+          <div class="desc">This document provides usage instructions and available commands for the Ollama CLI tool, which manages large language models including creation, running, stopping, pulling, pushing, listing, copying, removing, signing in/out, and displaying help.</div>
+        </li><li class="file" data-path="./Quantization &amp; Context Tokens — A One‑Page Practical Guide.md" >
+          <div class="title">Quantization &amp; Context Tokens — A One‑Page Practical Guide.md</div>
+          <div class="desc">Token heuristics and practical summary of quantization labels (Q4_K_M, Q4_0, BF16, FP8). Good cheat-sheet for offline decisions.</div>
+        </li><li class="file" data-path="./Quantization and Context Tokens — One‑Page Guide.html" >
+          <div class="title">Quantization and Context Tokens — One‑Page Guide.html</div>
+          <div class="desc">HTML view of the one-page guide (open in browser for nicely formatted view).</div>
+        </li><li class="file" data-path="./machines.txt" >
+          <div class="title">machines</div>
+          <div class="desc">The document lists hardware specifications of two Windows 11 machines including processor, graphics card, memory, storage, and power supply details along with pricing increments for upgrades.</div>
+        </li><li class="file" data-path="./≥ Game PC _ GTX 1080 TI 11 GB _ Ryzen 5 5500 _ M.2 512GB — Desktop Pc&#x27;s — Marktplaats.pdf" data-readable-version="./md_outputs/≥ Game PC _ GTX 1080 TI 11 GB _ Ryzen 5 5500 _ M.2 512GB — Desktop Pc&#x27;s — Marktplaats.md">
+          <div class="title">≥ Game PC _ GTX 1080 TI 11 GB _ Ryzen 5 5500 _ M.2 512GB — Desktop Pc&#x27;s — Marktplaats</div>
+          <div class="desc">Document details a custom-built gaming PC with an AMD Ryzen 5 5500 processor, NVIDIA GTX 1080 Ti graphics card, and other high-performance components listed for sale on Marktplaats.</div>
+        </li><li class="file" data-path="./≥ MSI GeForce GTX 1080 Ti AERO 11G OC — Videokaarten — Marktplaats.pdf" data-readable-version="./md_outputs/≥ MSI GeForce GTX 1080 Ti AERO 11G OC — Videokaarten — Marktplaats.md">
+          <div class="title">≥ MSI GeForce GTX 1080 Ti AERO 11G OC — Videokaarten — Marktplaats</div>
+          <div class="desc">This document is an advertisement for a used MSI GeForce GTX 1080 Ti AERO 11G OC graphics card with specifications and details about its condition and availability.</div>
+        </li>
+        </ul>
+      </section><section class="category" data-category="Models">
+        <h2>Models</h2>
+        <ul class="files">
+<li class="file" data-path="./Acer Specs.txt" >
+          <div class="title">Acer Specs</div>
+          <div class="desc">This document provides technical specifications for the Acer Aspire TC-885 system model, focusing on its processor details.</div>
+        </li><li class="file" data-path="./What to Try Next.txt" >
+          <div class="title">What to Try Next</div>
+          <div class="desc">Document suggests alternative powerful and specialized models for local use, including state-of-the-art options, high-performance/efficiency choices, and multimodal tasks.</div>
+        </li><li class="file" data-path="./ollama ls.txt" >
+          <div class="title">ollama ls</div>
+          <div class="desc">A list of ollama container images with details including names, IDs, sizes, and modification times.</div>
+        </li><li class="file" data-path="./ollama show model batch file.txt" >
+          <div class="title">ollama show model batch file</div>
+          <div class="desc">Document lists various Ollama models for text-based tasks such as coding assistance and language understanding.</div>
+        </li>
+        </ul>
+      </section><section class="category" data-category="Workflows">
+        <h2>Workflows</h2>
+        <ul class="files">
+<li class="file" data-path="./Conversation with Gemini - Sequence of memory events during ComfyUI run (PDF).pdf" data-readable-version="./md_outputs/Conversation with Gemini - Sequence of memory events during ComfyUI run (PDF).md">
+          <div class="title">Conversation with Gemini - Sequence of memory events during ComfyUI run (PDF)</div>
+          <div class="desc">This document outlines the sequence of memory events during ComfyUI execution on Windows 11, detailing data flow from disk to VRAM for image generation.</div>
+        </li><li class="file" data-path="./RTX 3060 Image Manipulation - Implementation Plan.pdf" data-readable-version="./md_outputs/RTX 3060 Image Manipulation - Implementation Plan.md">
+          <div class="title">RTX 3060 Image Manipulation - Implementation Plan</div>
+          <div class="desc">This document outlines an implementation plan for optimizing RTX 3060-based image manipulation tasks on Windows 11, focusing on speed improvements with SDXL Turbo model.</div>
+        </li><li class="file" data-path="./RemoteDesktopIssue.docx" data-readable-version="./md_outputs/RemoteDesktopIssue.md">
+          <div class="title">RemoteDesktopIssue</div>
+          <div class="desc">This document provides instructions on enabling Remote Desktop Protocol (RDP) in Windows 11 Pro through the Settings app.</div>
+        </li><li class="file" data-path="./RemoteDesktopIssue (pdf).pdf" data-readable-version="./md_outputs/RemoteDesktopIssue (pdf).md">
+          <div class="title">RemoteDesktopIssue (pdf)</div>
+          <div class="desc">This document provides step-by-step instructions on enabling Remote Desktop in Windows 11 Pro using the Settings app and Control Panel.</div>
+        </li><li class="file" data-path="./Your Complete Endgame Setup - November 30 2025.pdf" data-readable-version="./md_outputs/Your Complete Endgame Setup - November 30 2025.md">
+          <div class="title">Your Complete Endgame Setup - November 30 2025</div>
+          <div class="desc">This document outlines a minimalist hardware and software setup for efficient AI model deployment, focusing on endgame tasks like image-to-STL conversion and photorealistic generation with limited VRAM usage.</div>
+        </li>
+        </ul>
+      </section><section class="category" data-category="Troubleshooting">
+        <h2>Troubleshooting</h2>
+        <ul class="files">
+<li class="file" data-path="./Models Ollama ComfyUI Config Photorealistic Removal Restoration Mesh Objects (md).md" >
+          <div class="title">Models Ollama ComfyUI Config Photorealistic Removal Restoration Mesh Objects (md)</div>
+          <div class="desc">The document discusses challenges in finding a model capable of analyzing entire Git repositories using Ollama server and CLI tools, mentioning constraints like context window limitations.</div>
+        </li>
+        </ul>
+      </section><section class="category" data-category="ARCHIVE-Guides">
+        <h2>ARCHIVE-Guides</h2>
+        <ul class="files">
+<li class="file" data-path="./Prep for 3060 - in the mean time as well.docx" data-readable-version="./md_outputs/Prep for 3060 - in the mean time as well.md">
+          <div class="title">Prep for 3060 - in the mean time as well</div>
+          <div class="desc">Document outlines pre-existing large language models on an Ollama server and recommends models suitable for a GT 1030 GPU until a RTX 3060 upgrade.</div>
+        </li><li class="file" data-path="./Rtx3060 Supplemental Improvements.pdf" data-readable-version="./md_outputs/Rtx3060 Supplemental Improvements.md">
+          <div class="title">Rtx3060 Supplemental Improvements</div>
+          <div class="desc">This document provides a streamlined setup guide and tips for running AI coding models on an RTX 3060 GPU with Ollama and Continue CLI, emphasizing compatibility and performance considerations.</div>
+        </li>
+        </ul>
+      </section><section class="category" data-category="ARCHIVE-Hardware">
+        <h2>ARCHIVE-Hardware</h2>
+        <ul class="files">
+<li class="file" data-path="./Adding Second PC and FLUX on Dual GPUs.docx" data-readable-version="./md_outputs/Adding Second PC and FLUX on Dual GPUs.md">
+          <div class="title">Adding Second PC and FLUX on Dual GPUs</div>
+          <div class="desc">This document outlines how to enhance an existing Windows 11 setup with an RTX 3060 by adding a second PC under $1K for improved performance in Ollama and ComfyUI workflows.</div>
+        </li><li class="file" data-path="./Best GPUs Next Level - 3090 - 25gig.docx" data-readable-version="./md_outputs/Best GPUs Next Level - 3090 - 25gig.md">
+          <div class="title">Best GPUs Next Level - 3090 - 25gig</div>
+          <div class="desc">Document provides recommendations for high-performance GPUs suitable for AI-based image generation and manipulation, focusing on VRAM capacity and modern tensor cores.</div>
+        </li><li class="file" data-path="./One pc rtx3080 other 2x1080ti 11g - best split of ollama and comfyUI.docx" data-readable-version="./md_outputs/One pc rtx3080 other 2x1080ti 11g - best split of ollama and comfyUI.md">
+          <div class="title">One pc rtx3080 other 2x1080ti 11g - best split of ollama and comfyUI</div>
+          <div class="desc">Compares the performance of RTX 3060 and two GTX 1080 Ti cards for running Ollama and ComfyUI on Windows 11, highlighting VRAM, compute power, and AI acceleration benefits.</div>
+        </li><li class="file" data-path="./Use both gpus (split functions) dual gpu machine flux clip etc.docx" data-readable-version="./md_outputs/Use both gpus (split functions) dual gpu machine flux clip etc.md">
+          <div class="title">Use both gpus (split functions) dual gpu machine flux clip etc</div>
+          <div class="desc">The document details how to configure ComfyUI for dual GPU usage on Win11, focusing on VRAM pooling and running separate instances for different GPUs.</div>
+        </li>
+        </ul>
+      </section><section class="category" data-category="ARCHIVE-OneTime">
+        <h2>ARCHIVE-OneTime</h2>
+        <ul class="files">
+<li class="file" data-path="./Missing Files - Download These Now.pdf" data-readable-version="./md_outputs/Missing Files - Download These Now.md">
+          <div class="title">Missing Files - Download These Now</div>
+          <div class="desc">Document provides download links and instructions for three files necessary to optimize the Flux setup: clip_l.safetensors, t5xxl_fp8_e4m3fn.safetensors, and ae.safetensors.</div>
+        </li><li class="file" data-path="./NVMe 2230 Acer - Macrium Reflect.docx" data-readable-version="./md_outputs/NVMe 2230 Acer - Macrium Reflect.md">
+          <div class="title">NVMe 2230 Acer - Macrium Reflect</div>
+          <div class="desc">This document provides advice on improving Ollama model switching performance by moving model files to an NVMe SSD and includes steps for Windows users.</div>
+        </li>
+        </ul>
+      </section><section class="category" data-category="ARCHIVE-References">
+        <h2>ARCHIVE-References</h2>
+        <ul class="files">
+<li class="file" data-path="./Claude session - started the whole rabbit trail of hosting my own LLM.md" >
+          <div class="title">Claude session - started the whole rabbit trail of hosting my own LLM.md</div>
+          <div class="desc">Experiment notes: commit-message automation approaches, Ollama examples, costs, and a copilot-like script for local usage.</div>
+        </li><li class="file" data-path="./Conversation with Gemini - ComfyUI Models.docx" data-readable-version="./md_outputs/Conversation with Gemini - ComfyUI Models.md">
+          <div class="title">Conversation with Gemini - ComfyUI Models</div>
+          <div class="desc">This document discusses model recommendations for ComfyUI users aiming to perform background removal, person removal, and photo restoration on an RTX 3060 with 12GB VRAM.</div>
+        </li><li class="file" data-path="./Conversation with Gemini - Sequence of memory events during ComfyUI run.docx" data-readable-version="./md_outputs/Conversation with Gemini - Sequence of memory events during ComfyUI run.md">
+          <div class="title">Conversation with Gemini - Sequence of memory events during ComfyUI run</div>
+          <div class="desc">This document outlines the sequence of memory events during ComfyUI execution for image generation, detailing data flow from disk to VRAM in both cold start and subsequent iterations.</div>
+        </li><li class="file" data-path="./FLUX Optimazation.docx" data-readable-version="./md_outputs/FLUX Optimazation.md">
+          <div class="title">FLUX Optimazation</div>
+          <div class="desc">The document analyzes the performance of the FP8 quantized FLUX model in ComfyUI on an RTX 3060 and provides optimization suggestions.</div>
+        </li><li class="file" data-path="./GROK.Ollama.on.Win11.Ultimate.Perf.Guide.md" >
+          <div class="title">GROK.Ollama.on.Win11.Ultimate.Perf.Guide.md</div>
+          <div class="desc">Ollama on Windows 11 – Ultimate Performance Guide for RTX 3060: drivers, CUDA, Ollama settings, quantization, monitoring and model leaderboard.</div>
+        </li><li class="file" data-path="./GROK.recommended.llms.w.RTX.3060.txt" >
+          <div class="title">GROK.recommended.llms.w.RTX.3060.txt</div>
+          <div class="desc">Recommended pulls and priority list for RTX 3060 12GB; includes one-line commands to pull recommended models.</div>
+        </li><li class="file" data-path="./GROK.recommended.nano.banana.replacement.txt" >
+          <div class="title">GROK.recommended.nano.banana.replacement.txt</div>
+          <div class="desc">Image-focused recommendations: ComfyUI + Flux (FP8) and the best local tools for image restoration/editing.</div>
+        </li><li class="file" data-path="./Image Generation Options for Open WebUI.pdf" data-readable-version="./md_outputs/Image Generation Options for Open WebUI.md">
+          <div class="title">Image Generation Options for Open WebUI</div>
+          <div class="desc">This document outlines image generation options for Open WebUI using Ollama models and Stable Diffusion integration, detailing capabilities and limitations of each approach.</div>
+        </li><li class="file" data-path="./MODELS_recommendations_by_claude.md" >
+          <div class="title">MODELS_recommendations_by_claude</div>
+          <div class="desc">This document outlines the removal of less efficient models and recommends an optimized lineup of high-quality coding, chat, and specialized AI models for enhanced performance.</div>
+        </li><li class="file" data-path="./MODELS_recommendations_by_claude_summary.txt" >
+          <div class="title">MODELS_recommendations_by_claude_summary</div>
+          <div class="desc">The document lists AI models categorized for coding, chat, and specialized tasks like math and image analysis, providing recommendations based on their strengths.</div>
+        </li><li class="file" data-path="./Managing Ollama Environment Variables in NSSM.pdf" data-readable-version="./md_outputs/Managing Ollama Environment Variables in NSSM.md">
+          <div class="title">Managing Ollama Environment Variables in NSSM</div>
+          <div class="desc">This document provides instructions on how to manage Ollama environment variables through NSSM (Non-Sucking Service Manager) for Windows Services, focusing on setting the OLLAMA_KEEP_ALIVE variable.</div>
+        </li><li class="file" data-path="./Models.txt" >
+          <div class="title">Models</div>
+          <div class="desc">A list of AI model names, IDs, sizes, and modification times, providing an overview of available models in a repository or system.</div>
+        </li><li class="file" data-path="./Models Ollama ComfyUI Config Photorealistic Removal Restoration Mesh Objects.pdf" >
+          <div class="title">Models Ollama ComfyUI Config Photorealistic Removal Restoration Mesh Objects</div>
+          <div class="desc">This document contains configuration settings and models for Ollama ComfyUI related to photorealistic image generation, object removal, restoration, meshing, and photorealism enhancement.</div>
+        </li><li class="file" data-path="./Models for Python coding.docx" data-readable-version="./md_outputs/Models for Python coding.md">
+          <div class="title">Models for Python coding</div>
+          <div class="desc">The document ranks various AI models for Python coding tasks based on code quality, debugging ability, and feature addition efficiency.</div>
+        </li><li class="file" data-path="./OLLAMA_GUIDE.md" >
+          <div class="title">OLLAMA_GUIDE</div>
+          <div class="desc">The document outlines different Ollama models categorized by their intended use: coding, chat, and special tasks like math/reasoning or image processing, providing guidance on which model to select based on specific needs.</div>
+        </li><li class="file" data-path="./Ollama Download Commands for Recommended LLMs.pdf" data-readable-version="./md_outputs/Ollama Download Commands for Recommended LLMs.md">
+          <div class="title">Ollama Download Commands for Recommended LLMs</div>
+          <div class="desc">This document provides ollama run commands for downloading recommended large language models (LLMs) categorized by their primary use cases such as programming tasks and general conversation.</div>
+        </li><li class="file" data-path="./Ollama Model Cheat Sheet (Local LLMs) pdf version.pdf" data-readable-version="./md_outputs/Ollama Model Cheat Sheet (Local LLMs) pdf version.md">
+          <div class="title">Ollama Model Cheat Sheet (Local LLMs) pdf version</div>
+          <div class="desc">This document provides a cheat sheet for local Large Language Models (LLMs) with details on model sizes, VRAM requirements, context windows, speed, and primary uses, aiding in selection based on specific needs.</div>
+        </li><li class="file" data-path="./Ollama Models as of 2025 11 18.txt" >
+          <div class="title">Ollama Models as of 2025 11 18</div>
+          <div class="desc">Model-by-model essentials, suggested defaults, and quantization notes — guidance for what to keep and what to pull for the 3060.</div>
+        </li><li class="file" data-path="./Open WebUI Installation Guide for Windows 11.pdf" data-readable-version="./md_outputs/Open WebUI Installation Guide for Windows 11.md">
+          <div class="title">Open WebUI Installation Guide for Windows 11</div>
+          <div class="desc">This guide provides step-by-step instructions for installing Python 3.11 alongside an existing version and setting up Open WebUI on Windows 11 with remote access via Cloudflare Tunnel.</div>
+        </li><li class="file" data-path="./Open WebUI Management Guide.pdf" data-readable-version="./md_outputs/Open WebUI Management Guide.md">
+          <div class="title">Open WebUI Management Guide</div>
+          <div class="desc">This document provides instructions for managing the Open WebUI service, including installation details, management commands, and troubleshooting tips.</div>
+        </li><li class="file" data-path="./OpenWebUI — Task Scheduler CLI Reference.txt" >
+          <div class="title">OpenWebUI — Task Scheduler CLI Reference.txt</div>
+          <div class="desc">Run OpenWebUI via Task Scheduler at startup (SYSTEM): run script sample, schtasks commands, and logging/debugging tips.</div>
+        </li><li class="file" data-path="./RTX 3060 Image Manipulation Setup Guide (Win11 - 2025).pdf" data-readable-version="./md_outputs/RTX 3060 Image Manipulation Setup Guide (Win11 - 2025).md">
+          <div class="title">RTX 3060 Image Manipulation Setup Guide (Win11 - 2025)</div>
+          <div class="desc">This guide provides instructions for setting up image manipulation tools on an RTX 3060 with Windows 11, including software installation and recommended stack configuration.</div>
+        </li><li class="file" data-path="./RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log &amp; Lessons Learned - (Win11 - 2025) – Complete Log.docx" data-readable-version="./md_outputs/RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log &amp; Lessons Learned - (Win11 - 2025) – Complete Log.md">
+          <div class="title">RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log &amp; Lessons Learned - (Win11 - 2025) – Complete Log</div>
+          <div class="desc">This document provides a step-by-step guide for setting up image manipulation on Windows 11 with an RTX 3060 GPU, including driver installation, software setup, and troubleshooting tips.</div>
+        </li><li class="file" data-path="./RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log &amp; Lessons Learned - (Win11 - 2025) – Complete Log - (PDF).pdf" data-readable-version="./md_outputs/RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log &amp; Lessons Learned - (Win11 - 2025) – Complete Log - (PDF).md">
+          <div class="title">RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log &amp; Lessons Learned - (Win11 - 2025) – Complete Log - (PDF)</div>
+          <div class="desc">This document provides a step-by-step guide for setting up image manipulation using an RTX 3060 on Windows 11, including updates for CUDA version, folder structure, and troubleshooting tips.</div>
+        </li><li class="file" data-path="./RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log &amp; Lessons Learned - (Win11 - 2025) – Complete Log - Last Run.txt" >
+          <div class="title">RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log &amp; Lessons Learned - (Win11 - 2025) – Complete Log - Last Run</div>
+          <div class="desc">A troubleshooting log detailing the execution of an image manipulation prompt using RTX 3060 with Flux-schnell-fast-workflow on Windows 11, highlighting performance and resource usage.</div>
+        </li><li class="file" data-path="./RTX 3060 Setup Guide - Complete AI Coding Workflow.pdf" data-readable-version="./md_outputs/RTX 3060 Setup Guide - Complete AI Coding Workflow.md">
+          <div class="title">RTX 3060 Setup Guide - Complete AI Coding Workflow</div>
+          <div class="desc">This document provides instructions for installing and setting up an RTX 3060 GPU with NVIDIA drivers on Windows 11, intended for AI coding workflows.</div>
+        </li><li class="file" data-path="./ollama website list - LLM.txt" >
+          <div class="title">ollama website list - LLM.txt</div>
+          <div class="desc">Catalog of model families, sizes and short descriptions to inform pull decisions.</div>
+        </li><li class="file" data-path="./ollama-ls.txt" >
+          <div class="title">ollama-ls.txt</div>
+          <div class="desc">Raw output of `ollama ls` showing installed models and sizes (useful for cleanup planning).</div>
+        </li><li class="file" data-path="./ollama-show-out.txt" >
+          <div class="title">ollama-show-out.txt</div>
+          <div class="desc">Collected `ollama show` output for many models with quantization, context lengths and capabilities listed.</div>
+        </li><li class="file" data-path="./ollama-show.bat" >
+          <div class="title">ollama-show.bat</div>
+          <div class="desc">Windows batch to run a set of `ollama show` commands quickly.</div>
+        </li>
+        </ul>
+      </section><section class="category" data-category="ARCHIVE-Screenshots">
+        <h2>ARCHIVE-Screenshots</h2>
+        <ul class="files">
+<li class="file" data-path="./Day of rtx3040 models.png" data-readable-version="./md_outputs/Day of rtx3040 models.txt">
+          <div class="title">Day of rtx3040 models</div>
+          <div class="desc">This document outlines steps for utilizing RTX3040 GPUs in model download and testing tasks using ollama on Windows 11.</div>
+        </li><li class="file" data-path="./Fix File upload OpenWebUI.png" data-readable-version="./md_outputs/Fix File upload OpenWebUI.txt">
+          <div class="title">Fix File upload OpenWebUI</div>
+          <div class="desc">Provides instructions for installing chardet using Python 3.11&#x27;s pip to ensure compatibility with the NSSM service.</div>
+        </li><li class="file" data-path="./Models - fast autocomplete.jpeg" data-readable-version="./md_outputs/Models - fast autocomplete.txt">
+          <div class="title">Models - fast autocomplete</div>
+          <div class="desc">Document lists model configurations for fast autocomplete and heavy reasoning tasks with example setups.</div>
+        </li><li class="file" data-path="./Models - inline coding.jpeg" data-readable-version="./md_outputs/Models - inline coding.txt">
+          <div class="title">Models - inline coding</div>
+          <div class="desc">The document lists recommended models for inline coding and provides an installation example using qwen2.5-coder.</div>
+        </li><li class="file" data-path="./Models - local vs cloud.jpeg" data-readable-version="./md_outputs/Models - local vs cloud.txt">
+          <div class="title">Models - local vs cloud</div>
+          <div class="desc">The document compares the performance of local and cloud-based AI models like ChatGPT and Ollama, offering speed optimization tips for cloud use and introducing model flexibility via OpenAPI.</div>
+        </li><li class="file" data-path="./Models - recommendation for programming.png" data-readable-version="./md_outputs/Models - recommendation for programming.txt">
+          <div class="title">Models - recommendation for programming</div>
+          <div class="desc">Document provides recommendations for programming models based on system configuration, emphasizing qwen2.5:14b for efficiency and codestral:22b for accuracy in complex tasks.</div>
+        </li><li class="file" data-path="./Need more info on Tool Use.png" data-readable-version="./md_outputs/Need more info on Tool Use.txt">
+          <div class="title">Need more info on Tool Use</div>
+          <div class="desc">The document appears to be an OCR extraction of text related to tool use and kenobservers for tools.</div>
+        </li><li class="file" data-path="./aichat not working.png" data-readable-version="./md_outputs/aichat not working.txt">
+          <div class="title">aichat not working</div>
+          <div class="desc">The document outlines the setup and usage instructions for configuring AI Chat using Ollama with specific LLM models.</div>
+        </li><li class="file" data-path="./what does local api server mean.png" data-readable-version="./md_outputs/what does local api server mean.txt">
+          <div class="title">what does local api server mean</div>
+          <div class="desc">The document describes how to start a local HTTP server exposing OpenAL-compatible APIs for LLMs using &#x27;aichat&#x27; configurations.</div>
+        </li><li class="file" data-path="./what is a tool enabled prompt.png" data-readable-version="./md_outputs/what is a tool enabled prompt.txt">
+          <div class="title">what is a tool enabled prompt</div>
+          <div class="desc">The document provides quick command usage for various Ollama models and suggests changes when using the RTX 3tablet PCs; it appears to be aimed at facilitating accessibility of language AI tools.</div>
+        </li>
+        </ul>
+      </section><section class="category" data-category="ARCHIVE-Utilities">
+        <h2>ARCHIVE-Utilities</h2>
+        <ul class="files">
+<li class="file" data-path="./DMS System - sample_run.txt" >
+          <div class="title">DMS System - sample_run</div>
+          <div class="desc">This document contains the command-line output and usage instructions for DMS System, an AI-driven document management tool that can scan, process images, generate summaries, review changes, apply modifications, initialize directories, and show status.</div>
+        </li><li class="file" data-path="./Doc_INDEX_Version6.md" >
+          <div class="title">Doc_INDEX_Version6</div>
+          <div class="desc">Curated toc</div>
+        </li><li class="file" data-path="./LLM Infrastructure Cheat Sheet_old.pdf" data-readable-version="./md_outputs/LLM Infrastructure Cheat Sheet_old.md">
+          <div class="title">LLM Infrastructure Cheat Sheet_old</div>
+          <div class="desc">This document provides an overview of the 15 large language models available on Ollama server, detailing their performance characteristics and use cases based on access method (Cloud or Local).</div>
+        </li><li class="file" data-path="./LLM Recommendations for Programming and Development.pdf" data-readable-version="./md_outputs/LLM Recommendations for Programming and Development.md">
+          <div class="title">LLM Recommendations for Programming and Development</div>
+          <div class="desc">The document provides recommendations for Large Language Models suitable for programming and development tasks based on their capabilities in coding, reasoning, tools usage, agentic workflows, and vision.</div>
+        </li><li class="file" data-path="./Using 1040 until 3060 Gets Here.txt" >
+          <div class="title">Using 1040 until 3060 Gets Here</div>
+          <div class="desc">Tactical guidance and default model choices while on CPU / GTX 1040, with suggested timeouts and quick model picks.</div>
+        </li><li class="file" data-path="./image descriptions.txt" >
+          <div class="title">image descriptions</div>
+          <div class="desc">The document provides summaries for three images detailing the best open-source coding models and their configurations or usage tips.</div>
+        </li>
+        </ul>
+      </section>
+      </section>
+      <section id="viewer">
+        <button id="back-button">Back to list</button>
+        <h3 id="viewerTitle"></h3>
+        <div id="content" style="overflow-y: auto; height: 100%;">
+          <div id="mdViewer"></div>
+          <iframe id="pdfViewer" style="width:100%;height:100%;border:none;display:none;"></iframe>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    const sidebar = document.getElementById('sidebar');
+    const viewer = document.getElementById('viewer');
+    const viewerTitle = document.getElementById('viewerTitle');
+    const mdViewer = document.getElementById('mdViewer');
+    const pdfViewer = document.getElementById('pdfViewer');
+    const backButton = document.getElementById('back-button');
+
+    function openFilePreview(liElement) {
+        const path = liElement.dataset.path;
+        const title = liElement.querySelector('.title').innerText;
+        const readableVersion = liElement.dataset.readableVersion;
+
+        viewerTitle.innerText = title;
+        mdViewer.style.display = 'none';
+        pdfViewer.style.display = 'none';
+        
+        if (window.innerWidth < 768) {
+            sidebar.style.display = 'none';
+            viewer.style.display = 'flex';
+            backButton.style.display = 'block';
+        }
+
+        if (readableVersion && readableVersion !== "None") { // Check for "None" string too
+            fetch(readableVersion)
+                .then(response => response.text())
+                .then(text => {
+                    mdViewer.innerHTML = marked.parse(text);
+                    mdViewer.style.display = 'block';
+                })
+                .catch(err => {
+                    console.error("Error fetching readable version:", err);
+                    mdViewer.innerHTML = `<p>Error loading content for ${title}.</p>`;
+                    mdViewer.style.display = 'block';
+                });
+        } else if (path.endsWith('.pdf')) {
+            pdfViewer.src = path;
+            pdfViewer.style.display = 'block';
+        } else {
+            fetch(path)
+                .then(response => response.text())
+                .then(text => {
+                    mdViewer.innerHTML = `<pre>${text}</pre>`;
+                    mdViewer.style.display = 'block';
+                })
+                .catch(err => {
+                    console.error("Error fetching raw file:", err);
+                    mdViewer.innerHTML = `<p>Error loading content for ${title}.</p>`;
+                    mdViewer.style.display = 'block';
+                });
+        }
+    }
+
+    function goBack() {
+        sidebar.style.display = 'block';
+        viewer.style.display = 'none';
+        backButton.style.display = 'none';
+    }
+
+    document.querySelectorAll('.file').forEach(item => {
+      item.addEventListener('click', event => {
+        openFilePreview(item);
+      });
+    });
+
+    backButton.addEventListener('click', goBack);
+  </script>
+</body>
+</html>
