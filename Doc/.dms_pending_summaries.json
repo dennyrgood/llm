@@ -1,31 +1,134 @@
 {
-  "timestamp": "2025-12-24T22:00:02.564624",
+  "timestamp": "2026-02-06T09:34:00.530146",
   "summaries": [
     {
       "file": {
-        "path": "./PC Fleet Final Target State & Transition Plan.pdf",
-        "hash": "sha256:a00dbd3cd362dfc097808f595390b5fe27ab8b3cfef2dcfcba350e2e611ad56c",
-        "size": 47269,
-        "readable_version": "./md_outputs/PC Fleet Final Target State & Transition Plan.md"
+        "path": "./COMFY DIFFUSION MODELS and WORKFLOWS.docx",
+        "hash": "sha256:2ce4263451dc9db4fb3a8ed6a5bbe5f3b657a8692ed0ce4d96c0c8e36cdafef2",
+        "size": 47721,
+        "readable_version": "./md_outputs/COMFY DIFFUSION MODELS and WORKFLOWS.md"
       },
-      "summary": "This document outlines the final technical specifications for three types of PC workstations and provides a detailed transition plan to achieve these configurations.",
-      "category": "Guides",
+      "summary": "This document outlines the major categories of diffusion models used in ComfyUI as of early 2026, detailing their architecture, performance, and ecosystem characteristics.",
+      "category": "Models",
       "is_new_category": false,
-      "title": "PC Fleet Final Target State & Transition Plan",
-      "timestamp": "2025-12-24T21:59:59.951317"
+      "title": "COMFY DIFFUSION MODELS and WORKFLOWS",
+      "timestamp": "2026-02-06T09:33:34.432708"
     },
     {
       "file": {
-        "path": "./Cloudflare Tunnels Securing Them.pdf",
-        "hash": "sha256:41c26b2d87112873899aca65fd0796602f2ee3393c67a6edd638afc6a5b94aae",
-        "size": 51047,
-        "readable_version": "./md_outputs/Cloudflare Tunnels Securing Them.md"
+        "path": "./Fredy27 Documentation.docx",
+        "hash": "sha256:ee968741b011d71bac1ce58a2d016c4e37147f26b77aa4aff6ed779f751d0f39",
+        "size": 4773717,
+        "readable_version": "./md_outputs/Fredy27 Documentation.md"
       },
-      "summary": "This document provides guidance on securing Cloudflare Tunnels using Cloudflare Access or basic authentication methods.",
+      "summary": "Documentation of workflow project for Qwen Image Edit 2511, detailing the creation process including custom nodes and prompt selectors.",
+      "category": "Workflows",
+      "is_new_category": false,
+      "title": "Fredy27 Documentation",
+      "timestamp": "2026-02-06T09:33:37.585409"
+    },
+    {
+      "file": {
+        "path": "./ComfyUI Chinese to English.docx",
+        "hash": "sha256:384a055ca5eb29fe66bf975155e97af9ec369fbe2576e597d5bf480dcd219bdd",
+        "size": 14591,
+        "readable_version": "./md_outputs/ComfyUI Chinese to English.md"
+      },
+      "summary": "This document outlines custom node names and connectors for ComfyUI's Chinese-to-English translation in an AI art generation context, detailing various components like image processing, conditioning, and scripting.",
       "category": "Guides",
       "is_new_category": false,
-      "title": "Cloudflare Tunnels Securing Them",
-      "timestamp": "2025-12-24T22:00:02.564560"
+      "title": "ComfyUI Chinese to English",
+      "timestamp": "2026-02-06T09:33:40.327673"
+    },
+    {
+      "file": {
+        "path": "./ComfyUI Task to Model Recommendations.docx",
+        "hash": "sha256:2ac4e41dda0f74730deaa3b116521c988040d2e6820c9ee2ad72bb5cc5a2e916",
+        "size": 19547,
+        "readable_version": "./md_outputs/ComfyUI Task to Model Recommendations.md"
+      },
+      "summary": "This document provides recommendations for selecting appropriate AI models and support files on ComfyUI for optimizing image manipulation tasks such as contrast adjustment, element addition/removal, and combining images.",
+      "category": "Guides",
+      "is_new_category": false,
+      "title": "ComfyUI Task to Model Recommendations",
+      "timestamp": "2026-02-06T09:33:43.274675"
+    },
+    {
+      "file": {
+        "path": "./ComfyUI Model Compatibility Chart.docx",
+        "hash": "sha256:d9b2a24ace7a78e2932be4179413b96b6e6a5b8c328b62261d8e4e2ec88ebb92",
+        "size": 19353,
+        "readable_version": "./md_outputs/ComfyUI Model Compatibility Chart.md"
+      },
+      "summary": "This document outlines compatibility details for various ComfyUI models on Windows 11 with an RTX 5090 GPU, including required CLIP/Text Encoders and VAEs.",
+      "category": "Models",
+      "is_new_category": false,
+      "title": "ComfyUI Model Compatibility Chart",
+      "timestamp": "2026-02-06T09:33:46.194929"
+    },
+    {
+      "file": {
+        "path": "./DEPLOYMENT_GUIDE_multipleworkflowsComfyUIopenweb.md.pdf",
+        "hash": "sha256:9d4fd38dec8bf4b0d079fe5e426280a0603e95978fc6c27b2880cbd16aba6433",
+        "size": 242997,
+        "readable_version": "./md_outputs/DEPLOYMENT_GUIDE_multipleworkflowsComfyUIopenweb.md.md"
+      },
+      "summary": "A deployment guide for setting up a multi-workflow system using OpenWebUI and ComfyUI on Windows machines with RTX 5090 GPUs, including model setup and workflow routing.",
+      "category": "Guides",
+      "is_new_category": false,
+      "title": "DEPLOYMENT_GUIDE_multipleworkflowsComfyUIopenweb.md",
+      "timestamp": "2026-02-06T09:33:49.415631"
+    },
+    {
+      "file": {
+        "path": "./ModelsAndDescriptions.docx",
+        "hash": "sha256:a02062d701dfcdf32d36859fb70cc843a162ca8b489447ee16d51ef6f790f686",
+        "size": 17355,
+        "readable_version": "./md_outputs/ModelsAndDescriptions.md"
+      },
+      "summary": "Document outlines SDXL and Flux checkpoint models for comfyui on Windows 11, detailing their best use cases and features.",
+      "category": "Models",
+      "is_new_category": false,
+      "title": "ModelsAndDescriptions",
+      "timestamp": "2026-02-06T09:33:52.135766"
+    },
+    {
+      "file": {
+        "path": "./ComfyUI Models as of 2026 02 05.docx",
+        "hash": "sha256:7f4fa694c5a098806e0c17f655759ed41ab59108595f55fd3c80703e9a363f71",
+        "size": 479293,
+        "readable_version": "./md_outputs/ComfyUI Models as of 2026 02 05.md"
+      },
+      "summary": "Document outlines various ComfyUI models as of February 5, 2026, likely including model configurations or comparisons.",
+      "category": "Models",
+      "is_new_category": false,
+      "title": "ComfyUI Models as of 2026 02 05",
+      "timestamp": "2026-02-06T09:33:54.685192"
+    },
+    {
+      "file": {
+        "path": "./ComfyUI Starter Workflow Pack - Learning Guide.pdf",
+        "hash": "sha256:3f13e223638a48b59d955b5c780fe02d812a90a29c5da153933280e916e2e21c",
+        "size": 71719,
+        "readable_version": "./md_outputs/ComfyUI Starter Workflow Pack - Learning Guide.md"
+      },
+      "summary": "A learning guide for ComfyUI Starter Workflow Pack that provides step-by-step instructions and experiments for users to understand text-to-image generation, LoRA integration, and image-to-image processing with ControlNet.",
+      "category": "Guides",
+      "is_new_category": false,
+      "title": "ComfyUI Starter Workflow Pack - Learning Guide",
+      "timestamp": "2026-02-06T09:33:57.883456"
+    },
+    {
+      "file": {
+        "path": "./comfyui_model_compatibility_chart.md",
+        "hash": "sha256:4ad28b96ecad54a53a88a54f6ed5e2ec043f3caf9d08a57bf420d70b7ec65bfb",
+        "size": 7243
+      },
+      "summary": "Provides compatibility information for ComfyUI models including required CLIP and VAE references.",
+      "category": "Models",
+      "is_new_category": false,
+      "title": "comfyui_model_compatibility_chart",
+      "timestamp": "2026-02-06T09:34:00.530114"
     }
   ]
 }
