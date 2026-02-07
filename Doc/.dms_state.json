@@ -1,7 +1,7 @@
 {
   "metadata": {
     "last_scan": "2025-11-20T07:48:20.618243",
-    "last_apply": "2026-02-06T20:35:22.244716",
+    "last_apply": "2026-02-07T11:18:09.499046",
     "migrated_from_embedded": true,
     "migration_date": "2025-11-20T11:45:24.485598"
   },
@@ -1048,13 +1048,13 @@
       "file_mtime": "2026-02-05T23:15:55.892976"
     },
     "./Model Guide.docx": {
-      "hash": "sha256:607c2664b52601fca69eec7780008e8cdf2fe477518989abb97c7135b2e10085",
+      "hash": "",
       "category": "Guides",
-      "summary": "This document outlines common image editing tasks using various AI models and techniques, providing guidance on model selection for specific needs like brightness adjustment, character addition/removal, background change, and upscaling.",
+      "summary": "Provides guidance on using various image editing models and techniques for tasks like creating images, adjusting brightness, changing backgrounds, adding or deleting characters, combining images, restoring photos, stylizing images, upscaling, face enhancement, guided pose editing, and text addition.",
       "summary_approved": true,
       "title": "Model Guide",
-      "last_processed": "2026-02-06T20:35:22.244679",
-      "file_mtime": "2026-02-06T20:33:58.427950",
+      "last_processed": "2026-02-07T11:18:09.499005",
+      "file_mtime": "2026-02-06T21:40:09.988546",
       "readable_version": "./md_outputs/Model Guide.md"
     }
   }

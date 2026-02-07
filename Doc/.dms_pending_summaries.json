@@ -1,30 +1,18 @@
 {
-  "timestamp": "2026-02-06T20:35:12.077450",
+  "timestamp": "2026-02-07T11:18:02.896165",
   "summaries": [
     {
       "file": {
-        "path": "./~$del Guide.docx",
-        "hash": "sha256:7d74e22a8569d5e56fdc9bcbdc34fcb1994a78adce055c82a534f1ca01051055",
-        "size": 162
-      },
-      "summary": "This binary file appears to be an incomplete or temporary document file created in Microsoft Word, likely intended as a guide but lacks readable content.",
-      "category": "Junk",
-      "is_new_category": false,
-      "title": "~$del Guide",
-      "timestamp": "2026-02-06T20:35:08.910598"
-    },
-    {
-      "file": {
         "path": "./Model Guide.docx",
-        "hash": "sha256:607c2664b52601fca69eec7780008e8cdf2fe477518989abb97c7135b2e10085",
-        "size": 15794,
+        "hash": "",
+        "size": 0,
         "readable_version": "./md_outputs/Model Guide.md"
       },
-      "summary": "This document outlines common image editing tasks using various AI models and techniques, providing guidance on model selection for specific needs like brightness adjustment, character addition/removal, background change, and upscaling.",
+      "summary": "Provides guidance on using various image editing models and techniques for tasks like creating images, adjusting brightness, changing backgrounds, adding or deleting characters, combining images, restoring photos, stylizing images, upscaling, face enhancement, guided pose editing, and text addition.",
       "category": "Guides",
       "is_new_category": false,
       "title": "Model Guide",
-      "timestamp": "2026-02-06T20:35:12.077399"
+      "timestamp": "2026-02-07T11:18:02.896129"
     }
   ]
 }
