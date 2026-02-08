@@ -1,18 +1,17 @@
 {
-  "timestamp": "2026-02-07T11:18:02.896165",
+  "timestamp": "2026-02-08T21:58:22.033391",
   "summaries": [
     {
       "file": {
-        "path": "./Model Guide.docx",
-        "hash": "",
-        "size": 0,
-        "readable_version": "./md_outputs/Model Guide.md"
+        "path": "./index_iphone.html",
+        "hash": "sha256:8e496230101c8215980cc843a218b966758eb3b52539184b7c950404e3567c01",
+        "size": 0
       },
-      "summary": "Provides guidance on using various image editing models and techniques for tasks like creating images, adjusting brightness, changing backgrounds, adding or deleting characters, combining images, restoring photos, stylizing images, upscaling, face enhancement, guided pose editing, and text addition.",
+      "summary": "This HTML document serves as an index page for mobile project documentation, featuring styled elements like navigation and file listings.",
       "category": "Guides",
       "is_new_category": false,
-      "title": "Model Guide",
-      "timestamp": "2026-02-07T11:18:02.896129"
+      "title": "index_iphone",
+      "timestamp": "2026-02-08T21:58:22.033355"
     }
   ]
 }
