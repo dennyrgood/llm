@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-02-24T20:11:16.506730",
+  "new_files": [
+    {
+      "path": "./ComfyUI Task to Model Recommendations.pdf",
+      "hash": "sha256:6d733be13f4b46a6322367276ffba6698336709381d0240bb38b9ef68e5ed416",
+      "size": 162882,
+      "file_mtime": "2026-02-08T22:39:05.821784"
+    },
+    {
+      "path": "./Model Guide.pdf",
+      "hash": "sha256:e75f3ed0a5fc2098d8b9c869ab77f2162ee3bd0fa6b1fab1717fd8479c734d78",
+      "size": 36498,
+      "file_mtime": "2026-02-08T22:31:10.904660"
+    }
+  ],
+  "changed_files": [],
+  "missing_files": []
+}
