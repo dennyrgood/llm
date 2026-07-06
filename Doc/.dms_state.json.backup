@@ -1,7 +1,7 @@
 {
   "metadata": {
     "last_scan": "2025-11-20T07:48:20.618243",
-    "last_apply": "2026-07-06T20:35:25.105555",
+    "last_apply": "2026-02-08T21:58:32.485655",
     "migrated_from_embedded": true,
     "migration_date": "2025-11-20T11:45:24.485598"
   },
@@ -1065,36 +1065,6 @@
       "title": "index_iphone",
       "last_processed": "2026-02-08T21:58:32.485622",
       "file_mtime": "2026-02-08T21:56:32.141877"
-    },
-    "./Accessing Ollama via Tailscale on macOS.docx": {
-      "hash": "sha256:f0485b1d0519f01f3e0d84b55ddc5bca8e6cb4b0ddb4c00a1f9927167b5a92c9",
-      "category": "Guides",
-      "summary": "This guide explains how to configure the Ollama macOS app to listen on all network interfaces via Tailscale using a LaunchAgent for persistent settings.",
-      "summary_approved": true,
-      "title": "Accessing Ollama via Tailscale on macOS",
-      "last_processed": "2026-07-06T20:35:25.105464",
-      "file_mtime": "2026-03-05T17:30:38.437289",
-      "readable_version": "./md_outputs/Accessing Ollama via Tailscale on macOS.md"
-    },
-    "./ComfyUI Task to Model Recommendations.pdf": {
-      "hash": "sha256:6d733be13f4b46a6322367276ffba6698336709381d0240bb38b9ef68e5ed416",
-      "category": "Guides",
-      "summary": "This document provides recommendations for using specific image manipulation models and support files in ComfyUI to optimize tasks such as contrast/brightness adjustments, adding/removing elements, blending images, and restoring old photographs.",
-      "summary_approved": true,
-      "title": "ComfyUI Task to Model Recommendations",
-      "last_processed": "2026-07-06T20:35:25.105515",
-      "file_mtime": "2026-02-08T23:39:05.821784",
-      "readable_version": "./md_outputs/ComfyUI Task to Model Recommendations.md"
-    },
-    "./Model Guide.pdf": {
-      "hash": "sha256:e75f3ed0a5fc2098d8b9c869ab77f2162ee3bd0fa6b1fab1717fd8479c734d78",
-      "category": "Guides",
-      "summary": "This document outlines various tasks and models for image editing, including creation, adjustment, restoration, and enhancement techniques.",
-      "summary_approved": true,
-      "title": "Model Guide",
-      "last_processed": "2026-07-06T20:35:25.105534",
-      "file_mtime": "2026-02-08T23:31:10.904660",
-      "readable_version": "./md_outputs/Model Guide.md"
     }
   }
 }

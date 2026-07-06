@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-07-06T20:35:19.061838",
+  "summaries": [
+    {
+      "file": {
+        "path": "./Accessing Ollama via Tailscale on macOS.docx",
+        "hash": "sha256:f0485b1d0519f01f3e0d84b55ddc5bca8e6cb4b0ddb4c00a1f9927167b5a92c9",
+        "size": 19124,
+        "readable_version": "./md_outputs/Accessing Ollama via Tailscale on macOS.md"
+      },
+      "summary": "This guide explains how to configure the Ollama macOS app to listen on all network interfaces via Tailscale using a LaunchAgent for persistent settings.",
+      "category": "Guides",
+      "is_new_category": false,
+      "title": "Accessing Ollama via Tailscale on macOS",
+      "timestamp": "2026-07-06T20:35:08.363566"
+    },
+    {
+      "file": {
+        "path": "./ComfyUI Task to Model Recommendations.pdf",
+        "hash": "sha256:6d733be13f4b46a6322367276ffba6698336709381d0240bb38b9ef68e5ed416",
+        "size": 162882,
+        "readable_version": "./md_outputs/ComfyUI Task to Model Recommendations.md"
+      },
+      "summary": "This document provides recommendations for using specific image manipulation models and support files in ComfyUI to optimize tasks such as contrast/brightness adjustments, adding/removing elements, blending images, and restoring old photographs.",
+      "category": "Guides",
+      "is_new_category": false,
+      "title": "ComfyUI Task to Model Recommendations",
+      "timestamp": "2026-07-06T20:35:14.492884"
+    },
+    {
+      "file": {
+        "path": "./Model Guide.pdf",
+        "hash": "sha256:e75f3ed0a5fc2098d8b9c869ab77f2162ee3bd0fa6b1fab1717fd8479c734d78",
+        "size": 36498,
+        "readable_version": "./md_outputs/Model Guide.md"
+      },
+      "summary": "This document outlines various tasks and models for image editing, including creation, adjustment, restoration, and enhancement techniques.",
+      "category": "Guides",
+      "is_new_category": false,
+      "title": "Model Guide",
+      "timestamp": "2026-07-06T20:35:19.061763"
+    }
+  ]
+}
